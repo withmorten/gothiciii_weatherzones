@@ -48,7 +48,7 @@ while(($wthrzone_lastpos = strpos($g3_world_01, $wthrzone_needle, $wthrzone_last
     
     $entity_x = bin2float(substr($g3_world_01, $entity_start+66+50, 4));
     $entity_y = bin2float(substr($g3_world_01, $entity_start+66+54, 4));
-    $entity_z = bin2float(substr($g3_world_01, $entity_start+66+57, 4));
+    $entity_z = bin2float(substr($g3_world_01, $entity_start+66+58, 4));
     
     if(bin2hex(substr($g3_world_01, $entity_start, 4)) !== "40005300") {                            // if our parent entity doesn't start with this, die
         die($error);
@@ -63,10 +63,17 @@ while(($wthrzone_lastpos = strpos($g3_world_01, $wthrzone_needle, $wthrzone_last
     $wthrzone_music_size = bin2dec(substr($wthrzone_substr, $wthrzone_music_start+6, 4));
     $wthrzone_music_strkey = bin2dec(substr($wthrzone_substr, $wthrzone_music_start+10, $wthrzone_music_size));
     
-    $wthrzone_array[$wthrzone_count] = array("GUID" => $entity_guid, "Entity" => $entity_name, "MusicLocation" => $strtable_array[$wthrzone_music_strkey]);
+    $wthrzone_array[$wthrzone_count] = array("GUID" => $entity_guid,
+                                             "Entity" => $entity_name,
+                                             "MusicLocation" => $strtable_array[$wthrzone_music_strkey],
+                                             "X" => $entity_x,
+                                             "Y" => $entity_y,
+                                             "Z" => $entity_z);
     
     $wthrzone_count++;
     $wthrzone_lastpos += strlen($wthrzone_needle);
 }
 
-echo wthrzonearray2string($wthrzone_array);
+file_put_contents($argv[1].".json", json_encode($wthrzone_array));
+
+// echo wthrzonearray2string($wthrzone_array);

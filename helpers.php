@@ -52,11 +52,14 @@ function key2hex($key) {
 
 function wthrzonearray2string($array) {
     $o = "";
+    $forbidden = array("X", "Y", "Z");
     
     foreach($array as $key => $value) {
         $o.= str_pad_left($key+1, 3);
         foreach($value as $key2 => $value2) {
-            $o.= " => ".str_pad($value2, 31, " ", 1);
+            if(!in_array($key2, $forbidden)) {
+                $o.= " => ".str_pad($value2, 31, " ", 1);
+            }
         }
         $o = trim($o)."\n";
     }
