@@ -46,6 +46,10 @@ while(($wthrzone_lastpos = strpos($g3_world_01, $wthrzone_needle, $wthrzone_last
     $entity_guid = strtoupper(bin2hex(substr($g3_world_01, $entity_start+29, 20)));                 // GUID of parent entity, 20 bytes
     $entity_name = $strtable_array[bin2dec(substr($g3_world_01, $entity_start+66, 2))];             // our entity name, taken from stringtable via ID
     
+    $entity_x = bin2float(substr($g3_world_01, $entity_start+66+50, 4));
+    $entity_y = bin2float(substr($g3_world_01, $entity_start+66+54, 4));
+    $entity_z = bin2float(substr($g3_world_01, $entity_start+66+57, 4));
+    
     if(bin2hex(substr($g3_world_01, $entity_start, 4)) !== "40005300") {                            // if our parent entity doesn't start with this, die
         die($error);
     }

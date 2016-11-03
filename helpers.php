@@ -3,6 +3,10 @@ function bin2dec($bin) {
     return hexdec(bin2hex(strrev($bin)));
 }
 
+function bin2float($bin) {
+    return hex2float(bin2hex(strrev($bin)));
+}
+
 function bin2hexr($bin) {
     return bin2hex(strrev($bin));
 }
@@ -48,12 +52,28 @@ function key2hex($key) {
 
 function wthrzonearray2string($array) {
     $o = "";
+    
     foreach($array as $key => $value) {
-    $o.= str_pad_left($key+1, 3);
-    foreach($value as $key2 => $value2) {
-        $o.= " => ".str_pad($value2, 31, " ", 1);
+        $o.= str_pad_left($key+1, 3);
+        foreach($value as $key2 => $value2) {
+            $o.= " => ".str_pad($value2, 31, " ", 1);
+        }
+        $o = trim($o)."\n";
     }
-    $o = trim($o)."\n";
+    
     return $o;
 }
+
+function hex2float($number) {
+    $binfinal = sprintf("%032b",hexdec($number));
+    $sign = substr($binfinal, 0, 1);
+    $exp = substr($binfinal, 1, 8);
+    $mantissa = "1".substr($binfinal, 9);
+    $mantissa = str_split($mantissa);
+    $exp = bindec($exp)-127;
+    $significand=0;
+    for ($i = 0; $i < 24; $i++) {
+        $significand += (1 / pow(2,$i))*$mantissa[$i];
+    }
+    return $significand * pow(2,$exp) * ($sign*-2+1);
 }
