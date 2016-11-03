@@ -1,5 +1,6 @@
 <?php
 require_once("C:\msys\home\morten\php-svg\autoloader.php");
+require_once("xyz_samples.php");
 
 function bin2dec($bin) {
     return hexdec(bin2hex(strrev($bin)));
