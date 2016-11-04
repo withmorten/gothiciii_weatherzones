@@ -4,7 +4,17 @@ require_once('helpers.php');
 use JangoBrick\SVG\SVGImage;
 use JangoBrick\SVG\Nodes\Shapes\SVGRect;
 
-$json = json_decode(file_get_contents('G3_World_01\SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.lrentdat.json'), TRUE);
+$json = array();
+if(isset($_GET["main"]) && (int)$_GET["main"] === 1) {
+    $jsons = glob('G3_World_01\*.lrentdat.json');
+} else {
+    $jsons = glob('G3_World_01\*.json');
+}
+
+foreach($jsons as $json_file) {
+    $json_new = json_decode(file_get_contents($json_file), TRUE);
+    $json = array_merge($json, $json_new);
+}
 
 $svg = new SVGImage(900, 800);
 $doc = $svg->getDocument();
@@ -24,7 +34,7 @@ foreach($json as $entity) {
     $doc->addChild($marker);
 }
 
-file_put_contents("SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg", $svg);
+file_put_contents('SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg', $svg);
 ?>
 <html>
     <head>
@@ -41,8 +51,7 @@ file_put_contents("SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg", $svg);
             table { position: relative; }
         </style>
     <body>
-        <object data="SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg" type="image/svg+xml">
-        </object>
+        <object data="SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg" type="image/svg+xml"></object>
         <?php echo colortable($colors); ?>
     </body>
 <html>

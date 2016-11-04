@@ -73,4 +73,4 @@ while(($wthrzone_lastpos = strpos($g3_world_01, $wthrzone_needle, $wthrzone_last
 }
 
 file_put_contents($argv[1].".json", json_encode($wthrzone_array));
-file_put_contents("weatherzones.txt", wthrzonearray2string($wthrzone_array));
+// file_put_contents("weatherzones.txt", wthrzonearray2string($wthrzone_array));
