@@ -34,29 +34,64 @@ $colors["orccamp"] = "#FF0000";
 $colors["ominouswoods"] = "#33CC00";
 $colors["arena"] = "#FF9966";
 
-$html_out = '<table>';
-$c = 1;
 
-foreach($colors as $music => $color) {
-    if(($c % 2) == 1) {
-        $tr_in = '<tr>';
-        $tr_out = '';
-    } else {
-        $tr_in = '';
-        $tr_out = '</tr>';
+function colortable($colors) {
+    $fontcolors["white"][] = "vistapoint";
+    $fontcolors["white"][] = "slaves";
+    $fontcolors["white"][] = "vengard";
+    $fontcolors["white"][] = "sadstrings";
+    $fontcolors["white"][] = "braga";
+    $fontcolors["white"][] = "beliartemple";
+    $fontcolors["white"][] = "thedig";
+    $fontcolors["white"][] = "orcmine01";
+    $fontcolors["white"][] = "locationspooky";
+    $fontcolors["white"][] = "xardasoutdoor";
+    $fontcolors["white"][] = "trelis";
+    $fontcolors["white"][] = "faring";
+    $fontcolors["white"][] = "myrtana";
+    $fontcolors["white"][] = "xardsindoor";
+    $fontcolors["white"][] = "northmarhigh";
+    $fontcolors["white"][] = "northmarlow";
+    $fontcolors["white"][] = "monastery";
+    $fontcolors["white"][] = "orccamp";
+    $fontcolors["white"][] = "ominouswoods";
+
+    $fontcolors["black"][] = "vistaharp";
+    $fontcolors["black"][] = "ishtar";
+    $fontcolors["black"][] = "varant";
+    $fontcolors["black"][] = "PathToVarant";
+    $fontcolors["black"][] = "dungeon";
+    $fontcolors["black"][] = "deathvalley";
+    $fontcolors["black"][] = "ruinfields";
+    $fontcolors["black"][] = "locationidyllic";
+    $fontcolors["black"][] = "silden";
+    $fontcolors["black"][] = "locationgothic1theme";
+    $fontcolors["black"][] = "highlands";
+    $fontcolors["black"][] = "crystalcave";
+    $fontcolors["black"][] = "arena";
+
+    $html_out = '<table>';
+    $c = 1;
+
+    foreach($colors as $music => $color) {
+        if(($c % 2) == 1) {
+            $tr_in = '<tr>';
+            $tr_out = '';
+        } else {
+            $tr_in = '';
+            $tr_out = '</tr>';
+        }
+        
+        if(in_array($music, $fontcolors["black"])) {
+            $fontcolor = "black";
+        } else {
+            $fontcolor = "white";
+        }
+        
+        $html_out.= $tr_in.'<td style="background-color: '.$color.'; width: 130px; color:'.$fontcolor.'">'.$music.'</td>'.$tr_out;
+        
+        $c++;
     }
     
-    $hsl = RGBToHSL(HTMLToRGB($color));
-    
-    if($hsl->lightness > 125) {
-        $fontcolor = "black";
-    } else {
-        $fontcolor = "white";
-    }
-    
-    $html_out.= $tr_in.'<td style="background-color: '.$color.'; width: 130px; color:'.$fontcolor.'">'.$music.'</td>'.$tr_out;
-    
-    $c++;
+    return $html_out;
 }
-
-// echo $html_out;

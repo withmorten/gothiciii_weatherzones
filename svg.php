@@ -4,7 +4,7 @@ require_once('helpers.php');
 use JangoBrick\SVG\SVGImage;
 use JangoBrick\SVG\Nodes\Shapes\SVGRect;
 
-$json = json_decode(file_get_contents($argv[1].".json"), TRUE);
+$json = json_decode(file_get_contents("SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.lrentdat.json"), TRUE);
 
 $svg = new SVGImage(900, 800);
 $doc = $svg->getDocument();
@@ -27,4 +27,25 @@ foreach($json as $entity) {
     $doc->addChild($marker);
 }
 
-file_put_contents($argv[1].".svg", $svg);
+file_put_contents("SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg", $svg);
+?>
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                margin:2px;
+                font-family: Courier;
+            }
+            
+            * { font-size: 12px; }
+            
+            object { position: absolute; }
+            
+            table { position: relative; }
+        </style>
+    <body>
+        <object data="SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.lrentdat.svg" type="image/svg+xml">
+        </object>
+        <?php echo colortable($colors); ?>
+    </body>
+<html>
