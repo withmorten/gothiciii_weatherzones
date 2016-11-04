@@ -1,5 +1,6 @@
 <?php
-include("helpers.php");
+require_once('helpers.php');
+
 use JangoBrick\SVG\SVGImage;
 use JangoBrick\SVG\Nodes\Shapes\SVGRect;
 
