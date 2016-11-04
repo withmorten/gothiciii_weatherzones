@@ -41,8 +41,14 @@ function dumpd($var) { // diedump
     die();
 }
 
-function dd($var) {
+function dd($var, $pre = FALSE) {
+    if($pre !== FALSE) {
+        $pre_in = "<pre>";
+        $pre_out = "</pre>";
+    }
+    echo $pre_in;
     dumpd($var);
+    echo $pre_out;
 }
 
 function str_pad_left($string, $length) {

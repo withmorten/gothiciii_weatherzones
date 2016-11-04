@@ -46,18 +46,11 @@ $musiclocation_needle = key2hex($musiclocation_key).key2hex($bcstring_key).hex2b
 while(($wthrzone_lastpos = strpos($g3_world_01, $wthrzone_needle, $wthrzone_lastpos)) !== FALSE) {  // cycle through occurences of WeatherZone class needle in file
     $entity_start = strrpos($g3_world_01, hex2bin("53000100"), -(strlen($g3_world_01) - $wthrzone_lastpos-1))-25; // parent entity of WeatherZone starts here
     $entity_guid = strtoupper(bin2hex(substr($g3_world_01, $entity_start+29, 20)));                 // GUID of parent entity, 20 bytes
-    
-    dump(dechex($entity_start));
-    dump((bin2hex(substr($g3_world_01, $entity_start+66, 2))));
     $entity_name = $strtable_array[bin2dec(substr($g3_world_01, $entity_start+66, 2))];             // our entity name, taken from stringtable via ID
     
     $entity_x = bin2float(substr($g3_world_01, $entity_start+66+50, 4));
     $entity_y = bin2float(substr($g3_world_01, $entity_start+66+54, 4));
     $entity_z = bin2float(substr($g3_world_01, $entity_start+66+58, 4));
-    
-    // if(bin2hex(substr($g3_world_01, $entity_start, 4)) !== "40005300") {                            // if our parent entity doesn't start with this, die
-        // die($error);
-    // }
     
     $wthrzone_start = $wthrzone_lastpos-2;                                                          // actual weatherzone class start
     $wthrzone_size = bin2dec(substr($g3_world_01, $wthrzone_start+17, 4))+21;                       // weatherzone class size until deadcode
@@ -79,7 +72,5 @@ while(($wthrzone_lastpos = strpos($g3_world_01, $wthrzone_needle, $wthrzone_last
     $wthrzone_lastpos += strlen($wthrzone_needle);
 }
 
-dump($wthrzone_array);
-
-// file_put_contents($argv[1].".json", json_encode($wthrzone_array));
-// file_put_contents("weatherzones.txt", wthrzonearray2string($wthrzone_array));
+file_put_contents($argv[1].".json", json_encode($wthrzone_array));
+file_put_contents("weatherzones.txt", wthrzonearray2string($wthrzone_array));
