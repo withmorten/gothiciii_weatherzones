@@ -62,7 +62,7 @@ while(($wthrzone_lastpos = strpos($g3_world_01, $wthrzone_needle, $wthrzone_last
     $wthrzone_music_strkey = bin2dec(substr($wthrzone_substr, $wthrzone_music_start+10, $wthrzone_music_size));
     
     $wthrzone_array[$wthrzone_count] = array("GUID" => $entity_guid,
-                                             "Entity" => $entity_name,
+                                             "Name" => $entity_name,
                                              "MusicLocation" => $strtable_array[$wthrzone_music_strkey],
                                              "X" => $entity_x,
                                              "Y" => $entity_y,
@@ -73,4 +73,3 @@ while(($wthrzone_lastpos = strpos($g3_world_01, $wthrzone_needle, $wthrzone_last
 }
 
 file_put_contents($argv[1].".json", json_encode($wthrzone_array));
-// file_put_contents("weatherzones.txt", wthrzonearray2string($wthrzone_array));

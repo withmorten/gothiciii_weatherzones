@@ -28,13 +28,16 @@ foreach($json as $entity) {
     $marker = new SVGRect($x, $z, 4, 4);
     
     $musiclocation = strtolower($entity["MusicLocation"]);
-    $color = $colors[$musiclocation];
+    $color = $colors["colors"][$musiclocation];
     
     $marker->setStyle('fill', $color);
     $doc->addChild($marker);
 }
 
+dd(wthrzonearray2string($json), 1);
+
 file_put_contents('SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg', $svg);
+file_put_contents("weatherzones.txt", wthrzonearray2string($json));
 ?>
 <html>
     <head>

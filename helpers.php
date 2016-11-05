@@ -64,7 +64,7 @@ function wthrzonearray2string($array) {
         $o.= str_pad_left($key+1, 3);
         foreach($value as $key2 => $value2) {
             if(!in_array($key2, $forbidden)) {
-                $o.= " => ".str_pad($value2, 31, " ", 1);
+                $o.= " => ".str_pad($value2, 37, " ", 1);
             }
         }
         $o = trim($o)."\n";
