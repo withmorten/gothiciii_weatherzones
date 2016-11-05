@@ -23,28 +23,33 @@ function hexr($hex) {
 }
 
 function dump($var) {
+    echo "<pre>";
     var_dump($var);
+    echo "</pre>";
 }
 
 function dumphex($bin) {
+    echo "<pre>";
     dump(bin2hex($bin));
+    echo "</pre>";
 }
 
 function dumpa($array) {
+    echo "<pre>";
     foreach($array as $key => $value) {
         echo str_pad_left($key, 4)." => $value\n";
     }
+    echo "</pre>";
 }
 
 function dumpd($var) { // diedump
+    echo "<pre>";
     dump($var);
     die();
 }
 
-function dd($var, $pre = FALSE) {
-    if($pre !== FALSE) {
-        echo "<pre>";
-    }
+function dd($var) {
+    echo "<pre>";
     dumpd($var);
 }
 
@@ -58,12 +63,12 @@ function key2hex($key) {
 
 function wthrzonearray2string($array) {
     $o = "";
-    $forbidden = array("X", "Y", "Z");
+    $allowed = array("GUID", "Name", "MusicLocation");
     
     foreach($array as $key => $value) {
         $o.= str_pad_left($key+1, 3);
         foreach($value as $key2 => $value2) {
-            if(!in_array($key2, $forbidden)) {
+            if(in_array($key2, $allowed)) {
                 $o.= " => ".str_pad($value2, 37, " ", 1);
             }
         }
