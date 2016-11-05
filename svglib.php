@@ -11,7 +11,6 @@ function svg_exit($svg) {
 }
 
 function svg_format($svg) {
-    return $svg;
     $dom = new DOMDocument;
     $dom->preserveWhiteSpace = FALSE;
     $dom->loadXML($svg);
