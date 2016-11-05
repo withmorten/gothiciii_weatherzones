@@ -1,6 +1,8 @@
 <?php
-require_once("C:\msys\home\morten\php-svg\autoloader.php");
 require_once('colors.php');
+require_once('svglib.php');
+
+const PRE = TRUE;
 
 function bin2dec($bin) {
     return hexdec(bin2hex(strrev($bin)));
@@ -23,33 +25,33 @@ function hexr($hex) {
 }
 
 function dump($var) {
-    echo "<pre>";
+    if(PRE === TRUE) echo "<pre>";
     var_dump($var);
-    echo "</pre>";
+    if(PRE === TRUE) echo "</pre>";
 }
 
 function dumphex($bin) {
-    echo "<pre>";
+    if(PRE === TRUE) echo "<pre>";
     dump(bin2hex($bin));
-    echo "</pre>";
+    if(PRE === TRUE) echo "<pre>";
 }
 
 function dumpa($array) {
-    echo "<pre>";
+    if(PRE === TRUE) echo "<pre>";
     foreach($array as $key => $value) {
         echo str_pad_left($key, 4)." => $value\n";
     }
-    echo "</pre>";
+    if(PRE === TRUE) echo "<pre>";
 }
 
 function dumpd($var) { // diedump
-    echo "<pre>";
+    if(PRE === TRUE) echo "<pre>";
     dump($var);
     die();
 }
 
 function dd($var) {
-    echo "<pre>";
+    if(PRE === TRUE) echo "<pre>";
     dumpd($var);
 }
 

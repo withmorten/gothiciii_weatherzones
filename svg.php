@@ -1,9 +1,6 @@
 <?php
 require_once('helpers.php');
 
-use JangoBrick\SVG\SVGImage;
-use JangoBrick\SVG\Nodes\Shapes\SVGRect;
-
 $json = array();
 $jsons = glob('G3_World_01\*.json');
 
@@ -12,8 +9,7 @@ foreach($jsons as $json_file) {
     $json = array_merge($json, $json_new);
 }
 
-$svg = new SVGImage(900, 800);
-$doc = $svg->getDocument();
+$svg = svg_init(900, 800);
 
 $xyz_scale = 500;
 
@@ -21,14 +17,13 @@ foreach($json as $guid => $weatherzone) {
     $x = ($weatherzone["X"] / $xyz_scale) + 500;
     $z = (($weatherzone["Z"] * -1) / $xyz_scale) + 400;
     
-    $marker = new SVGRect($x, $z, 4, 4);
-    
     $musiclocation = strtolower($weatherzone["MusicLocation"]);
     $color = $colors["colors"][$musiclocation];
     
-    $marker->setStyle('fill', $color);
-    $doc->addChild($marker);
+    $svg = svg_rect($svg, $x, $z, 4, 4, array('fill' => $color));
 }
+
+$svg = svg_exit($svg);
 
 file_put_contents('SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg', $svg);
 file_put_contents("weatherzones.txt", wthrzonearray2string($json));

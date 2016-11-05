@@ -28,5 +28,7 @@ function colortable($colors) {
         $c++;
     }
     
+    $html_out.= "</table>\n";
+    
     return $html_out;
 }

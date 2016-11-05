@@ -14,8 +14,6 @@ foreach($g3_world_01_files as $g3_world_01_file) {
     $strtable_count = bin2dec(substr($g3_world_01, $strtable_offset+5, 4));                             // strings in stringtable, 4 bytes
     $strtable_pos = $strtable_offset+9;                                                                 // offset to actual start of stringtable
     $strtable = array();
-    $strtable_important[] = "InnerRadius";
-    $strtable_important[] = "OuterRadius";
 
     if($strtable_deadbeef !== "deadbeef") {                                                             // if this isn't deadbeef something is probably wrong
         die("<pre>This file doesn't seem to be formatted properly or isn't a GENOMFLE ;)</pre>");
@@ -79,8 +77,6 @@ foreach($g3_world_01_files as $g3_world_01_file) {
         $wthrzone_count++;
         $wthrzone_lastpos += strlen($wthrzone_needle);
     }
-    
-    // dd(json_encode($wthrzone_array));
 
     file_put_contents($g3_world_01_file.".json", json_encode($wthrzone_array));
 }
