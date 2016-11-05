@@ -57,22 +57,25 @@ function str_pad_left($string, $length) {
     return str_pad($string, $length, "0", 0);
 }
 
-function key2hex($key) {
+function key2bin($string, $strtable) {
+    $key = array_search($string, $strtable);
     return hex2bin(hexr(str_pad_left(dechex($key), 4)));
 }
 
 function wthrzonearray2string($array) {
     $o = "";
-    $allowed = array("GUID", "Name", "MusicLocation");
+    $allowed = array("Name", "MusicLocation");
+    $c = 0;
     
     foreach($array as $key => $value) {
-        $o.= str_pad_left($key+1, 3);
+        $o.= str_pad_left($c+1, 3)." => ".$key;
         foreach($value as $key2 => $value2) {
             if(in_array($key2, $allowed)) {
                 $o.= " => ".str_pad($value2, 37, " ", 1);
             }
         }
         $o = trim($o)."\n";
+        $c++;
     }
     
     return $o;
