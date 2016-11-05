@@ -65,6 +65,8 @@ foreach($g3_world_01_files as $g3_world_01_file) {
         $wthrzone_innerrad = bin2float(substr($wthrzone_substr, $wthrzone_innerrad_start+10, 4));
         $wthrzone_outerrad = bin2float(substr($wthrzone_substr, $wthrzone_outerrad_start+10, 4));
         
+        if(trim($entity_name) === "") $entity_name = str_replace("G3_World_01\\", "", explode(".", $g3_world_01_file)[0]);
+        
         $wthrzone_array[$entity_guid] = array("Name" => $entity_name,
                                               "MusicLocation" => $strtable[$wthrzone_music_strkey],
                                               "Shape" => 'eEWeatherZoneShape_'.$wthrzone_shapes[$wthrzone_shape_key],

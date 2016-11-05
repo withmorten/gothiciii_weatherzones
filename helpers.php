@@ -2,6 +2,7 @@
 require_once('colors.php');
 require_once('svglib.php');
 
+error_reporting(E_ALL);
 const PRE = TRUE;
 
 function bin2dec($bin) {

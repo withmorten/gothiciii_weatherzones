@@ -13,14 +13,19 @@ $svg = svg_init(900, 800);
 
 $xyz_scale = 500;
 
+$rect = array("eEWeatherZoneShape_2D_Rect", "eEWeatherZoneShape_3D_Box");
+$circle = array("eEWeatherZoneShape_2D_Circle", "eEWeatherZoneShape_3D_Sphere");
+
 foreach($json as $guid => $weatherzone) {
     $x = ($weatherzone["X"] / $xyz_scale) + 500;
     $z = (($weatherzone["Z"] * -1) / $xyz_scale) + 400;
     
     $musiclocation = strtolower($weatherzone["MusicLocation"]);
     $color = $colors["colors"][$musiclocation];
+    $style = array('fill' => $color);
     
-    $svg = svg_rect($svg, $x, $z, 4, 4, array('fill' => $color));
+    if     (in_array($weatherzone["Shape"], $rect))   $svg = svg_rect($svg, $x, $z, 4, 4, $style);
+    else if(in_array($weatherzone["Shape"], $circle)) $svg = svg_circle($svg, $x, $z, 2.5, $style);
 }
 
 $svg = svg_exit($svg);

@@ -18,7 +18,7 @@
 		"northmarlow": "#0066CC",
 		"ominouswoods": "#33CC00",
 		"orccamp": "#FF0000",
-		"orcmine01": "#000099",
+		"orcmine01": "#808B96",
 		"pathtovarant": "#FFFF99",
 		"ruinfields": "#CCCC33",
 		"sadstrings": "#800000",
@@ -30,7 +30,7 @@
 		"vengard": "#FF0000",
 		"vistapoint": "#008000",
 		"vistapointharp": "#00FF00",
-		"xardasindoor": "#FF0000",
+		"xardasindoor": "#FFCDD2",
 		"xardasoutdoor": "#6600CC"
 	},
 	"fontcolors": ["vistapointharp",
@@ -45,5 +45,6 @@
                    "locationgothic1theme",
                    "highlands",
                    "crystalcave",
+                   "xardasindoor",
                    "arena"]
 }

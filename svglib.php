@@ -11,6 +11,7 @@ function svg_exit($svg) {
 }
 
 function svg_format($svg) {
+    return $svg;
     $dom = new DOMDocument;
     $dom->preserveWhiteSpace = FALSE;
     $dom->loadXML($svg);
@@ -27,8 +28,16 @@ function svg_style($styles_in) {
 }
 
 function svg_rect($svg, $x, $y, $w, $h, $style) {
-    $svg.= '<rect x="'.$x.'" y="'.$y.'" width="'.$w.'" height="'.$h.'" ';
     $style = svg_style($style);
+    $svg.= '<rect x="'.$x.'" y="'.$y.'" width="'.$w.'" height="'.$h.'" ';
+    if($style !== "") $svg.= 'style="'.$style.'" ';
+    $svg.= '/>';
+    return $svg;
+}
+
+function svg_circle($svg, $cx, $cy, $r, $style) {
+    $style = svg_style($style);
+    $svg.= '<circle cx="'.$cx.'" cy="'.$cy.'" r="'.$r.'" ';
     if($style !== "") $svg.= 'style="'.$style.'" ';
     $svg.= '/>';
     return $svg;
