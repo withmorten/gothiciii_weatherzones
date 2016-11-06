@@ -1,0 +1,30 @@
+body {
+    margin:2px;
+    font-family: Courier;
+}
+
+* { font-size: 12px; }
+
+object { position: absolute; }
+
+table { position: relative; }
+
+td { width: 160px; }
+
+input {
+    float: right;
+    margin: 2.5px;
+}
+
+label { 
+    display: block;
+    min-height: 100%; /* for the latest browsers which support min-height */
+    height: auto !important; /* for newer IE versions */
+    height: 100%; /* the only height-related attribute that IE6 does not ignore  */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

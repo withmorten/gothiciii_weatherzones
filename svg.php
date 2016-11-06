@@ -33,8 +33,8 @@ $rect = array("eEWeatherZoneShape_2D_Rect", "eEWeatherZoneShape_3D_Box");
 $circle = array("eEWeatherZoneShape_2D_Circle", "eEWeatherZoneShape_3D_Sphere");
 
 foreach($json as $guid => $weatherzone) {
-    $x = ($weatherzone["X"] / $xyz_scale) + 550;
-    $z = (($weatherzone["Z"] * -1) / $xyz_scale) + 400;
+    $x = ($weatherzone["X"] / $xyz_scale) + 600;
+    $z = (($weatherzone["Z"] * -1) / $xyz_scale) + 350;
     
     $musiclocation = strtolower($weatherzone["MusicLocation"]);
     $color = $colors["colors"][$musiclocation];
@@ -53,21 +53,11 @@ file_put_contents("weatherzones".$modsuffix.".txt", wthrzonearray2string($json))
 <html>
     <head>
         <title>G3 WeatherZones</title>
-        <style type="text/css">
-            body {
-                margin:2px;
-                font-family: Courier;
-            }
-            
-            * { font-size: 12px; }
-            
-            object { position: absolute; }
-            
-            table { position: relative; }
-        </style>
+        <link href="svg.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="svg.js"></script>
     </head>
     <body>
-        <object data="<?php echo $modprefix; ?>SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg" type="image/svg+xml"></object>
+        <object id="svg" data="<?php echo $modprefix; ?>SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg" type="image/svg+xml"></object>
         <?php echo colortable($colors); ?>
     </body>
 <html>
