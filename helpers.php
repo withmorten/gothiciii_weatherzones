@@ -103,7 +103,7 @@ function colortable($colors) {
             $fontcolor = "white";
         }
         
-        $html_out.= $tr_in.'<td style="background-color: '.$color.'; width: 130px; color:'.$fontcolor.'">'.$music.'</td>'.$tr_out;
+        $html_out.= $tr_in.'<td style="background-color: '.$color.'; width: 140px; color:'.$fontcolor.'">'.$music.'</td>'.$tr_out;
         
         $c++;
     }

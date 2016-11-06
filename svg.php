@@ -1,11 +1,26 @@
 <?php
 require_once('helpers.php');
+const MOD = "MOD_";
 
 $json = array();
 $jsons = glob('G3_World_01\*.json');
-$colors = json_decode(file_get_contents("colors.json"), TRUE);
+
+if(isset($_GET["mod"]) && (int)$_GET["mod"] === 1) {
+    $modprefix = MOD;
+    $modsuffix = "_mod";
+    $mod = 1;
+} else {
+    $modprefix = "";
+    $modsuffix = "";
+    $mod = 0;
+}
+
+$colors = json_decode(file_get_contents('colors'.$modsuffix.'.json'), TRUE);
 
 foreach($jsons as $json_file) {
+    if($mod === 0 && strpos($json_file, MOD)) continue;
+    if($mod === 1 && strpos($json_file, "lrentdat") && !strpos($json_file, MOD)) continue;
+    
     $json_new = json_decode(file_get_contents($json_file), TRUE);
     $json = array_merge($json, $json_new);
 }
@@ -18,7 +33,7 @@ $rect = array("eEWeatherZoneShape_2D_Rect", "eEWeatherZoneShape_3D_Box");
 $circle = array("eEWeatherZoneShape_2D_Circle", "eEWeatherZoneShape_3D_Sphere");
 
 foreach($json as $guid => $weatherzone) {
-    $x = ($weatherzone["X"] / $xyz_scale) + 500;
+    $x = ($weatherzone["X"] / $xyz_scale) + 550;
     $z = (($weatherzone["Z"] * -1) / $xyz_scale) + 400;
     
     $musiclocation = strtolower($weatherzone["MusicLocation"]);
@@ -32,8 +47,8 @@ foreach($json as $guid => $weatherzone) {
 
 $svg = svg_exit($svg);
 
-file_put_contents('SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg', $svg);
-file_put_contents("weatherzones.txt", wthrzonearray2string($json));
+file_put_contents($modprefix.'SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg', $svg);
+file_put_contents("weatherzones".$modsuffix.".txt", wthrzonearray2string($json));
 ?>
 <html>
     <head>
@@ -52,7 +67,7 @@ file_put_contents("weatherzones.txt", wthrzonearray2string($json));
         </style>
     </head>
     <body>
-        <object data="SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg" type="image/svg+xml"></object>
+        <object data="<?php echo $modprefix; ?>SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg" type="image/svg+xml"></object>
         <?php echo colortable($colors); ?>
     </body>
 <html>

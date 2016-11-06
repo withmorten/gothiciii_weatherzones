@@ -104,8 +104,8 @@
   <circle cx="641.345078125" cy="181.80471875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="01494DCEA5A14C4096E9F8CAD21A364700000000" />
   <circle cx="596.168359375" cy="73.16403125" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="23081775B676C8458B030252EFBD2FB700000000" />
   <circle cx="604.56246875" cy="74.0725625" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="ADABC74C615431459B0BE08F265F3AF600000000" />
-  <circle cx="748.6488125" cy="127.729625" r="2.5" style="fill: #6600CC;" class="xardasoutdoor" id="D4E2C2485B5A934BA32923ED7FA51D5C00000000" />
-  <circle cx="741.386515625" cy="125.0825" r="2.5" style="fill: #6600CC;" class="xardasoutdoor" id="0714757C8F175847A2D5AD4303417AA400000000" />
+  <circle cx="748.6488125" cy="127.729625" r="2.5" style="fill: #FFCDD2;" class="xardasindoor" id="D4E2C2485B5A934BA32923ED7FA51D5C00000000" />
+  <circle cx="741.386515625" cy="125.0825" r="2.5" style="fill: #FFCDD2;" class="xardasindoor" id="0714757C8F175847A2D5AD4303417AA400000000" />
   <circle cx="696.036171875" cy="155.696640625" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="236791648690984D90D1F3F53944B25300000000" />
   <circle cx="635.756828125" cy="148.079875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="69D271F70F5CDE4A97B0CC05601273B500000000" />
   <circle cx="623.3845390625" cy="129.92365625" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="9EE2AA4F6E83994FBFB77A7F3564942800000000" />
@@ -127,13 +127,13 @@
   <circle cx="375.56740625" cy="506.2170703125" r="2.5" style="fill: #CCCC00;" class="braga" id="33E448C02D8B8F4A9E07413F3C7A612700000000" />
   <circle cx="99.27103125" cy="637.8445625" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="34AEDE379686924B97296CC3FA05D52800000000" />
   <circle cx="135.09940625" cy="711.0616875" r="2.5" style="fill: #CCCC33;" class="ishtar" id="04887ABADBB2C04593D0254F6002F7E700000000" />
-  <circle cx="357.523921875" cy="691.23178125" r="2.5" style="fill: #FBC02D;" class="varant" id="F1E475243B40AA41AEB84A7D79BC0EC000000000" />
+  <circle cx="357.523921875" cy="691.23178125" r="2.5" style="fill: #CCCC33;" class="ishtar" id="F1E475243B40AA41AEB84A7D79BC0EC000000000" />
   <circle cx="518.21528125" cy="505.33340625" r="2.5" style="fill: #CCCC00;" class="braga" id="97EDA540C8318041851C9DEF775A901C00000000" />
   <circle cx="595.7902421875" cy="592.536703125" r="2.5" style="fill: #C0C0C0;" class="dungeon" id="255EB45DDDA08E419D1B3D2B51F23E9900000000" />
   <circle cx="649.8596875" cy="588.416703125" r="2.5" style="fill: #FF9966;" class="arena" id="1A9A9FE6E40FAE42A49B512982CB9B6100000000" />
   <circle cx="346.983359375" cy="698.80696875" r="2.5" style="fill: #FF9966;" class="arena" id="6C51916347EF7947AF0A3D344FA31AF400000000" />
-  <rect x="630.225765625" y="597.012078125" width="4" height="4" style="fill: #FBC02D;" class="varant" id="AFFA7BBD7558D74DBA9D66A3CBFE7A7500000000" />
-  <circle cx="611.63737109375" cy="586.887390625" r="2.5" style="fill: #808080;" class="beliartemple" id="2C35F04E68915B449580F559C4706E2A00000000" />
+  <rect x="630.225765625" y="597.012078125" width="4" height="4" style="fill: #CCCC33;" class="ishtar" id="AFFA7BBD7558D74DBA9D66A3CBFE7A7500000000" />
+  <circle cx="611.63737109375" cy="586.887390625" r="2.5" style="fill: #CCCC33;" class="ishtar" id="2C35F04E68915B449580F559C4706E2A00000000" />
   <circle cx="441.0776640625" cy="687.54865625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="0690A2D579F8B64D9DD91BE88B4E439D00000000" />
   <circle cx="449.937640625" cy="722.984125" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="D3E7A8608D462546A9096ADB4BD41B4E00000000" />
   <circle cx="481.9794765625" cy="714.34465625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="0BFC41F47616BA41972CD9BFB619FE5200000000" />
@@ -247,13 +247,13 @@
   <rect x="321.063203125" y="624.74775" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8DD3C73E95D27948A3D01613F0398D9200000000" />
   <rect x="320.697359375" y="628.214203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="740C45A81BC89740AE7297EF326FC4F900000000" />
   <rect x="130.29765625" y="711.88309375" width="4" height="4" style="fill: #808080;" class="beliartemple" id="A449CF32E10BD84A8CC0B74166EE47BB00000000" />
-  <rect x="122.324875" y="711.97103125" width="4" height="4" style="fill: #800000;" class="monastery" id="418BE41F50AF244083BF0388712D82AF00000000" />
-  <rect x="114.48221875" y="711.801625" width="4" height="4" style="fill: #800000;" class="monastery" id="221A51C3D739F948918F295EBDEE286900000000" />
-  <rect x="112.89890625" y="710.3336875" width="4" height="4" style="fill: #800000;" class="monastery" id="2F7C41FEAA7B4246A8C0A0B97EB392FB00000000" />
-  <rect x="110.8941875" y="710.41025" width="4" height="4" style="fill: #800000;" class="monastery" id="BC885BB22F0B0C46B0FE778AA344B98B00000000" />
-  <rect x="110.79503125" y="713.48684375" width="4" height="4" style="fill: #800000;" class="monastery" id="0232F7BC4326854BB8D713ED7775DA1100000000" />
-  <rect x="113.7546875" y="713.69646875" width="4" height="4" style="fill: #800000;" class="monastery" id="323C9EFA81DC1744B28AF8D96E674F5A00000000" />
-  <rect x="110.09428125" y="708.24025" width="4" height="4" style="fill: #800000;" class="monastery" id="7E9D89DA1AFDED458D1890B76BBE8C5700000000" />
+  <rect x="122.324875" y="711.97103125" width="4" height="4" style="fill: #808080;" class="beliartemple" id="418BE41F50AF244083BF0388712D82AF00000000" />
+  <rect x="114.48221875" y="711.801625" width="4" height="4" style="fill: #808080;" class="beliartemple" id="221A51C3D739F948918F295EBDEE286900000000" />
+  <rect x="112.89890625" y="710.3336875" width="4" height="4" style="fill: #808080;" class="beliartemple" id="2F7C41FEAA7B4246A8C0A0B97EB392FB00000000" />
+  <rect x="110.8941875" y="710.41025" width="4" height="4" style="fill: #808080;" class="beliartemple" id="BC885BB22F0B0C46B0FE778AA344B98B00000000" />
+  <rect x="110.79503125" y="713.48684375" width="4" height="4" style="fill: #808080;" class="beliartemple" id="0232F7BC4326854BB8D713ED7775DA1100000000" />
+  <rect x="113.7546875" y="713.69646875" width="4" height="4" style="fill: #808080;" class="beliartemple" id="323C9EFA81DC1744B28AF8D96E674F5A00000000" />
+  <rect x="110.09428125" y="708.24025" width="4" height="4" style="fill: #808080;" class="beliartemple" id="7E9D89DA1AFDED458D1890B76BBE8C5700000000" />
   <rect x="669.6138359375" y="142.445875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="4B5349DCCF9A964C96D44FE08A18FDE600000000" />
   <rect x="665.54078125" y="131.90690625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="B62432AFE5EC5243AAF1D3888C85D1F700000000" />
   <rect x="675.7853828125" y="143.198671875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="2B07DFA52295504BB8A7FE5897D0887500000000" />
@@ -318,13 +318,13 @@
   <rect x="579.60152734375" y="107.71371875" width="4" height="4" style="fill: #800000;" class="monastery" id="E53C91D3C049F94187211028D6F2E89C00000000" />
   <rect x="578.90751757812" y="106.7235" width="4" height="4" style="fill: #800000;" class="monastery" id="6C4F746901AEBF4EB2C8D95F30BE2E0A00000000" />
   <circle cx="496.79682421875" cy="336.76044921875" r="2.5" style="fill: #000000;" class="myrtana" id="859088158673184CBF1248FE7B1C6D6C00000000" />
-  <rect x="537.52142675781" y="271.8076484375" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="E69205B5EB071B4FB14A1F33F361A27100000000" />
+  <rect x="537.52142675781" y="271.8076484375" width="4" height="4" style="fill: #000000;" class="myrtana" id="E69205B5EB071B4FB14A1F33F361A27100000000" />
   <rect x="403.952328125" y="396.5179855957" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DBDF28DBE06AA34BBC2793AB75E3B63000000000" />
   <rect x="403.261984375" y="391.50754589844" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="4A11BD34A1351F41AEECF29D4224837300000000" />
   <rect x="489.8014765625" y="253.011390625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="740F5F7EB1918640AEC1B039499A87D500000000" />
   <rect x="479.849359375" y="254.263390625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6C3FF778DB7A864CB951E13A9739D10900000000" />
   <circle cx="463.0252109375" cy="212.175828125" r="2.5" style="fill: #008000;" class="vistapoint" id="0D6F8CA0E919AB408005A69791A24B3900000000" />
-  <circle cx="491.416078125" cy="255.33728125" r="2.5" style="fill: #008000;" class="vistapoint" id="29E30589F3265648A8175514F050990A00000000" />
+  <circle cx="491.416078125" cy="255.33728125" r="2.5" style="fill: #800000;" class="silden" id="29E30589F3265648A8175514F050990A00000000" />
   <circle cx="511.6497890625" cy="233.47865625" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="562526405C503B4397AF6A210F8BB37100000000" />
   <circle cx="553.09631005859" cy="227.534390625" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="E5BE1C5F9AD6854C84779AA66509945700000000" />
   <circle cx="551.45862329102" cy="269.2580078125" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="734E8AABEDC8724B81ED7138627C920700000000" />
@@ -345,28 +345,28 @@
   <circle cx="744.2459375" cy="331.7752109375" r="2.5" style="fill: #FF0000;" class="vengard" id="F7D6BE8A9CAD4543909BFCAC9418408200000000" />
   <circle cx="729.15246875" cy="327.5257421875" r="2.5" style="fill: #800000;" class="sadstrings" id="CA595C178C61A746A9876B29B8219B4C00000000" />
   <circle cx="744.64659375" cy="454.74412890625" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="AA493E0CE37A734B98B3EC4C3BE3BCF600000000" />
-  <circle cx="732.281109375" cy="422.81496875" r="2.5" style="fill: #008000;" class="vistapoint" id="7E4589036752D24E9E5D875D42FAD17F00000000" />
+  <circle cx="732.281109375" cy="422.81496875" r="2.5" style="fill: #000000;" class="myrtana" id="7E4589036752D24E9E5D875D42FAD17F00000000" />
   <circle cx="645.155703125" cy="465.44867578125" r="2.5" style="fill: #FF0000;" class="faring" id="D2139502E22280439EDA96F96F53691600000000" />
   <circle cx="642.101046875" cy="471.1303671875" r="2.5" style="fill: #66FFFF;" class="locationgothic1theme" id="73AE7F2C9DEBDA4187016C5947CBAD7800000000" />
   <circle cx="666.282734375" cy="388.28437402344" r="2.5" style="fill: #008000;" class="vistapoint" id="46BA784DE0DCBB45B1143E6EA8655A6B00000000" />
   <circle cx="696.774671875" cy="383.48218945312" r="2.5" style="fill: #660066;" class="locationspooky" id="00F0CEB1579521489A850D44FA8AFF8700000000" />
   <circle cx="532.29923828125" cy="369.83808203125" r="2.5" style="fill: #660066;" class="locationspooky" id="93FB493CCFDEA04BB2E61D6FD17E7FD000000000" />
-  <circle cx="495.02384375" cy="370.42102539062" r="2.5" style="fill: #99FF99;" class="silden" id="7E3CA24847357048A9C2F97B4BBCA3C700000000" />
-  <circle cx="358.41271875" cy="454.360296875" r="2.5" style="fill: #FFFF99;" class="pathtovarant" id="2B9A107A1A214947B3143072571972A400000000" />
+  <circle cx="495.02384375" cy="370.42102539062" r="2.5" style="fill: #99FF99;" class="happystrings" id="7E3CA24847357048A9C2F97B4BBCA3C700000000" />
+  <circle cx="358.41271875" cy="454.360296875" r="2.5" style="fill: #000000;" class="myrtana" id="2B9A107A1A214947B3143072571972A400000000" />
   <circle cx="425.408296875" cy="357.93508984375" r="2.5" style="fill: #008000;" class="vistapoint" id="358557DC907E0847997E1C4361229E1000000000" />
   <circle cx="437.9638359375" cy="311.0367421875" r="2.5" style="fill: #FF0000;" class="trelis" id="EE5266929241B147AE9C93F157F4B27B00000000" />
   <circle cx="412.101375" cy="263.846234375" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="D2D6F96832C6B44E85CDE91A6AA2EFCD00000000" />
   <circle cx="506.688921875" cy="193.47346875" r="2.5" style="fill: #008000;" class="vistapoint" id="3E253AF0B451AE4584FC8ADA6D1D6A6500000000" />
   <circle cx="536.60579589844" cy="160.0784375" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="369D863A6E2EA44CA4C4E311467CDE7200000000" />
   <rect x="495.074703125" y="331.7680625" width="4" height="4" style="fill: #00FF00;" class="vistapointharp" id="80ADD82236588B4D9CB34A677CA2BF9E00000000" />
-  <circle cx="660.0067421875" cy="297.2586328125" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="606968832EE5564297A3994B5E00B9CD00000000" />
+  <circle cx="660.0067421875" cy="297.2586328125" r="2.5" style="fill: #008000;" class="vistapoint" id="606968832EE5564297A3994B5E00B9CD00000000" />
   <rect x="692.265078125" y="310.6197890625" width="4" height="4" style="fill: #33CC00;" class="ominouswoods" id="CE4D6FBBD3C311478AF8FD1101ABCD3200000000" />
   <circle cx="586.63456640625" cy="351.26916796875" r="2.5" style="fill: #FF9966;" class="arena" id="8D6A9654E0B5D14EA5EFF0574A133D3F00000000" />
   <rect x="576.14897851562" y="368.49266601562" width="4" height="4" style="fill: #800080;" class="slaves" id="3A0FF543A1BDD64592894FED6885CA8D00000000" />
-  <circle cx="470.1153046875" cy="253.918078125" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="E4D2433FEF1071428A9B363683B4534D00000000" />
+  <circle cx="470.1153046875" cy="253.918078125" r="2.5" style="fill: #800000;" class="silden" id="E4D2433FEF1071428A9B363683B4534D00000000" />
   <circle cx="484.5516875" cy="253.542859375" r="2.5" style="fill: #FF9966;" class="arena" id="2754F6E8D14B6840B0897AC2F1AA504300000000" />
   <circle cx="693.318609375" cy="427.59197265625" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="29A97EE9FAB6CF449A48510921EAFCBF00000000" />
-  <circle cx="716.71009375" cy="438.99541796875" r="2.5" style="fill: #008000;" class="vistapoint" id="4480BF0859104B48989F2C13B6BA7B2600000000" />
+  <circle cx="716.71009375" cy="438.99541796875" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="4480BF0859104B48989F2C13B6BA7B2600000000" />
   <circle cx="717.74615625" cy="439.65334375" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="45969B90B654BD40B4ADC4563F8E349F00000000" />
-  <circle cx="613.47003515625" cy="294.1291875" r="2.5" style="fill: #C0C0C0;" class="dungeon" id="86812454BCFE7F4BB64D1C6957E864D200000000" />
+  <circle cx="613.47003515625" cy="294.1291875" r="2.5" style="fill: #6600CC;" class="xardasoutdoor" id="86812454BCFE7F4BB64D1C6957E864D200000000" />
 </svg>

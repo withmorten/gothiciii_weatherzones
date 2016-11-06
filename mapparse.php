@@ -68,7 +68,7 @@ foreach($g3_world_01_files as $g3_world_01_file) {
         if(trim($entity_name) === "") $entity_name = str_replace("G3_World_01\\", "", explode(".", $g3_world_01_file)[0]);
         
         $wthrzone_array[$entity_guid] = array("Name" => $entity_name,
-                                              "MusicLocation" => $strtable[$wthrzone_music_strkey],
+                                              "MusicLocation" => strtolower($strtable[$wthrzone_music_strkey]),
                                               "Shape" => 'eEWeatherZoneShape_'.$wthrzone_shapes[$wthrzone_shape_key],
                                               "X" => $entity_x,
                                               "Y" => $entity_y,
