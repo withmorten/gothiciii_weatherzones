@@ -3,6 +3,7 @@ require_once('helpers.php');
 
 $json = array();
 $jsons = glob('G3_World_01\*.json');
+$colors = json_decode(file_get_contents("colors.json"), TRUE);
 
 foreach($jsons as $json_file) {
     $json_new = json_decode(file_get_contents($json_file), TRUE);
@@ -23,9 +24,10 @@ foreach($json as $guid => $weatherzone) {
     $musiclocation = strtolower($weatherzone["MusicLocation"]);
     $color = $colors["colors"][$musiclocation];
     $style = array('fill' => $color);
+    $attributes = array('class' => $musiclocation, 'id' => $guid);
     
-    if     (in_array($weatherzone["Shape"], $rect))   $svg = svg_rect($svg, $x, $z, 4, 4, $style);
-    else if(in_array($weatherzone["Shape"], $circle)) $svg = svg_circle($svg, $x, $z, 2.5, $style);
+    if     (in_array($weatherzone["Shape"], $rect))   $svg = svg_rect($svg, $x, $z, 4, 4, $style, $attributes);
+    else if(in_array($weatherzone["Shape"], $circle)) $svg = svg_circle($svg, $x, $z, 2.5, $style, $attributes);
 }
 
 $svg = svg_exit($svg);
