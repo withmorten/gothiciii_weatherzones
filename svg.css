@@ -3,20 +3,29 @@ body {
     font-family: Courier;
 }
 
-* { font-size: 12px; }
+* {
+    font-size: 12px;
+}
 
-object { position: absolute; }
+object {
+    position: absolute;
+}
 
-table { position: relative; }
+table {
+    position: relative;
+}
 
-td { width: 160px; }
+td {
+    width: 160px;
+}
 
 input {
     float: right;
     margin: 2.5px;
+    pointer-events: none; /* MAGIC */
 }
 
-label { 
+label {
     display: block;
     min-height: 100%; /* for the latest browsers which support min-height */
     height: auto !important; /* for newer IE versions */

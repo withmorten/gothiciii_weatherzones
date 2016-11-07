@@ -6,14 +6,24 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function toggle(event) {
-    event.preventDefault();                                         // Fuck you JavaScript ... seriously, fuck you
+    event.stopPropagation();
+    event.preventDefault();
+    var input = event.target || event.srcElement;
     
-    var input = event.srcElement;
-    
-    if(input.tagName === 'LABEL') {
+    if(input.tagName.toLowerCase() === 'label') {
+        event.preventDefault();                                         // Fuck you JavaScript ... seriously, fuck you
         input = input.firstElementChild;
     }
     
-    if(input.checked === true)  input.removeAttribute("checked");   // and go fuck yourself some more
-    else input.setAttribute("checked", "");
+    checked = input.attributes["checked"];
+
+    if(typeof checked !== 'undefined' && checked.textContent === "checked") {
+        input.removeAttribute("checked");                               // and go fuck yourself some more
+    } else {
+        input.setAttribute("checked", "checked");                       // and even more
+    }
+}
+
+function die() {
+    throw new Error("");
 }

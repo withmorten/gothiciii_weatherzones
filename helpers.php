@@ -103,7 +103,7 @@ function colortable($colors) {
             $fontcolor = "white";
         }
         
-        $html_out.= $tr_in.'<td style="background-color: '.$color.'; color:'.$fontcolor.'"><label for="'.$music.'" onclick="toggle(event);">'.$music.'<input type="checkbox" id="'.$music.'" checked /></label></td>'.$tr_out."\n\t\t";
+        $html_out.= $tr_in.'<td style="background-color: '.$color.'; color:'.$fontcolor.'"><label onclick="toggle(event);">'.$music.'<input type="checkbox" id="'.$music.'" checked="checked" disabled="disabled" /></label></td>'.$tr_out."\n\t\t";
         
         $c++;
     }
