@@ -1,26 +1,29 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var object = document.getElementById("svg");
-    object.addEventListener("load", function() {
-        var svg = object.contentDocument;
-    }, false);
-});
-
 function toggle(event) {
-    event.stopPropagation();
-    event.preventDefault();
-    var input = event.target || event.srcElement;
+    event.preventDefault();                                             // Fuck you JavaScript ... seriously, fuck you
+    var label = event.target || event.srcElement;
+    var input = label.firstElementChild;
     
-    if(input.tagName.toLowerCase() === 'label') {
-        event.preventDefault();                                         // Fuck you JavaScript ... seriously, fuck you
-        input = input.firstElementChild;
-    }
-    
-    checked = input.attributes["checked"];
-
-    if(typeof checked !== 'undefined' && checked.textContent === "checked") {
+    if(input.hasAttribute("checked") || input.getAttribute("checked") === "checked") {
         input.removeAttribute("checked");                               // and go fuck yourself some more
     } else {
         input.setAttribute("checked", "checked");                       // and even more
+    }
+    
+    // now finally for the svg manipulation, because of course fucking checkboxes are most complicated part
+    
+    var svg = document.getElementById("svg").contentDocument;
+    var musiclocation = input.id;
+    var nodes = svg.getElementsByClassName(musiclocation);
+    var n = nodes.length;
+    
+    for(var i = 0; i < n; i++) {
+        var node = nodes[i];
+        
+        if(!node.hasAttribute("visibility") || node.getAttribute("visibility") === 'visible') {
+            node.setAttribute("visibility", "hidden");
+        } else {
+            node.setAttribute("visibility", "visible");
+        }
     }
 }
 
