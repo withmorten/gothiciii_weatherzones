@@ -1,372 +1,1848 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="800">
-  <rect x="563.1324453125" y="356.08371240234" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0ED1768693C7DB4AA5475F5D99CF132800000000" />
-  <rect x="571.7772734375" y="303.15371484375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="712E61BB8CB9A64AB7A4359A143E6CBF00000000" />
-  <rect x="577.12470507812" y="222.680484375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A61FC1D66777EA4189AF19A0F1A32EF500000000" />
-  <rect x="577.45092773438" y="226.350734375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="274C9B6B8E239F4AAE0496A335F097E100000000" />
-  <rect x="576.94604101562" y="203.878796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="ABAFC5913900EB47A70C8E37E6BE287F00000000" />
-  <rect x="551.43506640625" y="307.5630703125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2F5C84EDE9AE6B4AB91E6E90110F48C800000000" />
-  <rect x="547.7103125" y="305.90866796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="30C1DDD97ECF1B449ABA0C656592D9DF00000000" />
-  <rect x="547.58683203125" y="302.338796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6FEE3157253E744D93F0C78397EDB3B500000000" />
-  <rect x="552.14790625" y="332.39752148437" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5925F9B5BCAABE478D1A905E0B85BEC000000000" />
-  <rect x="551.22304296875" y="348.17414074707" width="4" height="4" style="fill: #CC6600;" class="thedig" id="DEDEF4348511CB46B8C996C31883D0A600000000" />
-  <rect x="550.03848046875" y="349.35478118896" width="4" height="4" style="fill: #CC6600;" class="thedig" id="84D2CDD4A60E95419137AFDC04AB456200000000" />
-  <rect x="553.705578125" y="345.3422734375" width="4" height="4" style="fill: #CC6600;" class="thedig" id="1231BC595F382549B6CBC4EBEDCF76A800000000" />
-  <rect x="544.7071484375" y="181.878765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="1444DE702B995B4CB4C91C897A04120700000000" />
-  <rect x="536.0804140625" y="259.838234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="27352B24083BD84888CA8F95BD51F7CA00000000" />
-  <rect x="516.2818984375" y="135.22621875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="7BFC8C3483A166459D9FFA189B12F92D00000000" />
-  <rect x="517.021109375" y="138.01603125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2257811CFD46B64BA2541B561828579600000000" />
-  <rect x="517.5889453125" y="140.7873125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="957C580F76F7F243BACE1FF95D31AA6100000000" />
-  <rect x="507.5633984375" y="274.1910859375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A0CCC7BD0CBE71439EB39BBA91830E2600000000" />
-  <rect x="511.0609765625" y="268.862484375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5F8813A802FF4347B3832E71CF76FD6200000000" />
-  <rect x="509.1741328125" y="263.6674765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E386B43DD5403B41B93954B23A9AE00700000000" />
-  <rect x="508.74571875" y="223.524546875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8A86E3D701758E42AD435DDC7F63D32400000000" />
-  <rect x="508.502046875" y="227.773359375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="D699EEB0203CBE4C98251F0E7AD1197500000000" />
-  <rect x="505.4373984375" y="229.506203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5DB7AC029E22684DA19EF843F37DDB6700000000" />
-  <rect x="506.8880078125" y="224.7026875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="494108538A6C474C85401D2EF9ADBB1000000000" />
-  <rect x="591.43298925781" y="291.749109375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="933880A025CEF14F96822B236BC1E9C900000000" />
-  <rect x="589.96097851563" y="287.62087109375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B993F3C231A1C447BE8E17E75E6376DC00000000" />
-  <rect x="582.40672070312" y="225.437734375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="388A97BD3EA5694C8F4F34BA53A87A5E00000000" />
-  <rect x="580.78879296875" y="228.741296875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9852235C117DDC499DCFF9AC7D25A9DF00000000" />
-  <rect x="595.84080566406" y="215.20153125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="650284B844BE7A48B90A19CA45A2499400000000" />
-  <rect x="588.34102832031" y="218.54775" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="758DCE3FF6E25A44853AD21661FCC0B100000000" />
-  <rect x="484.004203125" y="148.971125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2A4151FCFBFBC54F94DD236B3322EF3D00000000" />
-  <rect x="462.492125" y="255.204765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A5D61A031D364C4689B0D9572FBF850000000000" />
-  <rect x="470.8968515625" y="337.887765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="22AA33E9E42BA14381931D1C36E1BBE900000000" />
-  <rect x="472.5732890625" y="205.167046875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A9D01E54E3E10E42B339E8EB2DF2F07600000000" />
-  <rect x="448.170375" y="328.867203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5782DD70B452D942868C018C70B7798F00000000" />
-  <rect x="450.575625" y="327.0084140625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="7BD5ED759EA0A84091B414404691431700000000" />
-  <rect x="449.38946875" y="273.69375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9762BE118014D84EB36B0F4DC9D35D7600000000" />
-  <rect x="451.372875" y="270.822203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BBDADE1E5565D342A1A2011239549E3D00000000" />
-  <rect x="447.19375" y="268.039890625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0BA9137D167D774F8B24A6F3BDB961A200000000" />
-  <rect x="450.547" y="267.182953125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="07891924631A9840A0471AFC8EF889A300000000" />
-  <rect x="445.940375" y="331.0400703125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="84E3AC59662ED842B1A3788A275438C500000000" />
-  <rect x="419.55828125" y="185.577625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="28D6AC56B62B034C8C8F8E80CF5B297B00000000" />
-  <rect x="414.4236875" y="182.48796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5696C508670C234C9F91EA9E9D559BF800000000" />
-  <rect x="416.1850625" y="179.37609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="87C2B3ADBECC0049B29879CC465746B200000000" />
-  <rect x="419.41121875" y="181.86825" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="150BA21474040C459A1ED4215C3DAF9400000000" />
-  <rect x="620.99654492188" y="355.87178125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0CDFACC81A38684C89020EEB4D4795A200000000" />
-  <rect x="622.53263085938" y="208.43028125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="35A8CF9649E62B4AB1B791966A98C73F00000000" />
-  <rect x="649.845578125" y="232.651703125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="BB37EA3062BDE34BBEBE0C70FB65FB1A00000000" />
-  <rect x="643.353046875" y="236.075640625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="499C63C04613184DBA87D5261F9B9C3900000000" />
-  <rect x="658.6814375" y="245.58709375" width="4" height="4" style="fill: #660066;" class="locationspooky" id="173CA9CC82DF5C41AADD353B677A88CA00000000" />
-  <rect x="652.266171875" y="215.42653125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="D707E9DC899B4D40907171A9DC017BE700000000" />
-  <rect x="641.5042578125" y="224.055265625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="944E2FA76DA18549A8DAF61C0915D61500000000" />
-  <rect x="677.23978125" y="394.038328125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="152FDA7F13AC5743B009689B8A6C431400000000" />
-  <rect x="664.33715625" y="240.7705" width="4" height="4" style="fill: #660066;" class="locationspooky" id="1E3F19D743DFF345AAD40E7F19D6FE5800000000" />
-  <rect x="665.679546875" y="242.973578125" width="4" height="4" style="fill: #660066;" class="locationspooky" id="1AE5D893AC2C004E84E0B4BA89CD3E8500000000" />
-  <rect x="660.9819296875" y="246.248265625" width="4" height="4" style="fill: #660066;" class="locationspooky" id="CA3B949BA255774E8D11FF2735A4E23900000000" />
-  <rect x="664.7358359375" y="247.344765625" width="4" height="4" style="fill: #660066;" class="locationspooky" id="AB38320BB4013046A22E8CB8EE4D90FD00000000" />
-  <rect x="685.277890625" y="407.8240859375" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="3A58ABF51522824A9A8025C973C5EAC800000000" />
-  <rect x="691.13396875" y="412.29998046875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="B8C007E40A1BD3459D5C09CE4998A88300000000" />
-  <rect x="687.832109375" y="410.67072265625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="ACEDE0D9EAC9CC46992E69FE4635005A00000000" />
-  <rect x="687.7380625" y="410.5833125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="CB746BFDF0E01C469113412DC8BCC3F000000000" />
-  <rect x="691.859234375" y="414.2933984375" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="21EBBC3EBE179A4D9D78490532392AB000000000" />
-  <rect x="697.47684375" y="416.2754140625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="4BE3F1EB1224414887C0F28CBCA74B9A00000000" />
-  <rect x="683.3419453125" y="416.691609375" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="7B1DF7837185E849B269A31FE8AAB9A000000000" />
-  <rect x="680.6294140625" y="316.5085859375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5367AA2EF07F46448165C7CD9F15A41400000000" />
-  <rect x="684.723421875" y="332.9086875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="91D8AA75737DDE4FA8923DFA7BD305D100000000" />
-  <rect x="686.0897578125" y="337.218875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BA9DB10E09C9F54EAE6A5B4DB95ADE4E00000000" />
-  <rect x="691.425921875" y="204.357328125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="38A92576552453419196B0DF422B1AE500000000" />
-  <rect x="613.9656015625" y="354.7108671875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C91E23E23F2C714888A8E9C14384F93500000000" />
-  <rect x="618.56196679688" y="352.3811640625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="75308EB07A16D742ABCCBF26E53760C500000000" />
-  <rect x="618.01154296875" y="353.1095234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FA7F481DD36D814FA8684F944ECAE46400000000" />
-  <rect x="618.39424609375" y="349.5845" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="28EE11902040714D97F157A32508CAB100000000" />
-  <rect x="618.24322851562" y="346.774328125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="98F3C1BF06B8EE43834F1BFE51BB3F3D00000000" />
-  <rect x="619.65238476563" y="174.47671875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="922514399C81704C927E7911DDBA1C0B00000000" />
-  <rect x="719.34709375" y="340.80165234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="D8D4C308A78E3B47A7D4CAB95CDA85A200000000" />
-  <rect x="716.3358125" y="335.5704453125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="CC79EDF2AB213448971E839285DCB5A300000000" />
-  <rect x="719.463390625" y="334.3509140625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E0187663B38DD04CAEF905BF785BE83E00000000" />
-  <rect x="709.7519375" y="214.3225" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="255FEC7028DD6C4B88CE1CA3C565D9DE00000000" />
-  <rect x="712.5796015625" y="215.42375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="96F3C42ED2982B44B323039D46A0170D00000000" />
-  <rect x="715.371828125" y="216.66025" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="EE42CADA9A1C3348A0506665BDCB305600000000" />
-  <rect x="739.31040625" y="316.43677734375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C52D2163AE406C44A404FF030C6CC67700000000" />
-  <rect x="727.4757265625" y="307.23717578125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6ABA7A6F7841474F9C14AB6553F3824B00000000" />
-  <rect x="720.903828125" y="337.6120859375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="47D78643010F574B94A723615B780B5400000000" />
-  <rect x="746.801640625" y="371.61442578125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="45102553E3091C42846FCFAA8BD6056200000000" />
-  <rect x="740.078859375" y="372.80857226562" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="958EDF225D1A3945B26CE04FFBEFCF7000000000" />
-  <rect x="746.073171875" y="373.42302148438" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="EC8B81545F5D5E43B820E399C7149BBC00000000" />
-  <rect x="746.0559375" y="357.12995556641" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="72B2D6F0CE46D14F9A63DA32B45BF81600000000" />
-  <rect x="753.65278125" y="360.9815" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="CA0D4E49E6CF4446A2337767105DFBC100000000" />
-  <rect x="752.071046875" y="365.00281835937" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DF07C6193137E24D9F8E2262E478C5F000000000" />
-  <rect x="740.7569375" y="362.33915234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5DC2957184B2C340A7D3AB51C27C53D400000000" />
-  <rect x="746.84428125" y="368.88868164063" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BFE322A851127943BE3067E45902E27900000000" />
-  <rect x="774.65909375" y="337.50534375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E3FFB2D3F14B35459ADAC8E8C215F83A00000000" />
-  <rect x="775.51346875" y="334.70414453125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B50771F82AFE3A419BAC690C66AFFF2600000000" />
-  <rect x="776.32265625" y="331.8121171875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2D1F56BDF472FD48A249B399BE77F25400000000" />
-  <rect x="784.415875" y="372.76490625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B5129F31C5EA06438C5D2250D31702DF00000000" />
-  <rect x="786.2585" y="369.118515625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="79A9C919F68ECD4991D61A0483EC887D00000000" />
-  <rect x="789.8688125" y="369.2081875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E6EE6593BB239F4AADFB981EC6AEDFDC00000000" />
-  <circle cx="712.9824296875" cy="90.49378125" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="23AF655D7DCCFA4881BECE8CA9AABA6800000000" />
-  <circle cx="722.2340078125" cy="87.64796875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="C893C0290532504C8A6B27724A86719B00000000" />
-  <circle cx="703.2814375" cy="94.04396875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="71A2DD01C58C8441B714F03D9401FDED00000000" />
-  <circle cx="697.358140625" cy="137.559875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="D0455DD875BC1A43B61C99469374805900000000" />
-  <circle cx="691.345078125" cy="131.80471875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="01494DCEA5A14C4096E9F8CAD21A364700000000" />
-  <circle cx="646.168359375" cy="23.16403125" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="23081775B676C8458B030252EFBD2FB700000000" />
-  <circle cx="654.56246875" cy="24.0725625" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="ADABC74C615431459B0BE08F265F3AF600000000" />
-  <circle cx="798.6488125" cy="77.729625" r="2.5" style="fill: #FFCDD2;" class="xardasindoor" id="D4E2C2485B5A934BA32923ED7FA51D5C00000000" />
-  <circle cx="791.386515625" cy="75.0825" r="2.5" style="fill: #FFCDD2;" class="xardasindoor" id="0714757C8F175847A2D5AD4303417AA400000000" />
-  <circle cx="746.036171875" cy="105.696640625" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="236791648690984D90D1F3F53944B25300000000" />
-  <circle cx="685.756828125" cy="98.079875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="69D271F70F5CDE4A97B0CC05601273B500000000" />
-  <circle cx="673.3845390625" cy="79.92365625" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="9EE2AA4F6E83994FBFB77A7F3564942800000000" />
-  <circle cx="718.9336171875" cy="203.02246875" r="2.5" style="fill: #00CCFF;" class="highlands" id="ADF92E308C6D564E91C07B206AC741DE00000000" />
-  <circle cx="668.89275" cy="186.68153125" r="2.5" style="fill: #00CCFF;" class="highlands" id="CC1BC099C749574DBBA0E8979716D06C00000000" />
-  <circle cx="660.0474296875" cy="171.47746875" r="2.5" style="fill: #00CCFF;" class="highlands" id="3801A7593FBA04478F515D24F462B18800000000" />
-  <circle cx="636.28298046875" cy="133.198171875" r="2.5" style="fill: #00CCFF;" class="highlands" id="EDDEEC5991C8EC458999C660E160FDC100000000" />
-  <rect x="678.622734375" y="106.7950625" width="4" height="4" style="fill: #FF0000;" class="orccamp" id="101EB06707FC8F468C7FC4D7B602730800000000" />
-  <circle cx="663.02169140625" cy="26.1171875" r="2.5" style="fill: #0066CC;" class="northmarlow" id="4201E7AD67B5FE48B83DFC69FC877DD100000000" />
-  <circle cx="789.39575" cy="142.371171875" r="2.5" style="fill: #0066CC;" class="northmarlow" id="C6661EC560731A47A85E82BE694FF73A00000000" />
-  <circle cx="723.7448828125" cy="130.53553125" r="2.5" style="fill: #0066CC;" class="northmarlow" id="55AD0D1A10B64548A5C5E1E12FB25CEE00000000" />
-  <circle cx="698.26884375" cy="85.434125" r="2.5" style="fill: #0066CC;" class="northmarlow" id="923459B33E73054AB0B510A9119EAACA00000000" />
-  <circle cx="796.27425" cy="29.2763125" r="2.5" style="fill: #0066CC;" class="northmarlow" id="01FEB61EDAE8174ABDEA15B6746D94C400000000" />
-  <circle cx="402.99209375" cy="641.13253125" r="2.5" style="fill: #FBC02D;" class="varant" id="F907ACD435D36D4D8C2CE12EBB41EA3200000000" />
-  <circle cx="175.4138125" cy="597.552078125" r="2.5" style="fill: #FBC02D;" class="varant" id="CBC9055904DE6F4D933C60EEB5ED50D600000000" />
-  <circle cx="677.46146875" cy="588.6170625" r="2.5" style="fill: #FBC02D;" class="varant" id="52B13A9D8DF63B458FB6D11D7E1FB05F00000000" />
-  <circle cx="289.5393125" cy="547.81265625" r="2.5" style="fill: #FBC02D;" class="varant" id="757F6456FF5B1B499C9B0B2BAB2BC31700000000" />
-  <circle cx="541.6204140625" cy="559.86003125" r="2.5" style="fill: #FBC02D;" class="varant" id="D3DF355710E40D44AD06AF9D7DFF78E400000000" />
-  <circle cx="425.56740625" cy="456.2170703125" r="2.5" style="fill: #CCCC00;" class="braga" id="33E448C02D8B8F4A9E07413F3C7A612700000000" />
-  <circle cx="149.27103125" cy="587.8445625" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="34AEDE379686924B97296CC3FA05D52800000000" />
-  <circle cx="185.09940625" cy="661.0616875" r="2.5" style="fill: #CCCC33;" class="ishtar" id="04887ABADBB2C04593D0254F6002F7E700000000" />
-  <circle cx="407.523921875" cy="641.23178125" r="2.5" style="fill: #CCCC33;" class="ishtar" id="F1E475243B40AA41AEB84A7D79BC0EC000000000" />
-  <circle cx="568.21528125" cy="455.33340625" r="2.5" style="fill: #CCCC00;" class="braga" id="97EDA540C8318041851C9DEF775A901C00000000" />
-  <circle cx="645.7902421875" cy="542.536703125" r="2.5" style="fill: #C0C0C0;" class="dungeon" id="255EB45DDDA08E419D1B3D2B51F23E9900000000" />
-  <circle cx="699.8596875" cy="538.416703125" r="2.5" style="fill: #FF9966;" class="arena" id="1A9A9FE6E40FAE42A49B512982CB9B6100000000" />
-  <circle cx="396.983359375" cy="648.80696875" r="2.5" style="fill: #FF9966;" class="arena" id="6C51916347EF7947AF0A3D344FA31AF400000000" />
-  <rect x="680.225765625" y="547.012078125" width="4" height="4" style="fill: #CCCC33;" class="ishtar" id="AFFA7BBD7558D74DBA9D66A3CBFE7A7500000000" />
-  <circle cx="661.63737109375" cy="536.887390625" r="2.5" style="fill: #CCCC33;" class="ishtar" id="2C35F04E68915B449580F559C4706E2A00000000" />
-  <circle cx="491.0776640625" cy="637.54865625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="0690A2D579F8B64D9DD91BE88B4E439D00000000" />
-  <circle cx="499.937640625" cy="672.984125" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="D3E7A8608D462546A9096ADB4BD41B4E00000000" />
-  <circle cx="531.9794765625" cy="664.34465625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="0BFC41F47616BA41972CD9BFB619FE5200000000" />
-  <rect x="506.1148671875" y="665.27421875" width="4" height="4" style="fill: #CC6600;" class="thedig" id="A852A135B6847442995C773A80345F3000000000" />
-  <circle cx="249.18834375" cy="536.32003125" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="77458697EB3D6C4B9F95F14B49BFE62D00000000" />
-  <circle cx="248.1215" cy="624.0965625" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="6CEA518A19497A4E92604E044D33572500000000" />
-  <circle cx="299.9965625" cy="554.81790625" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="8702BF33E79C8949BF0AD36A2A0D429E00000000" />
-  <circle cx="375.83421875" cy="618.91228125" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="F16F29855A6C3044AF3B1A0F8D7FEB8900000000" />
-  <circle cx="393.40146875" cy="562.816078125" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="1FE676B7BC54FC45B9EAB52E6F6FAB1500000000" />
-  <circle cx="457.79109375" cy="574.0920625" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="529A467D188C164394E4EB62B1588D3200000000" />
-  <circle cx="495.1668203125" cy="559.0824375" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="09285E350E03394A82962BC2587A9F8900000000" />
-  <circle cx="340.38709375" cy="501.19159375" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="745296268B45D4469173DE91EA67AEB100000000" />
-  <circle cx="305.312125" cy="686.69890625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="50B9B2A6A4276246B2D39429231E88C600000000" />
-  <circle cx="329.3228125" cy="659.97609375" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="78331CF16DACA14BB5749167B474EA5600000000" />
-  <circle cx="351.588921875" cy="658.4881875" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="186281BB50AE1041A7B1EB19C12B29B400000000" />
-  <circle cx="376.4496875" cy="686.3654375" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="2354650259B9274B95AD8D9FBBC172C400000000" />
-  <circle cx="407.557109375" cy="693.3421875" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="CD893C60A891E2468B94C2683A3982F500000000" />
-  <circle cx="339.077140625" cy="684.85415625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="46F38271F101D9408E5999C50DD48A9900000000" />
-  <rect x="399.26146875" y="700.56059375" width="4" height="4" style="fill: #CC6600;" class="thedig" id="4F03416D07736D4BB6BF4ECD3C28546F00000000" />
-  <circle cx="393.92428125" cy="696.9239375" r="2.5" style="fill: #800080;" class="slaves" id="E52D2A80A36E38459F603F2ACDE1887900000000" />
-  <circle cx="403.8076875" cy="707.6285625" r="2.5" style="fill: #800080;" class="slaves" id="0F55B27BF9F26947A3422B31751F77FB00000000" />
-  <circle cx="512.122046875" cy="663.51121875" r="2.5" style="fill: #800080;" class="slaves" id="4ED5BE3DEE07184BB040E8A64B975C5A00000000" />
-  <circle cx="584.55621679687" cy="536.870359375" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="01F62E53372C72489D666E51CECC687400000000" />
-  <rect x="396.379328125" y="703.04434375" width="4" height="4" style="fill: #CC6600;" class="thedig" id="8C1EC30CF543E6449A5C4C73771F099E00000000" />
-  <rect x="394.81984375" y="707.8405625" width="4" height="4" style="fill: #CC6600;" class="thedig" id="A56D3EEC2C11624D9FE9E1DC3F9C6EEB00000000" />
-  <rect x="398.1383125" y="704.82028125" width="4" height="4" style="fill: #CC6600;" class="thedig" id="BA4042313DF4B64A944343E5F203D8BF00000000" />
-  <rect x="506.9117421875" y="669.03778125" width="4" height="4" style="fill: #CC6600;" class="thedig" id="F3A34AD5666EB4428858B3424B3AB36400000000" />
-  <rect x="504.517390625" y="670.113" width="4" height="4" style="fill: #CC6600;" class="thedig" id="E792EB0AF4B3EA4F971C2D0D604846EE00000000" />
-  <rect x="506.5534609375" y="672.1318125" width="4" height="4" style="fill: #CC6600;" class="thedig" id="4541257181A03E47AE53FE5B9BC9D09C00000000" />
-  <rect x="504.5881640625" y="674.30675" width="4" height="4" style="fill: #CC6600;" class="thedig" id="8FFB2FC6F9D0534F83C05CA1489F744300000000" />
-  <rect x="506.5290234375" y="676.52246875" width="4" height="4" style="fill: #CC6600;" class="thedig" id="AC86C5B310294F4DBAC8593E7F4B701600000000" />
-  <rect x="589.51088085937" y="538.879609375" width="4" height="4" style="fill: #CC6600;" class="thedig" id="8A47F9F83899E248B1BB620BAC3CC1FD00000000" />
-  <rect x="587.90040527344" y="543.041625" width="4" height="4" style="fill: #CC6600;" class="thedig" id="97CA3DFE22FF81459A12D5EE3EE11F7600000000" />
-  <rect x="589.78291113281" y="546.38028125" width="4" height="4" style="fill: #CC6600;" class="thedig" id="316C3B0BA18EDE42B87978727F4B98EA00000000" />
-  <rect x="592.08120898438" y="548.2416875" width="4" height="4" style="fill: #CC6600;" class="thedig" id="DB9307DE4ED3914CA7550239DDBD886300000000" />
-  <rect x="244.043125" y="476.8469609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6DB5DA8854472349A77DA118D6F21A7E00000000" />
-  <rect x="242.28175" y="473.6289609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E18ED6DBFA05E2468E883E2C41DCF44C00000000" />
-  <rect x="244.55615625" y="472.312328125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9EFCA550ED2B5648A5A8A053E493F01600000000" />
-  <rect x="561.6239609375" y="613.78853125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5880C253BF914D4089C05C18BBE0566200000000" />
-  <rect x="558.43397265625" y="613.75365625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BBD65329FA89F745BDCE5B361F2931D700000000" />
-  <rect x="558.73988671875" y="610.9931875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2F3EB1CD24B5D3418FEB8D2AE130980300000000" />
-  <rect x="339.636546875" y="606.65009375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="85CDED62482D33458788074AB9C3D62D00000000" />
-  <rect x="335.9786875" y="605.644234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FCFC5A01FBDE7349897A78B0FA8C408F00000000" />
-  <rect x="336.99596875" y="602.883734375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="4FBB7AFE1E901345B230208EC0E1422D00000000" />
-  <rect x="224.6264375" y="686.32459375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="F4D24E26DD907D4F82F55054EB8542DD00000000" />
-  <rect x="223.10028125" y="688.113875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="F53DFE4FFB0ABB43B72FFCD18B8E508600000000" />
-  <rect x="220.7861875" y="686.00475" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A3D0D74F4B9F6D4DBC4490847DF1945600000000" />
-  <rect x="211.26790625" y="595.181046875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="3B335362A1BA09448E29D8AC6AF95E8600000000" />
-  <rect x="208.044875" y="595.27971875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9911294D49316848A56AE2B583587AE900000000" />
-  <rect x="208.62190625" y="592.20928125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="3632900653B4DF46BEFDE1DD606CA71100000000" />
-  <rect x="147.80809375" y="537.4748125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0DA1C04E80CDC845BDB268574EBBA65500000000" />
-  <rect x="146.73865625" y="540.271203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6B99FA21D10B5F4BA7C453779CE42A1F00000000" />
-  <rect x="144.3135625" y="540.4749375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="412241071C92354A92DD108AD4D9B76B00000000" />
-  <rect x="728.1041484375" y="516.57021875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9CD41DC03B81F84BB4AF1DF2F8FB9C3100000000" />
-  <rect x="726.791203125" y="519.4235" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E9FEEB745BCAB04EB5737D77FD2CAE3D00000000" />
-  <rect x="722.632109375" y="521.277828125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="891BFC0687FBBE4294A1002922D9376C00000000" />
-  <rect x="725.899640625" y="524.37640625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6E102ECA2B79D146A302F3B1D7A3905600000000" />
-  <rect x="336.46325" y="546.088765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FE93E5CED09FBB4D88CC1FE9074B90CF00000000" />
-  <rect x="337.26659375" y="542.87203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8018CFEEB38AB846B4AEF137225FD1E700000000" />
-  <rect x="339.186734375" y="540.867015625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="D7C059F2C0420549A54AE2B005AF24C700000000" />
-  <rect x="335.2290625" y="540.638203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="55B2B1E62D74FE4697DC6EA1C4CCA7A600000000" />
-  <rect x="285.85834375" y="642.22378125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="3A9BA9347AC4504BB28CAB69A468202200000000" />
-  <rect x="286.292" y="638.85315625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="40E01608976B1C43BCD7F2E5E19A701A00000000" />
-  <rect x="287.378375" y="637.3371875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="228BF1C6DA6A89498F8D36A9D8E9A0C100000000" />
-  <rect x="283.468625" y="637.18928125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BB5BBBEAACCDB34C9B9B2E061373091A00000000" />
-  <rect x="145.67896875" y="623.82275" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FAA2AE9300076F43B2D0D64624BB103500000000" />
-  <rect x="145.47296875" y="620.60765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2B496BED134E6E469419C76ED493B24D00000000" />
-  <rect x="146.53290625" y="618.865625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="906EF8811C58FE44B097A8EE081C0EF400000000" />
-  <rect x="143.00121875" y="619.27796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DFBF53242DA3F4498EBEE50F3D81374C00000000" />
-  <rect x="141.05478125" y="499.46803125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6AD96A93FE73DC4C9A3A347C7CF5066700000000" />
-  <rect x="138.30809375" y="498.060078125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FB744010ABDFBD428D7F1FB77A3FB38000000000" />
-  <rect x="137.363625" y="501.45165625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="228EBC322B0FDA47B8A45167C519C57800000000" />
-  <rect x="134.13425" y="501.67884375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="AA08CA03D227DE44AE9BDB9C58D7417D00000000" />
-  <rect x="136.12959375" y="503.87546875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="08117D759B1E9D4E99CA0CEE1CC9C64E00000000" />
-  <rect x="175.49003125" y="576.724578125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="38E7F9C51AA31F4DB224FAE83ECAE0C400000000" />
-  <rect x="172.3565" y="578.369015625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C53522C4AF1D9D4D867E39DDC8F6FF3400000000" />
-  <rect x="173.56878125" y="580.703875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="86D85B37EA57AA4B8F13D0F0469F782000000000" />
-  <rect x="171.72721875" y="582.858015625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A28B852B2DAF6347A5CBEB758DF3F1EA00000000" />
-  <rect x="175.8096875" y="582.991546875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8CFDC84A4DE63C4BB4BA94BF4DE270B200000000" />
-  <rect x="134.57340625" y="598.372609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E4EE137210B20E4C8DC243694C0238B300000000" />
-  <rect x="130.8539375" y="597.973703125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9BB26D57592437418AD6DDE60E980EB500000000" />
-  <rect x="128.1689375" y="601.8660625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DE5E0FBACFC49C46BD01C484966E9EE300000000" />
-  <rect x="131.4154375" y="603.676171875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C6A119DF7950994C91B560CDC2F0EE7A00000000" />
-  <rect x="130.41825" y="600.303671875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="571AE9CBE2299446AF7EC108AA16092A00000000" />
-  <rect x="640.539046875" y="497.713421875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DFD81C9EA8D14349973B55CD57F8C4C000000000" />
-  <rect x="643.02274609375" y="495.06225" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2F0537B0A3838A48BA1AADCA9677293C00000000" />
-  <rect x="641.4670234375" y="494.19171875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="32B24CD12856BF42805E8A8D3C87983400000000" />
-  <rect x="640.91165625" y="490.846296875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="315241A35D910646AA620A8001C079D300000000" />
-  <rect x="638.57360546875" y="491.94234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6A0BF7357C9E8749982E47B6E2B370B300000000" />
-  <rect x="355.376734375" y="521.91196875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2543B88346ACC744B7E5B3CD6CF32B1600000000" />
-  <rect x="352.797015625" y="519.361890625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="42CBE09C2691BA4BB8339C916E9DDDFB00000000" />
-  <rect x="351.84215625" y="520.945625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E0A1F87447424246B220A73B96FED60600000000" />
-  <rect x="348.187359375" y="521.11728125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="62855F1654635C44BA0A876FA5C4A9FF00000000" />
-  <rect x="349.715875" y="524.4174375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="94F7F28429B0714887BDE53E1D65035800000000" />
-  <rect x="577.9427421875" y="569.8789375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="69F4208CDF043540A1C4B41C9F73501100000000" />
-  <rect x="577.62700390625" y="566.80815625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C74029ACA58EA543ADA084EBAD8812A900000000" />
-  <rect x="573.57470898438" y="568.640421875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="279E2FAFC08D674F8855061653FFDA7200000000" />
-  <rect x="570.7251328125" y="569.874078125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C4BEED70512C0C409E8D4A6DD954463A00000000" />
-  <rect x="571.69759179688" y="571.73496875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="56DC265B40557046888F88319DBF1B2200000000" />
-  <rect x="574.23319335938" y="569.441828125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="AADE6B0C0AF8CB498687FF235D37EFD300000000" />
-  <rect x="184.8711875" y="467.9900625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B16F63E12B0C3F4491566020AA54381F00000000" />
-  <rect x="187.2290625" y="466.0108203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A51DFD12F4972D478E645D719A57106200000000" />
-  <rect x="184.7365" y="463.3521875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="D1434EE4B5694A4CB5C8774B52CA34EA00000000" />
-  <rect x="125.60459375" y="684.02928125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="872DE47B5A36A5448008DF54131FD0BC00000000" />
-  <rect x="123.04884375" y="682.47034375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="48F6964B4E88A449A27F7824047C4D3400000000" />
-  <rect x="121.2416875" y="685.608" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8A99EE029335D94AAF31C101D380B86800000000" />
-  <rect x="648.44936328125" y="496.136640625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0FA1443FA8612D4BBFE113034F4781A700000000" />
-  <rect x="645.570515625" y="497.235296875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2F4A44851F16034B9FEB842ED557679C00000000" />
-  <rect x="646.83631640625" y="500.91115625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="318057C027642B49B2AC991405F3B38600000000" />
-  <rect x="373.9946875" y="574.815109375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="311F72E9D7D8144291A57D92594F033900000000" />
-  <rect x="371.063203125" y="574.74775" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8DD3C73E95D27948A3D01613F0398D9200000000" />
-  <rect x="370.697359375" y="578.214203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="740C45A81BC89740AE7297EF326FC4F900000000" />
-  <rect x="180.29765625" y="661.88309375" width="4" height="4" style="fill: #808080;" class="beliartemple" id="A449CF32E10BD84A8CC0B74166EE47BB00000000" />
-  <rect x="172.324875" y="661.97103125" width="4" height="4" style="fill: #808080;" class="beliartemple" id="418BE41F50AF244083BF0388712D82AF00000000" />
-  <rect x="164.48221875" y="661.801625" width="4" height="4" style="fill: #808080;" class="beliartemple" id="221A51C3D739F948918F295EBDEE286900000000" />
-  <rect x="162.89890625" y="660.3336875" width="4" height="4" style="fill: #808080;" class="beliartemple" id="2F7C41FEAA7B4246A8C0A0B97EB392FB00000000" />
-  <rect x="160.8941875" y="660.41025" width="4" height="4" style="fill: #808080;" class="beliartemple" id="BC885BB22F0B0C46B0FE778AA344B98B00000000" />
-  <rect x="160.79503125" y="663.48684375" width="4" height="4" style="fill: #808080;" class="beliartemple" id="0232F7BC4326854BB8D713ED7775DA1100000000" />
-  <rect x="163.7546875" y="663.69646875" width="4" height="4" style="fill: #808080;" class="beliartemple" id="323C9EFA81DC1744B28AF8D96E674F5A00000000" />
-  <rect x="160.09428125" y="658.24025" width="4" height="4" style="fill: #808080;" class="beliartemple" id="7E9D89DA1AFDED458D1890B76BBE8C5700000000" />
-  <rect x="719.6138359375" y="92.445875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="4B5349DCCF9A964C96D44FE08A18FDE600000000" />
-  <rect x="715.54078125" y="81.90690625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="B62432AFE5EC5243AAF1D3888C85D1F700000000" />
-  <rect x="725.7853828125" y="93.198671875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="2B07DFA52295504BB8A7FE5897D0887500000000" />
-  <rect x="722.5911953125" y="86.7775" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="85BB3EBDEC89124588A6FE7CF379F7A300000000" />
-  <rect x="715.4410703125" y="87.04684375" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="91793DF6FF17AB40BE431B2BDDE7FC3B00000000" />
-  <rect x="709.2367578125" y="88.988671875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="6DC6F1021651C54C8F416A97EC3747B800000000" />
-  <rect x="707.9608984375" y="91.753125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="7466F314B36DC94C85B56C08B115D7F100000000" />
-  <rect x="702.255734375" y="88.471078125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="325467E703416C4DBAE73D4BB0F80B6300000000" />
-  <rect x="707.4454921875" y="85.39678125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="5149D3520836E54AA262BA55C7042E7E00000000" />
-  <rect x="712.78853125" y="88.295765625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="5C1B852D884BC345AF710FDF2895DFB800000000" />
-  <rect x="713.8134609375" y="92.56753125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="71082D2B80B5274BBE9DF74540A58F3900000000" />
-  <rect x="725.0446953125" y="149.495515625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="57657E990B217A4AB4B5070161C907F400000000" />
-  <rect x="721.1116484375" y="151.011640625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="95FA4FEA13AA5D4CBDEB7375C981BA6F00000000" />
-  <rect x="726.483015625" y="152.226" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="5B29598E5BEB264E850B2ADE83910ED800000000" />
-  <rect x="715.7756875" y="150.46203125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="6F2A5A2118B90D4BB8015758142C56EB00000000" />
-  <rect x="711.5092734375" y="149.952625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="214E00A5FFEC2A48A163E2C2F58874F700000000" />
-  <rect x="752.964796875" y="164.106953125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="268F2A0E4F8DF747979B36A5C92AF98600000000" />
-  <rect x="752.457765625" y="158.816421875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="B183A2CFA3ECC74DAFE1866B58AB890000000000" />
-  <rect x="751.803265625" y="149.900515625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="8E1FE8D89AEE3D4AAB0D338B00BB476A00000000" />
-  <rect x="673.9480234375" y="78.18253125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="379563849D506F44AEF47BD4DC1C76BC00000000" />
-  <rect x="671.4588984375" y="82.875625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="8F8B255318EEAB419AF6A3ABA657C7A800000000" />
-  <rect x="666.3823359375" y="90.037265625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="61450F75BCB2984A95A08FEEA7D3ACCB00000000" />
-  <rect x="694.5480546875" y="29.50609375" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="E819D8FBBF09584E942A113B00F11B9900000000" />
-  <rect x="696.5711875" y="24.93446875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="EAECB21B4BD3EE42870BC50C2C25141900000000" />
-  <rect x="703.238609375" y="20.7289375" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="4F81C02630A6D54F87EF19F1CAEC0B4000000000" />
-  <rect x="779.211578125" y="17.10546875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="84DCC1FA09C03343956DAC8288C99A0100000000" />
-  <rect x="777.54909375" y="12.562125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="A62E16974A0D4C40B846EE2A0BD5DE8E00000000" />
-  <rect x="769.877875" y="13.43321875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="92A36151EF1DFD40B3BA7A7EC78770DE00000000" />
-  <rect x="770.552875" y="87.4363125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="0C1BD4431F0A3E4B9C81F299EFE0BEC400000000" />
-  <rect x="772.60346875" y="82.8361875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="7C5E0942E9458D4790D85977EFBC76FC00000000" />
-  <rect x="764.7741875" y="77.54771875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="EE469BDFD3CB9B459E0A06BD06251E6700000000" />
-  <rect x="771.8515625" y="126.643234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5C8108C84C695A4AA78DB6315FBFD89100000000" />
-  <rect x="768.224859375" y="129.28453125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="365FFB565D2767498C4C0C7316F972E800000000" />
-  <rect x="849.682078125" y="118.5209375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0F05899A0D1A4948B8BC03D4F665560100000000" />
-  <rect x="846.92803125" y="116.800609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="584C1E5474513740A3CA7E7B2CE61C5800000000" />
-  <rect x="747.176953125" y="85.42125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="7A7434C423574644A118BBB8B75E5A3500000000" />
-  <rect x="748.710015625" y="82.34" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B93AB3573DE06F4BB1043B3E1BC7718800000000" />
-  <rect x="666.152453125" y="76.329875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="22C7415286149D44BC85AD6123E0BE7D00000000" />
-  <rect x="665.940015625" y="79.7145" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="18E92A7B0BD3684BB2BDC01413906D0A00000000" />
-  <rect x="809.3719375" y="103.8145625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="75F64157E5A8384EB7171B1B0E961DDA00000000" />
-  <rect x="806.397796875" y="106.1666875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5B87178A3A003B409014CDACBDA7DBDB00000000" />
-  <rect x="705.7692890625" y="104.5486875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="0C3185A04789714A8CABF88637CB458900000000" />
-  <rect x="700.1254140625" y="105.46353125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="3DF1BC3C298EB9438EFA204CFE2E12DA00000000" />
-  <rect x="696.3168828125" y="98.75275" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="D9D58956AFF45F44B34709B8FBD2902B00000000" />
-  <rect x="692.926796875" y="102.598625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="073C5811B33F6C47A8D7B09A7F9B03B000000000" />
-  <rect x="626.92273242188" y="54.97646875" width="4" height="4" style="fill: #800000;" class="monastery" id="55B939BE02D9914A8AA1C1D0CFD2FE3500000000" />
-  <rect x="626.01973242188" y="57.08440625" width="4" height="4" style="fill: #800000;" class="monastery" id="8A4523100D7EBB49BCC6A7E7B7FD75BE00000000" />
-  <rect x="628.54172070312" y="57.524375" width="4" height="4" style="fill: #800000;" class="monastery" id="2BF6E1770FC7A5419A776AE6661CE80700000000" />
-  <rect x="626.99754492188" y="54.61665625" width="4" height="4" style="fill: #800000;" class="monastery" id="26C2550E255B194DA6064116D3EA7FA800000000" />
-  <rect x="628.24693945312" y="55.0881875" width="4" height="4" style="fill: #800000;" class="monastery" id="F950E348F8590E4AB4BD1E13FA01798100000000" />
-  <rect x="628.22240625" y="56.3925" width="4" height="4" style="fill: #800000;" class="monastery" id="3647A28EE386294AAF3CA58C703CF08700000000" />
-  <rect x="627.3029375" y="58.14378125" width="4" height="4" style="fill: #800000;" class="monastery" id="68C1830296D4FF46B75FBD969DC9012900000000" />
-  <rect x="625.85216015625" y="59.038125" width="4" height="4" style="fill: #800000;" class="monastery" id="AB2110099FCEE34E982059ADB7FFA17A00000000" />
-  <rect x="624.2248203125" y="56.71290625" width="4" height="4" style="fill: #800000;" class="monastery" id="5346A1211EC3C14384B6CDE7C3145C8400000000" />
-  <rect x="624.0416171875" y="55.50159375" width="4" height="4" style="fill: #800000;" class="monastery" id="B7F5A3AAED0F3F47A8B489BF38AE9FDD00000000" />
-  <rect x="625.12317382812" y="54.90609375" width="4" height="4" style="fill: #800000;" class="monastery" id="8ED73D9A5E249A48B8C6CD1C2431F54800000000" />
-  <rect x="624.26178710938" y="56.73978125" width="4" height="4" style="fill: #800000;" class="monastery" id="4A64A3B140FE954388A3539BFD45320900000000" />
-  <rect x="626.41466601562" y="58.21875" width="4" height="4" style="fill: #800000;" class="monastery" id="342B16C6E9D2C443914926C85D48BCDE00000000" />
-  <rect x="627.24457226562" y="59.81028125" width="4" height="4" style="fill: #800000;" class="monastery" id="9F1DA220CA74C241860CB594531350AD00000000" />
-  <rect x="628.40920117188" y="59.83525" width="4" height="4" style="fill: #800000;" class="monastery" id="5BEA773596D55A4DBB7CD03089A85EE900000000" />
-  <rect x="629.72541992188" y="58.856375" width="4" height="4" style="fill: #800000;" class="monastery" id="A92EAC073073D7459F8C649955FC1C0B00000000" />
-  <rect x="629.60152734375" y="57.71371875" width="4" height="4" style="fill: #800000;" class="monastery" id="E53C91D3C049F94187211028D6F2E89C00000000" />
-  <rect x="628.90751757812" y="56.7235" width="4" height="4" style="fill: #800000;" class="monastery" id="6C4F746901AEBF4EB2C8D95F30BE2E0A00000000" />
-  <circle cx="546.79682421875" cy="286.76044921875" r="2.5" style="fill: #000000;" class="myrtana" id="859088158673184CBF1248FE7B1C6D6C00000000" />
-  <rect x="587.52142675781" y="221.8076484375" width="4" height="4" style="fill: #000000;" class="myrtana" id="E69205B5EB071B4FB14A1F33F361A27100000000" />
-  <rect x="453.952328125" y="346.5179855957" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DBDF28DBE06AA34BBC2793AB75E3B63000000000" />
-  <rect x="453.261984375" y="341.50754589844" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="4A11BD34A1351F41AEECF29D4224837300000000" />
-  <rect x="539.8014765625" y="203.011390625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="740F5F7EB1918640AEC1B039499A87D500000000" />
-  <rect x="529.849359375" y="204.263390625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6C3FF778DB7A864CB951E13A9739D10900000000" />
-  <circle cx="513.0252109375" cy="162.175828125" r="2.5" style="fill: #008000;" class="vistapoint" id="0D6F8CA0E919AB408005A69791A24B3900000000" />
-  <circle cx="541.416078125" cy="205.33728125" r="2.5" style="fill: #800000;" class="silden" id="29E30589F3265648A8175514F050990A00000000" />
-  <circle cx="561.6497890625" cy="183.47865625" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="562526405C503B4397AF6A210F8BB37100000000" />
-  <circle cx="603.09631005859" cy="177.534390625" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="E5BE1C5F9AD6854C84779AA66509945700000000" />
-  <circle cx="601.45862329102" cy="219.2580078125" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="734E8AABEDC8724B81ED7138627C920700000000" />
-  <circle cx="451.431140625" cy="137.388625" r="2.5" style="fill: #33FF00;" class="locationidyllic" id="0BE05EBAD71BCA4AAAE243D69CF8020900000000" />
-  <circle cx="428.223296875" cy="182.761875" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="CFCD80D21003C3419842BB41A182317300000000" />
-  <circle cx="509.8441875" cy="327.39403710938" r="2.5" style="fill: #FF0000;" class="trelis" id="501E85594F6ECE4CA8E0522F0E189AD700000000" />
-  <circle cx="541.66508984375" cy="358.11307666016" r="2.5" style="fill: #6600CC;" class="xardasoutdoor" id="CB8B6A76D0F5B9489C955E9D0DC460BE00000000" />
-  <circle cx="547.15431640625" cy="352.99317651367" r="2.5" style="fill: #CC6600;" class="thedig" id="76E09C40C7429345A1262AF14ABB745C00000000" />
-  <circle cx="628.8748125" cy="310.37469140625" r="2.5" style="fill: #FF0000;" class="trelis" id="3C1E415DD8918F46A82EADDAAD58F32000000000" />
-  <circle cx="638.17145703125" cy="279.810109375" r="2.5" style="fill: #008000;" class="vistapoint" id="7F7217F8F2AADD489FD1E26E59F1BC3800000000" />
-  <circle cx="665.4735859375" cy="246.7663515625" r="2.5" style="fill: #6600CC;" class="xardasoutdoor" id="71FA350E2B0BE24AA4D656D97AAA137900000000" />
-  <rect x="671.195515625" y="247.2738125" width="4" height="4" style="fill: #66FFFF;" class="locationgothic1theme" id="8879EAF529076F429CD16932F426F9ED00000000" />
-  <rect x="711.283921875" y="245.556015625" width="4" height="4" style="fill: #008000;" class="vistapoint" id="797A1F413563EF47B0CEEDC6B31BA44000000000" />
-  <circle cx="720.267953125" cy="238.59209375" r="2.5" style="fill: #FF0000;" class="faring" id="504E5993984EEA448A73B890926BDCF200000000" />
-  <rect x="723.177359375" y="222.9369609375" width="4" height="4" style="fill: #800080;" class="slaves" id="475E2FD33E177143A487EEF80A84B14A00000000" />
-  <rect x="708.9508046875" y="225.922765625" width="4" height="4" style="fill: #00CCFF;" class="highlands" id="37F04701D2CD8C48842B95BC42D60B7300000000" />
-  <circle cx="788.563421875" cy="282.79859375" r="2.5" style="fill: #FF0000;" class="vengard" id="992F8C1D90C83542AD6489BB39ED37DD00000000" />
-  <circle cx="794.2459375" cy="281.7752109375" r="2.5" style="fill: #FF0000;" class="vengard" id="F7D6BE8A9CAD4543909BFCAC9418408200000000" />
-  <circle cx="779.15246875" cy="277.5257421875" r="2.5" style="fill: #800000;" class="sadstrings" id="CA595C178C61A746A9876B29B8219B4C00000000" />
-  <circle cx="794.64659375" cy="404.74412890625" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="AA493E0CE37A734B98B3EC4C3BE3BCF600000000" />
-  <circle cx="782.281109375" cy="372.81496875" r="2.5" style="fill: #000000;" class="myrtana" id="7E4589036752D24E9E5D875D42FAD17F00000000" />
-  <circle cx="695.155703125" cy="415.44867578125" r="2.5" style="fill: #FF0000;" class="faring" id="D2139502E22280439EDA96F96F53691600000000" />
-  <circle cx="692.101046875" cy="421.1303671875" r="2.5" style="fill: #66FFFF;" class="locationgothic1theme" id="73AE7F2C9DEBDA4187016C5947CBAD7800000000" />
-  <circle cx="716.282734375" cy="338.28437402344" r="2.5" style="fill: #008000;" class="vistapoint" id="46BA784DE0DCBB45B1143E6EA8655A6B00000000" />
-  <circle cx="746.774671875" cy="333.48218945312" r="2.5" style="fill: #660066;" class="locationspooky" id="00F0CEB1579521489A850D44FA8AFF8700000000" />
-  <circle cx="582.29923828125" cy="319.83808203125" r="2.5" style="fill: #660066;" class="locationspooky" id="93FB493CCFDEA04BB2E61D6FD17E7FD000000000" />
-  <circle cx="545.02384375" cy="320.42102539062" r="2.5" style="fill: #99FF99;" class="happystrings" id="7E3CA24847357048A9C2F97B4BBCA3C700000000" />
-  <circle cx="408.41271875" cy="404.360296875" r="2.5" style="fill: #000000;" class="myrtana" id="2B9A107A1A214947B3143072571972A400000000" />
-  <circle cx="475.408296875" cy="307.93508984375" r="2.5" style="fill: #008000;" class="vistapoint" id="358557DC907E0847997E1C4361229E1000000000" />
-  <circle cx="487.9638359375" cy="261.0367421875" r="2.5" style="fill: #FF0000;" class="trelis" id="EE5266929241B147AE9C93F157F4B27B00000000" />
-  <circle cx="462.101375" cy="213.846234375" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="D2D6F96832C6B44E85CDE91A6AA2EFCD00000000" />
-  <circle cx="556.688921875" cy="143.47346875" r="2.5" style="fill: #008000;" class="vistapoint" id="3E253AF0B451AE4584FC8ADA6D1D6A6500000000" />
-  <circle cx="586.60579589844" cy="110.0784375" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="369D863A6E2EA44CA4C4E311467CDE7200000000" />
-  <rect x="545.074703125" y="281.7680625" width="4" height="4" style="fill: #00FF00;" class="vistapointharp" id="80ADD82236588B4D9CB34A677CA2BF9E00000000" />
-  <circle cx="710.0067421875" cy="247.2586328125" r="2.5" style="fill: #008000;" class="vistapoint" id="606968832EE5564297A3994B5E00B9CD00000000" />
-  <rect x="742.265078125" y="260.6197890625" width="4" height="4" style="fill: #33CC00;" class="ominouswoods" id="CE4D6FBBD3C311478AF8FD1101ABCD3200000000" />
-  <circle cx="636.63456640625" cy="301.26916796875" r="2.5" style="fill: #FF9966;" class="arena" id="8D6A9654E0B5D14EA5EFF0574A133D3F00000000" />
-  <rect x="626.14897851562" y="318.49266601562" width="4" height="4" style="fill: #800080;" class="slaves" id="3A0FF543A1BDD64592894FED6885CA8D00000000" />
-  <circle cx="520.1153046875" cy="203.918078125" r="2.5" style="fill: #800000;" class="silden" id="E4D2433FEF1071428A9B363683B4534D00000000" />
-  <circle cx="534.5516875" cy="203.542859375" r="2.5" style="fill: #FF9966;" class="arena" id="2754F6E8D14B6840B0897AC2F1AA504300000000" />
-  <circle cx="743.318609375" cy="377.59197265625" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="29A97EE9FAB6CF449A48510921EAFCBF00000000" />
-  <circle cx="766.71009375" cy="388.99541796875" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="4480BF0859104B48989F2C13B6BA7B2600000000" />
-  <circle cx="767.74615625" cy="389.65334375" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="45969B90B654BD40B4ADC4563F8E349F00000000" />
-  <circle cx="663.47003515625" cy="244.1291875" r="2.5" style="fill: #6600CC;" class="xardasoutdoor" id="86812454BCFE7F4BB64D1C6957E864D200000000" />
+  <rect x="563.1324453125" y="356.08371240234" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0ED1768693C7DB4AA5475F5D99CF132800000000">
+    <title>G3_Myrtana_Dungeon_V05_S02_06
+dungeon
+0ED1768693C7DB4AA5475F5D99CF132800000000</title>
+  </rect>
+  <rect x="571.7772734375" y="303.15371484375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="712E61BB8CB9A64AB7A4359A143E6CBF00000000">
+    <title>G3_Myrtana_Dungeon_V03_S02_02
+dungeon
+712E61BB8CB9A64AB7A4359A143E6CBF00000000</title>
+  </rect>
+  <rect x="577.12470507812" y="222.680484375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A61FC1D66777EA4189AF19A0F1A32EF500000000">
+    <title>G3_Myrtana_Dungeon_V04_S05_03
+dungeon
+A61FC1D66777EA4189AF19A0F1A32EF500000000</title>
+  </rect>
+  <rect x="577.45092773438" y="226.350734375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="274C9B6B8E239F4AAE0496A335F097E100000000">
+    <title>G3_Myrtana_Dungeon_V04_S02_03
+dungeon
+274C9B6B8E239F4AAE0496A335F097E100000000</title>
+  </rect>
+  <rect x="576.94604101562" y="203.878796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="ABAFC5913900EB47A70C8E37E6BE287F00000000">
+    <title>G3_Myrtana_Dungeon_V06_S02_03
+dungeon
+ABAFC5913900EB47A70C8E37E6BE287F00000000</title>
+  </rect>
+  <rect x="551.43506640625" y="307.5630703125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2F5C84EDE9AE6B4AB91E6E90110F48C800000000">
+    <title>G3_Myrtana_Dungeon_V07_S04_02
+dungeon
+2F5C84EDE9AE6B4AB91E6E90110F48C800000000</title>
+  </rect>
+  <rect x="547.7103125" y="305.90866796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="30C1DDD97ECF1B449ABA0C656592D9DF00000000">
+    <title>G3_Myrtana_Dungeon_V07_S03_02
+dungeon
+30C1DDD97ECF1B449ABA0C656592D9DF00000000</title>
+  </rect>
+  <rect x="547.58683203125" y="302.338796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6FEE3157253E744D93F0C78397EDB3B500000000">
+    <title>G3_Myrtana_Dungeon_V07_S02_02
+dungeon
+6FEE3157253E744D93F0C78397EDB3B500000000</title>
+  </rect>
+  <rect x="552.14790625" y="332.39752148437" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5925F9B5BCAABE478D1A905E0B85BEC000000000">
+    <title>G3_Myrtana_Dungeon_V03_S02_06
+dungeon
+5925F9B5BCAABE478D1A905E0B85BEC000000000</title>
+  </rect>
+  <rect x="551.22304296875" y="348.17414074707" width="4" height="4" style="fill: #CC6600;" class="thedig" id="DEDEF4348511CB46B8C996C31883D0A600000000">
+    <title>G3_Tempel_Trelis_Excavation_01_S03_01
+thedig
+DEDEF4348511CB46B8C996C31883D0A600000000</title>
+  </rect>
+  <rect x="550.03848046875" y="349.35478118896" width="4" height="4" style="fill: #CC6600;" class="thedig" id="84D2CDD4A60E95419137AFDC04AB456200000000">
+    <title>G3_Tempel_Trelis_Excavation_01_S02_01
+thedig
+84D2CDD4A60E95419137AFDC04AB456200000000</title>
+  </rect>
+  <rect x="553.705578125" y="345.3422734375" width="4" height="4" style="fill: #CC6600;" class="thedig" id="1231BC595F382549B6CBC4EBEDCF76A800000000">
+    <title>G3_Tempel_Trelis_Excavation_01_S04_01
+thedig
+1231BC595F382549B6CBC4EBEDCF76A800000000</title>
+  </rect>
+  <rect x="544.7071484375" y="181.878765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="1444DE702B995B4CB4C91C897A04120700000000">
+    <title>G3_Myrtana_Dungeon_V08_S03_03
+dungeon
+1444DE702B995B4CB4C91C897A04120700000000</title>
+  </rect>
+  <rect x="536.0804140625" y="259.838234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="27352B24083BD84888CA8F95BD51F7CA00000000">
+    <title>G3_Myrtana_Dungeon_V05_S02_03
+dungeon
+27352B24083BD84888CA8F95BD51F7CA00000000</title>
+  </rect>
+  <rect x="516.2818984375" y="135.22621875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="7BFC8C3483A166459D9FFA189B12F92D00000000">
+    <title>G3_Myrtana_Dungeon_V01_S04_03
+dungeon
+7BFC8C3483A166459D9FFA189B12F92D00000000</title>
+  </rect>
+  <rect x="517.021109375" y="138.01603125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2257811CFD46B64BA2541B561828579600000000">
+    <title>G3_Myrtana_Dungeon_V01_S03_03
+dungeon
+2257811CFD46B64BA2541B561828579600000000</title>
+  </rect>
+  <rect x="517.5889453125" y="140.7873125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="957C580F76F7F243BACE1FF95D31AA6100000000">
+    <title>G3_Myrtana_Dungeon_V01_S02_03
+dungeon
+957C580F76F7F243BACE1FF95D31AA6100000000</title>
+  </rect>
+  <rect x="507.5633984375" y="274.1910859375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A0CCC7BD0CBE71439EB39BBA91830E2600000000">
+    <title>G3_Myrtana_Geldern_Dungeon_Level_02
+dungeon
+A0CCC7BD0CBE71439EB39BBA91830E2600000000</title>
+  </rect>
+  <rect x="511.0609765625" y="268.862484375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5F8813A802FF4347B3832E71CF76FD6200000000">
+    <title>G3_Myrtana_Geldern_Dungeon_Level_03
+dungeon
+5F8813A802FF4347B3832E71CF76FD6200000000</title>
+  </rect>
+  <rect x="509.1741328125" y="263.6674765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E386B43DD5403B41B93954B23A9AE00700000000">
+    <title>G3_Myrtana_Geldern_Dungeon_Roots_04
+dungeon
+E386B43DD5403B41B93954B23A9AE00700000000</title>
+  </rect>
+  <rect x="508.74571875" y="223.524546875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8A86E3D701758E42AD435DDC7F63D32400000000">
+    <title>G3_Myrtana_Dungeon_V07_S04_03
+dungeon
+8A86E3D701758E42AD435DDC7F63D32400000000</title>
+  </rect>
+  <rect x="508.502046875" y="227.773359375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="D699EEB0203CBE4C98251F0E7AD1197500000000">
+    <title>G3_Myrtana_Dungeon_V07_S03_03
+dungeon
+D699EEB0203CBE4C98251F0E7AD1197500000000</title>
+  </rect>
+  <rect x="505.4373984375" y="229.506203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5DB7AC029E22684DA19EF843F37DDB6700000000">
+    <title>G3_Myrtana_Dungeon_V07_S02_03
+dungeon
+5DB7AC029E22684DA19EF843F37DDB6700000000</title>
+  </rect>
+  <rect x="506.8880078125" y="224.7026875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="494108538A6C474C85401D2EF9ADBB1000000000">
+    <title>G3_Myrtana_Dungeon_V03_S02_03
+dungeon
+494108538A6C474C85401D2EF9ADBB1000000000</title>
+  </rect>
+  <rect x="591.43298925781" y="291.749109375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="933880A025CEF14F96822B236BC1E9C900000000">
+    <title>G3_Myrtana_Dungeon_V02_S03_02
+dungeon
+933880A025CEF14F96822B236BC1E9C900000000</title>
+  </rect>
+  <rect x="589.96097851563" y="287.62087109375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B993F3C231A1C447BE8E17E75E6376DC00000000">
+    <title>G3_Myrtana_Dungeon_V02_S02_02
+dungeon
+B993F3C231A1C447BE8E17E75E6376DC00000000</title>
+  </rect>
+  <rect x="582.40672070312" y="225.437734375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="388A97BD3EA5694C8F4F34BA53A87A5E00000000">
+    <title>G3_Myrtana_Dungeon_V04_S04_03
+dungeon
+388A97BD3EA5694C8F4F34BA53A87A5E00000000</title>
+  </rect>
+  <rect x="580.78879296875" y="228.741296875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9852235C117DDC499DCFF9AC7D25A9DF00000000">
+    <title>G3_Myrtana_Dungeon_V04_S03_03
+dungeon
+9852235C117DDC499DCFF9AC7D25A9DF00000000</title>
+  </rect>
+  <rect x="595.84080566406" y="215.20153125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="650284B844BE7A48B90A19CA45A2499400000000">
+    <title>G3_Myrtana_Okara_Level_Dungeon_02
+dungeon
+650284B844BE7A48B90A19CA45A2499400000000</title>
+  </rect>
+  <rect x="588.34102832031" y="218.54775" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="758DCE3FF6E25A44853AD21661FCC0B100000000">
+    <title>G3_Myrtana_Okara_Level_Dungeon_01
+dungeon
+758DCE3FF6E25A44853AD21661FCC0B100000000</title>
+  </rect>
+  <rect x="484.004203125" y="148.971125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2A4151FCFBFBC54F94DD236B3322EF3D00000000">
+    <title>G3_Myrtana_Dungeon_V08_S03_04
+dungeon
+2A4151FCFBFBC54F94DD236B3322EF3D00000000</title>
+  </rect>
+  <rect x="462.492125" y="255.204765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A5D61A031D364C4689B0D9572FBF850000000000">
+    <title>G3_Myrtana_Dungeon_V06_S02_02
+dungeon
+A5D61A031D364C4689B0D9572FBF850000000000</title>
+  </rect>
+  <rect x="470.8968515625" y="337.887765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="22AA33E9E42BA14381931D1C36E1BBE900000000">
+    <title>G3_Myrtana_Dungeon_V05_S02_02
+dungeon
+22AA33E9E42BA14381931D1C36E1BBE900000000</title>
+  </rect>
+  <rect x="472.5732890625" y="205.167046875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A9D01E54E3E10E42B339E8EB2DF2F07600000000">
+    <title>G3_Myrtana_Dungeon_V08_S03_02
+dungeon
+A9D01E54E3E10E42B339E8EB2DF2F07600000000</title>
+  </rect>
+  <rect x="448.170375" y="328.867203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5782DD70B452D942868C018C70B7798F00000000">
+    <title>G3_Myrtana_Dungeon_V01_S03_02
+dungeon
+5782DD70B452D942868C018C70B7798F00000000</title>
+  </rect>
+  <rect x="450.575625" y="327.0084140625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="7BD5ED759EA0A84091B414404691431700000000">
+    <title>G3_Myrtana_Dungeon_V01_S02_02
+dungeon
+7BD5ED759EA0A84091B414404691431700000000</title>
+  </rect>
+  <rect x="449.38946875" y="273.69375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9762BE118014D84EB36B0F4DC9D35D7600000000">
+    <title>G3_Myrtana_Dungeon_V04_S05_02
+dungeon
+9762BE118014D84EB36B0F4DC9D35D7600000000</title>
+  </rect>
+  <rect x="451.372875" y="270.822203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BBDADE1E5565D342A1A2011239549E3D00000000">
+    <title>G3_Myrtana_Dungeon_V04_S02_02
+dungeon
+BBDADE1E5565D342A1A2011239549E3D00000000</title>
+  </rect>
+  <rect x="447.19375" y="268.039890625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0BA9137D167D774F8B24A6F3BDB961A200000000">
+    <title>G3_Myrtana_Dungeon_V04_S04_02
+dungeon
+0BA9137D167D774F8B24A6F3BDB961A200000000</title>
+  </rect>
+  <rect x="450.547" y="267.182953125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="07891924631A9840A0471AFC8EF889A300000000">
+    <title>G3_Myrtana_Dungeon_V04_S03_02
+dungeon
+07891924631A9840A0471AFC8EF889A300000000</title>
+  </rect>
+  <rect x="445.940375" y="331.0400703125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="84E3AC59662ED842B1A3788A275438C500000000">
+    <title>G3_Myrtana_Dungeon_V01_S04_02
+dungeon
+84E3AC59662ED842B1A3788A275438C500000000</title>
+  </rect>
+  <rect x="419.55828125" y="185.577625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="28D6AC56B62B034C8C8F8E80CF5B297B00000000">
+    <title>G3_Myrtana_Dungeon_V04_S05_04
+dungeon
+28D6AC56B62B034C8C8F8E80CF5B297B00000000</title>
+  </rect>
+  <rect x="414.4236875" y="182.48796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5696C508670C234C9F91EA9E9D559BF800000000">
+    <title>G3_Myrtana_Dungeon_V04_S04_04
+dungeon
+5696C508670C234C9F91EA9E9D559BF800000000</title>
+  </rect>
+  <rect x="416.1850625" y="179.37609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="87C2B3ADBECC0049B29879CC465746B200000000">
+    <title>G3_Myrtana_Dungeon_V04_S03_04
+dungeon
+87C2B3ADBECC0049B29879CC465746B200000000</title>
+  </rect>
+  <rect x="419.41121875" y="181.86825" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="150BA21474040C459A1ED4215C3DAF9400000000">
+    <title>G3_Myrtana_Dungeon_V04_S02_04
+dungeon
+150BA21474040C459A1ED4215C3DAF9400000000</title>
+  </rect>
+  <rect x="620.99654492188" y="355.87178125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0CDFACC81A38684C89020EEB4D4795A200000000">
+    <title>G3_Myrtana_Dungeon_V07_S02_04
+dungeon
+0CDFACC81A38684C89020EEB4D4795A200000000</title>
+  </rect>
+  <rect x="622.53263085938" y="208.43028125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="35A8CF9649E62B4AB1B791966A98C73F00000000">
+    <title>G3_Myrtana_Dungeon_V08_S03_06
+dungeon
+35A8CF9649E62B4AB1B791966A98C73F00000000</title>
+  </rect>
+  <rect x="649.845578125" y="232.651703125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="BB37EA3062BDE34BBEBE0C70FB65FB1A00000000">
+    <title>G3_Myrtana_Dungeon_SP03_S05_01
+orcmine01
+BB37EA3062BDE34BBEBE0C70FB65FB1A00000000</title>
+  </rect>
+  <rect x="643.353046875" y="236.075640625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="499C63C04613184DBA87D5261F9B9C3900000000">
+    <title>G3_Myrtana_Dungeon_SP03_S02_01
+orcmine01
+499C63C04613184DBA87D5261F9B9C3900000000</title>
+  </rect>
+  <rect x="658.6814375" y="245.58709375" width="4" height="4" style="fill: #660066;" class="locationspooky" id="173CA9CC82DF5C41AADD353B677A88CA00000000">
+    <title>G3_Myrtana_Dungeon_SP02_S03_01
+locationspooky
+173CA9CC82DF5C41AADD353B677A88CA00000000</title>
+  </rect>
+  <rect x="652.266171875" y="215.42653125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="D707E9DC899B4D40907171A9DC017BE700000000">
+    <title>G3_Myrtana_Dungeon_SP03_S04_01
+orcmine01
+D707E9DC899B4D40907171A9DC017BE700000000</title>
+  </rect>
+  <rect x="641.5042578125" y="224.055265625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="944E2FA76DA18549A8DAF61C0915D61500000000">
+    <title>G3_Myrtana_Dungeon_SP03_S03_01
+orcmine01
+944E2FA76DA18549A8DAF61C0915D61500000000</title>
+  </rect>
+  <rect x="677.23978125" y="394.038328125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="152FDA7F13AC5743B009689B8A6C431400000000">
+    <title>G3_Myrtana_Dungeon_V05_S02_04
+dungeon
+152FDA7F13AC5743B009689B8A6C431400000000</title>
+  </rect>
+  <rect x="664.33715625" y="240.7705" width="4" height="4" style="fill: #660066;" class="locationspooky" id="1E3F19D743DFF345AAD40E7F19D6FE5800000000">
+    <title>G3_Myrtana_Dungeon_SP02_S05_01
+locationspooky
+1E3F19D743DFF345AAD40E7F19D6FE5800000000</title>
+  </rect>
+  <rect x="665.679546875" y="242.973578125" width="4" height="4" style="fill: #660066;" class="locationspooky" id="1AE5D893AC2C004E84E0B4BA89CD3E8500000000">
+    <title>G3_Myrtana_Dungeon_SP02_S04_01
+locationspooky
+1AE5D893AC2C004E84E0B4BA89CD3E8500000000</title>
+  </rect>
+  <rect x="660.9819296875" y="246.248265625" width="4" height="4" style="fill: #660066;" class="locationspooky" id="CA3B949BA255774E8D11FF2735A4E23900000000">
+    <title>G3_Myrtana_Dungeon_SP02_S02_01
+locationspooky
+CA3B949BA255774E8D11FF2735A4E23900000000</title>
+  </rect>
+  <rect x="664.7358359375" y="247.344765625" width="4" height="4" style="fill: #660066;" class="locationspooky" id="AB38320BB4013046A22E8CB8EE4D90FD00000000">
+    <title>G3_Myrtana_Dungeon_SP02_S01_01
+locationspooky
+AB38320BB4013046A22E8CB8EE4D90FD00000000</title>
+  </rect>
+  <rect x="685.277890625" y="407.8240859375" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="3A58ABF51522824A9A8025C973C5EAC800000000">
+    <title>G3_Myrtana_KapDun_Dungeon_Level_01
+orcmine01
+3A58ABF51522824A9A8025C973C5EAC800000000</title>
+  </rect>
+  <rect x="691.13396875" y="412.29998046875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="B8C007E40A1BD3459D5C09CE4998A88300000000">
+    <title>G3_Myrtana_KapDun_Dungeon_Level_10
+orcmine01
+B8C007E40A1BD3459D5C09CE4998A88300000000</title>
+  </rect>
+  <rect x="687.832109375" y="410.67072265625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="ACEDE0D9EAC9CC46992E69FE4635005A00000000">
+    <title>G3_Myrtana_KapDun_Dungeon_Level_09
+orcmine01
+ACEDE0D9EAC9CC46992E69FE4635005A00000000</title>
+  </rect>
+  <rect x="687.7380625" y="410.5833125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="CB746BFDF0E01C469113412DC8BCC3F000000000">
+    <title>G3_Myrtana_KapDun_Dungeon_Level_08
+orcmine01
+CB746BFDF0E01C469113412DC8BCC3F000000000</title>
+  </rect>
+  <rect x="691.859234375" y="414.2933984375" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="21EBBC3EBE179A4D9D78490532392AB000000000">
+    <title>G3_Myrtana_KapDun_Dungeon_Level_07
+orcmine01
+21EBBC3EBE179A4D9D78490532392AB000000000</title>
+  </rect>
+  <rect x="697.47684375" y="416.2754140625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="4BE3F1EB1224414887C0F28CBCA74B9A00000000">
+    <title>G3_Myrtana_KapDun_Dungeon_Level_06
+orcmine01
+4BE3F1EB1224414887C0F28CBCA74B9A00000000</title>
+  </rect>
+  <rect x="683.3419453125" y="416.691609375" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="7B1DF7837185E849B269A31FE8AAB9A000000000">
+    <title>G3_Myrtana_KapDun_Dungeon_Level_05
+orcmine01
+7B1DF7837185E849B269A31FE8AAB9A000000000</title>
+  </rect>
+  <rect x="680.6294140625" y="316.5085859375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5367AA2EF07F46448165C7CD9F15A41400000000">
+    <title>G3_Myrtana_Dungeon_V03_S02_04
+dungeon
+5367AA2EF07F46448165C7CD9F15A41400000000</title>
+  </rect>
+  <rect x="684.723421875" y="332.9086875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="91D8AA75737DDE4FA8923DFA7BD305D100000000">
+    <title>G3_Myrtana_Dungeon_V02_S03_03
+dungeon
+91D8AA75737DDE4FA8923DFA7BD305D100000000</title>
+  </rect>
+  <rect x="686.0897578125" y="337.218875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BA9DB10E09C9F54EAE6A5B4DB95ADE4E00000000">
+    <title>G3_Myrtana_Dungeon_V02_S02_03
+dungeon
+BA9DB10E09C9F54EAE6A5B4DB95ADE4E00000000</title>
+  </rect>
+  <rect x="691.425921875" y="204.357328125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="38A92576552453419196B0DF422B1AE500000000">
+    <title>G3_Myrtana_Dungeon_V09_S01_01
+dungeon
+38A92576552453419196B0DF422B1AE500000000</title>
+  </rect>
+  <rect x="613.9656015625" y="354.7108671875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C91E23E23F2C714888A8E9C14384F93500000000">
+    <title>G3_Myrtana_Dungeon_V07_S04_04
+dungeon
+C91E23E23F2C714888A8E9C14384F93500000000</title>
+  </rect>
+  <rect x="618.56196679688" y="352.3811640625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="75308EB07A16D742ABCCBF26E53760C500000000">
+    <title>G3_Myrtana_Dungeon_V01_S04_05
+dungeon
+75308EB07A16D742ABCCBF26E53760C500000000</title>
+  </rect>
+  <rect x="618.01154296875" y="353.1095234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FA7F481DD36D814FA8684F944ECAE46400000000">
+    <title>G3_Myrtana_Dungeon_V07_S03_04
+dungeon
+FA7F481DD36D814FA8684F944ECAE46400000000</title>
+  </rect>
+  <rect x="618.39424609375" y="349.5845" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="28EE11902040714D97F157A32508CAB100000000">
+    <title>G3_Myrtana_Dungeon_V01_S03_05
+dungeon
+28EE11902040714D97F157A32508CAB100000000</title>
+  </rect>
+  <rect x="618.24322851562" y="346.774328125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="98F3C1BF06B8EE43834F1BFE51BB3F3D00000000">
+    <title>G3_Myrtana_Dungeon_V01_S02_05
+dungeon
+98F3C1BF06B8EE43834F1BFE51BB3F3D00000000</title>
+  </rect>
+  <rect x="619.65238476563" y="174.47671875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="922514399C81704C927E7911DDBA1C0B00000000">
+    <title>G3_Myrtana_Dungeon_V08_S03_05
+dungeon
+922514399C81704C927E7911DDBA1C0B00000000</title>
+  </rect>
+  <rect x="719.34709375" y="340.80165234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="D8D4C308A78E3B47A7D4CAB95CDA85A200000000">
+    <title>G3_Myrtana_Dungeon_V04_S05_05
+dungeon
+D8D4C308A78E3B47A7D4CAB95CDA85A200000000</title>
+  </rect>
+  <rect x="716.3358125" y="335.5704453125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="CC79EDF2AB213448971E839285DCB5A300000000">
+    <title>G3_Myrtana_Dungeon_V04_S04_05
+dungeon
+CC79EDF2AB213448971E839285DCB5A300000000</title>
+  </rect>
+  <rect x="719.463390625" y="334.3509140625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E0187663B38DD04CAEF905BF785BE83E00000000">
+    <title>G3_Myrtana_Dungeon_V04_S03_05
+dungeon
+E0187663B38DD04CAEF905BF785BE83E00000000</title>
+  </rect>
+  <rect x="709.7519375" y="214.3225" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="255FEC7028DD6C4B88CE1CA3C565D9DE00000000">
+    <title>G3_Myrtana_Dungeon_V01_S04_04
+dungeon
+255FEC7028DD6C4B88CE1CA3C565D9DE00000000</title>
+  </rect>
+  <rect x="712.5796015625" y="215.42375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="96F3C42ED2982B44B323039D46A0170D00000000">
+    <title>G3_Myrtana_Dungeon_V01_S03_04
+dungeon
+96F3C42ED2982B44B323039D46A0170D00000000</title>
+  </rect>
+  <rect x="715.371828125" y="216.66025" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="EE42CADA9A1C3348A0506665BDCB305600000000">
+    <title>G3_Myrtana_Dungeon_V01_S02_04
+dungeon
+EE42CADA9A1C3348A0506665BDCB305600000000</title>
+  </rect>
+  <rect x="739.31040625" y="316.43677734375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C52D2163AE406C44A404FF030C6CC67700000000">
+    <title>G3_Myrtana_Dungeon_V03_S02_05
+dungeon
+C52D2163AE406C44A404FF030C6CC67700000000</title>
+  </rect>
+  <rect x="727.4757265625" y="307.23717578125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6ABA7A6F7841474F9C14AB6553F3824B00000000">
+    <title>G3_Myrtana_Dungeon_V06_S02_04
+dungeon
+6ABA7A6F7841474F9C14AB6553F3824B00000000</title>
+  </rect>
+  <rect x="720.903828125" y="337.6120859375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="47D78643010F574B94A723615B780B5400000000">
+    <title>G3_Myrtana_Dungeon_V04_S02_05
+dungeon
+47D78643010F574B94A723615B780B5400000000</title>
+  </rect>
+  <rect x="746.801640625" y="371.61442578125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="45102553E3091C42846FCFAA8BD6056200000000">
+    <title>G3_World_01_x75000y0z-15000_CStat
+dungeon
+45102553E3091C42846FCFAA8BD6056200000000</title>
+  </rect>
+  <rect x="740.078859375" y="372.80857226562" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="958EDF225D1A3945B26CE04FFBEFCF7000000000">
+    <title>G3_Myrtana_Reddock_Level_Dungeon_02
+dungeon
+958EDF225D1A3945B26CE04FFBEFCF7000000000</title>
+  </rect>
+  <rect x="746.073171875" y="373.42302148438" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="EC8B81545F5D5E43B820E399C7149BBC00000000">
+    <title>G3_Myrtana_Reddock_Level_Dungeon_01
+dungeon
+EC8B81545F5D5E43B820E399C7149BBC00000000</title>
+  </rect>
+  <rect x="746.0559375" y="357.12995556641" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="72B2D6F0CE46D14F9A63DA32B45BF81600000000">
+    <title>G3_Myrtana_Reddock_Level_Dungeon_06
+dungeon
+72B2D6F0CE46D14F9A63DA32B45BF81600000000</title>
+  </rect>
+  <rect x="753.65278125" y="360.9815" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="CA0D4E49E6CF4446A2337767105DFBC100000000">
+    <title>G3_Myrtana_Reddock_Level_Dungeon_05
+dungeon
+CA0D4E49E6CF4446A2337767105DFBC100000000</title>
+  </rect>
+  <rect x="752.071046875" y="365.00281835937" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DF07C6193137E24D9F8E2262E478C5F000000000">
+    <title>G3_Myrtana_Reddock_Level_Dungeon_04
+dungeon
+DF07C6193137E24D9F8E2262E478C5F000000000</title>
+  </rect>
+  <rect x="740.7569375" y="362.33915234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5DC2957184B2C340A7D3AB51C27C53D400000000">
+    <title>G3_Myrtana_Reddock_Level_Dungeon_07
+dungeon
+5DC2957184B2C340A7D3AB51C27C53D400000000</title>
+  </rect>
+  <rect x="746.84428125" y="368.88868164063" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BFE322A851127943BE3067E45902E27900000000">
+    <title>G3_Myrtana_Reddock_Level_Dungeon_03
+dungeon
+BFE322A851127943BE3067E45902E27900000000</title>
+  </rect>
+  <rect x="774.65909375" y="337.50534375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E3FFB2D3F14B35459ADAC8E8C215F83A00000000">
+    <title>G3_Myrtana_Dungeon_V01_S04_06
+dungeon
+E3FFB2D3F14B35459ADAC8E8C215F83A00000000</title>
+  </rect>
+  <rect x="775.51346875" y="334.70414453125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B50771F82AFE3A419BAC690C66AFFF2600000000">
+    <title>G3_Myrtana_Dungeon_V01_S03_06
+dungeon
+B50771F82AFE3A419BAC690C66AFFF2600000000</title>
+  </rect>
+  <rect x="776.32265625" y="331.8121171875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2D1F56BDF472FD48A249B399BE77F25400000000">
+    <title>G3_Myrtana_Dungeon_V01_S02_06
+dungeon
+2D1F56BDF472FD48A249B399BE77F25400000000</title>
+  </rect>
+  <rect x="784.415875" y="372.76490625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B5129F31C5EA06438C5D2250D31702DF00000000">
+    <title>G3_Myrtana_Dungeon_V07_S04_05
+dungeon
+B5129F31C5EA06438C5D2250D31702DF00000000</title>
+  </rect>
+  <rect x="786.2585" y="369.118515625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="79A9C919F68ECD4991D61A0483EC887D00000000">
+    <title>G3_Myrtana_Dungeon_V07_S03_05
+dungeon
+79A9C919F68ECD4991D61A0483EC887D00000000</title>
+  </rect>
+  <rect x="789.8688125" y="369.2081875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E6EE6593BB239F4AADFB981EC6AEDFDC00000000">
+    <title>G3_Myrtana_Dungeon_V07_S02_05
+dungeon
+E6EE6593BB239F4AADFB981EC6AEDFDC00000000</title>
+  </rect>
+  <circle cx="712.9824296875" cy="90.49378125" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="23AF655D7DCCFA4881BECE8CA9AABA6800000000">
+    <title>Nordmar_High
+northmarhigh
+23AF655D7DCCFA4881BECE8CA9AABA6800000000</title>
+  </circle>
+  <circle cx="722.2340078125" cy="87.64796875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="C893C0290532504C8A6B27724A86719B00000000">
+    <title>Nordmar_High
+northmarhigh
+C893C0290532504C8A6B27724A86719B00000000</title>
+  </circle>
+  <circle cx="703.2814375" cy="94.04396875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="71A2DD01C58C8441B714F03D9401FDED00000000">
+    <title>Nordmar_High
+northmarhigh
+71A2DD01C58C8441B714F03D9401FDED00000000</title>
+  </circle>
+  <circle cx="697.358140625" cy="137.559875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="D0455DD875BC1A43B61C99469374805900000000">
+    <title>Nordmar_High
+northmarhigh
+D0455DD875BC1A43B61C99469374805900000000</title>
+  </circle>
+  <circle cx="691.345078125" cy="131.80471875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="01494DCEA5A14C4096E9F8CAD21A364700000000">
+    <title>Nordmar_High
+northmarhigh
+01494DCEA5A14C4096E9F8CAD21A364700000000</title>
+  </circle>
+  <circle cx="646.168359375" cy="23.16403125" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="23081775B676C8458B030252EFBD2FB700000000">
+    <title>Nordmar_High
+northmarhigh
+23081775B676C8458B030252EFBD2FB700000000</title>
+  </circle>
+  <circle cx="654.56246875" cy="24.0725625" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="ADABC74C615431459B0BE08F265F3AF600000000">
+    <title>Nordmar_High
+northmarhigh
+ADABC74C615431459B0BE08F265F3AF600000000</title>
+  </circle>
+  <circle cx="798.6488125" cy="77.729625" r="2.5" style="fill: #FFCDD2;" class="xardasindoor" id="D4E2C2485B5A934BA32923ED7FA51D5C00000000">
+    <title>Nordmar_Xardas_Out
+xardasindoor
+D4E2C2485B5A934BA32923ED7FA51D5C00000000</title>
+  </circle>
+  <circle cx="791.386515625" cy="75.0825" r="2.5" style="fill: #FFCDD2;" class="xardasindoor" id="0714757C8F175847A2D5AD4303417AA400000000">
+    <title>Nordmar_Xardas_In
+xardasindoor
+0714757C8F175847A2D5AD4303417AA400000000</title>
+  </circle>
+  <circle cx="746.036171875" cy="105.696640625" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="236791648690984D90D1F3F53944B25300000000">
+    <title>Nordmar_High
+northmarhigh
+236791648690984D90D1F3F53944B25300000000</title>
+  </circle>
+  <circle cx="685.756828125" cy="98.079875" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="69D271F70F5CDE4A97B0CC05601273B500000000">
+    <title>Nordmar_High
+northmarhigh
+69D271F70F5CDE4A97B0CC05601273B500000000</title>
+  </circle>
+  <circle cx="673.3845390625" cy="79.92365625" r="2.5" style="fill: #0000FF;" class="northmarhigh" id="9EE2AA4F6E83994FBFB77A7F3564942800000000">
+    <title>Nordmar_High
+northmarhigh
+9EE2AA4F6E83994FBFB77A7F3564942800000000</title>
+  </circle>
+  <circle cx="718.9336171875" cy="203.02246875" r="2.5" style="fill: #00CCFF;" class="highlands" id="ADF92E308C6D564E91C07B206AC741DE00000000">
+    <title>Nordmar_Highlands
+highlands
+ADF92E308C6D564E91C07B206AC741DE00000000</title>
+  </circle>
+  <circle cx="668.89275" cy="186.68153125" r="2.5" style="fill: #00CCFF;" class="highlands" id="CC1BC099C749574DBBA0E8979716D06C00000000">
+    <title>Nordmar_Highlands
+highlands
+CC1BC099C749574DBBA0E8979716D06C00000000</title>
+  </circle>
+  <circle cx="660.0474296875" cy="171.47746875" r="2.5" style="fill: #00CCFF;" class="highlands" id="3801A7593FBA04478F515D24F462B18800000000">
+    <title>Nordmar_Highlands
+highlands
+3801A7593FBA04478F515D24F462B18800000000</title>
+  </circle>
+  <circle cx="636.28298046875" cy="133.198171875" r="2.5" style="fill: #00CCFF;" class="highlands" id="EDDEEC5991C8EC458999C660E160FDC100000000">
+    <title>Nordmar_Highlands
+highlands
+EDDEEC5991C8EC458999C660E160FDC100000000</title>
+  </circle>
+  <rect x="678.622734375" y="106.7950625" width="4" height="4" style="fill: #FF0000;" class="orccamp" id="101EB06707FC8F468C7FC4D7B602730800000000">
+    <title>Nordmar_Orccamp
+orccamp
+101EB06707FC8F468C7FC4D7B602730800000000</title>
+  </rect>
+  <circle cx="663.02169140625" cy="26.1171875" r="2.5" style="fill: #0066CC;" class="northmarlow" id="4201E7AD67B5FE48B83DFC69FC877DD100000000">
+    <title>Nordmar_WeatherZone_01
+northmarlow
+4201E7AD67B5FE48B83DFC69FC877DD100000000</title>
+  </circle>
+  <circle cx="789.39575" cy="142.371171875" r="2.5" style="fill: #0066CC;" class="northmarlow" id="C6661EC560731A47A85E82BE694FF73A00000000">
+    <title>Nordmar_WeatherZone_02
+northmarlow
+C6661EC560731A47A85E82BE694FF73A00000000</title>
+  </circle>
+  <circle cx="723.7448828125" cy="130.53553125" r="2.5" style="fill: #0066CC;" class="northmarlow" id="55AD0D1A10B64548A5C5E1E12FB25CEE00000000">
+    <title>Nordmar_WeatherZone_03
+northmarlow
+55AD0D1A10B64548A5C5E1E12FB25CEE00000000</title>
+  </circle>
+  <circle cx="698.26884375" cy="85.434125" r="2.5" style="fill: #0066CC;" class="northmarlow" id="923459B33E73054AB0B510A9119EAACA00000000">
+    <title>Nordmar_WeatherZone_04
+northmarlow
+923459B33E73054AB0B510A9119EAACA00000000</title>
+  </circle>
+  <circle cx="796.27425" cy="29.2763125" r="2.5" style="fill: #0066CC;" class="northmarlow" id="01FEB61EDAE8174ABDEA15B6746D94C400000000">
+    <title>Nordmar_WeatherZone_05
+northmarlow
+01FEB61EDAE8174ABDEA15B6746D94C400000000</title>
+  </circle>
+  <circle cx="402.99209375" cy="641.13253125" r="2.5" style="fill: #FBC02D;" class="varant" id="F907ACD435D36D4D8C2CE12EBB41EA3200000000">
+    <title>Varant_WeatherZone_01
+varant
+F907ACD435D36D4D8C2CE12EBB41EA3200000000</title>
+  </circle>
+  <circle cx="175.4138125" cy="597.552078125" r="2.5" style="fill: #FBC02D;" class="varant" id="CBC9055904DE6F4D933C60EEB5ED50D600000000">
+    <title>Varant_WeatherZone_02
+varant
+CBC9055904DE6F4D933C60EEB5ED50D600000000</title>
+  </circle>
+  <circle cx="677.46146875" cy="588.6170625" r="2.5" style="fill: #FBC02D;" class="varant" id="52B13A9D8DF63B458FB6D11D7E1FB05F00000000">
+    <title>Varant_WeatherZone_03
+varant
+52B13A9D8DF63B458FB6D11D7E1FB05F00000000</title>
+  </circle>
+  <circle cx="289.5393125" cy="547.81265625" r="2.5" style="fill: #FBC02D;" class="varant" id="757F6456FF5B1B499C9B0B2BAB2BC31700000000">
+    <title>Varant_WeatherZone_05
+varant
+757F6456FF5B1B499C9B0B2BAB2BC31700000000</title>
+  </circle>
+  <circle cx="541.6204140625" cy="559.86003125" r="2.5" style="fill: #FBC02D;" class="varant" id="D3DF355710E40D44AD06AF9D7DFF78E400000000">
+    <title>Varant_WeatherZone_04
+varant
+D3DF355710E40D44AD06AF9D7DFF78E400000000</title>
+  </circle>
+  <circle cx="425.56740625" cy="456.2170703125" r="2.5" style="fill: #CCCC00;" class="braga" id="33E448C02D8B8F4A9E07413F3C7A612700000000">
+    <title>Music_Braga
+braga
+33E448C02D8B8F4A9E07413F3C7A612700000000</title>
+  </circle>
+  <circle cx="149.27103125" cy="587.8445625" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="34AEDE379686924B97296CC3FA05D52800000000">
+    <title>Death Valley
+deathvalley
+34AEDE379686924B97296CC3FA05D52800000000</title>
+  </circle>
+  <circle cx="185.09940625" cy="661.0616875" r="2.5" style="fill: #CCCC33;" class="ishtar" id="04887ABADBB2C04593D0254F6002F7E700000000">
+    <title>Music_Ishtar
+ishtar
+04887ABADBB2C04593D0254F6002F7E700000000</title>
+  </circle>
+  <circle cx="407.523921875" cy="641.23178125" r="2.5" style="fill: #CCCC33;" class="ishtar" id="F1E475243B40AA41AEB84A7D79BC0EC000000000">
+    <title>Music_MoraSul
+ishtar
+F1E475243B40AA41AEB84A7D79BC0EC000000000</title>
+  </circle>
+  <circle cx="568.21528125" cy="455.33340625" r="2.5" style="fill: #CCCC00;" class="braga" id="97EDA540C8318041851C9DEF775A901C00000000">
+    <title>Music_Lago
+braga
+97EDA540C8318041851C9DEF775A901C00000000</title>
+  </circle>
+  <circle cx="645.7902421875" cy="542.536703125" r="2.5" style="fill: #C0C0C0;" class="dungeon" id="255EB45DDDA08E419D1B3D2B51F23E9900000000">
+    <title>BenSalaCave
+dungeon
+255EB45DDDA08E419D1B3D2B51F23E9900000000</title>
+  </circle>
+  <circle cx="699.8596875" cy="538.416703125" r="2.5" style="fill: #FF9966;" class="arena" id="1A9A9FE6E40FAE42A49B512982CB9B6100000000">
+    <title>BakareschArena
+arena
+1A9A9FE6E40FAE42A49B512982CB9B6100000000</title>
+  </circle>
+  <circle cx="396.983359375" cy="648.80696875" r="2.5" style="fill: #FF9966;" class="arena" id="6C51916347EF7947AF0A3D344FA31AF400000000">
+    <title>MoraSulArena
+arena
+6C51916347EF7947AF0A3D344FA31AF400000000</title>
+  </circle>
+  <rect x="680.225765625" y="547.012078125" width="4" height="4" style="fill: #CCCC33;" class="ishtar" id="AFFA7BBD7558D74DBA9D66A3CBFE7A7500000000">
+    <title>Music_Bakaresch
+ishtar
+AFFA7BBD7558D74DBA9D66A3CBFE7A7500000000</title>
+  </rect>
+  <circle cx="661.63737109375" cy="536.887390625" r="2.5" style="fill: #CCCC33;" class="ishtar" id="2C35F04E68915B449580F559C4706E2A00000000">
+    <title>Music_BeliarTemple
+ishtar
+2C35F04E68915B449580F559C4706E2A00000000</title>
+  </circle>
+  <circle cx="491.0776640625" cy="637.54865625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="0690A2D579F8B64D9DD91BE88B4E439D00000000">
+    <title>Varant_Ruins
+ruinfields
+0690A2D579F8B64D9DD91BE88B4E439D00000000</title>
+  </circle>
+  <circle cx="499.937640625" cy="672.984125" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="D3E7A8608D462546A9096ADB4BD41B4E00000000">
+    <title>Varant_Ruins
+ruinfields
+D3E7A8608D462546A9096ADB4BD41B4E00000000</title>
+  </circle>
+  <circle cx="531.9794765625" cy="664.34465625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="0BFC41F47616BA41972CD9BFB619FE5200000000">
+    <title>Varant_Ruins
+ruinfields
+0BFC41F47616BA41972CD9BFB619FE5200000000</title>
+  </circle>
+  <rect x="506.1148671875" y="665.27421875" width="4" height="4" style="fill: #CC6600;" class="thedig" id="A852A135B6847442995C773A80345F3000000000">
+    <title>Varant_Temple
+thedig
+A852A135B6847442995C773A80345F3000000000</title>
+  </rect>
+  <circle cx="249.18834375" cy="536.32003125" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="77458697EB3D6C4B9F95F14B49BFE62D00000000">
+    <title>Grand Oasis
+deathvalley
+77458697EB3D6C4B9F95F14B49BFE62D00000000</title>
+  </circle>
+  <circle cx="248.1215" cy="624.0965625" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="6CEA518A19497A4E92604E044D33572500000000">
+    <title>Grand Oasis
+deathvalley
+6CEA518A19497A4E92604E044D33572500000000</title>
+  </circle>
+  <circle cx="299.9965625" cy="554.81790625" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="8702BF33E79C8949BF0AD36A2A0D429E00000000">
+    <title>Grand Oasis
+deathvalley
+8702BF33E79C8949BF0AD36A2A0D429E00000000</title>
+  </circle>
+  <circle cx="375.83421875" cy="618.91228125" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="F16F29855A6C3044AF3B1A0F8D7FEB8900000000">
+    <title>Grand Oasis
+deathvalley
+F16F29855A6C3044AF3B1A0F8D7FEB8900000000</title>
+  </circle>
+  <circle cx="393.40146875" cy="562.816078125" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="1FE676B7BC54FC45B9EAB52E6F6FAB1500000000">
+    <title>Grand Oasis
+deathvalley
+1FE676B7BC54FC45B9EAB52E6F6FAB1500000000</title>
+  </circle>
+  <circle cx="457.79109375" cy="574.0920625" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="529A467D188C164394E4EB62B1588D3200000000">
+    <title>Grand Oasis
+deathvalley
+529A467D188C164394E4EB62B1588D3200000000</title>
+  </circle>
+  <circle cx="495.1668203125" cy="559.0824375" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="09285E350E03394A82962BC2587A9F8900000000">
+    <title>Grand Oasis
+deathvalley
+09285E350E03394A82962BC2587A9F8900000000</title>
+  </circle>
+  <circle cx="340.38709375" cy="501.19159375" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="745296268B45D4469173DE91EA67AEB100000000">
+    <title>Grand Oasis
+deathvalley
+745296268B45D4469173DE91EA67AEB100000000</title>
+  </circle>
+  <circle cx="305.312125" cy="686.69890625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="50B9B2A6A4276246B2D39429231E88C600000000">
+    <title>Varant_Ruins
+ruinfields
+50B9B2A6A4276246B2D39429231E88C600000000</title>
+  </circle>
+  <circle cx="329.3228125" cy="659.97609375" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="78331CF16DACA14BB5749167B474EA5600000000">
+    <title>Varant_Ruins
+ruinfields
+78331CF16DACA14BB5749167B474EA5600000000</title>
+  </circle>
+  <circle cx="351.588921875" cy="658.4881875" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="186281BB50AE1041A7B1EB19C12B29B400000000">
+    <title>Varant_Ruins
+ruinfields
+186281BB50AE1041A7B1EB19C12B29B400000000</title>
+  </circle>
+  <circle cx="376.4496875" cy="686.3654375" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="2354650259B9274B95AD8D9FBBC172C400000000">
+    <title>Varant_Ruins
+ruinfields
+2354650259B9274B95AD8D9FBBC172C400000000</title>
+  </circle>
+  <circle cx="407.557109375" cy="693.3421875" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="CD893C60A891E2468B94C2683A3982F500000000">
+    <title>Varant_Ruins
+ruinfields
+CD893C60A891E2468B94C2683A3982F500000000</title>
+  </circle>
+  <circle cx="339.077140625" cy="684.85415625" r="2.5" style="fill: #CCCC33;" class="ruinfields" id="46F38271F101D9408E5999C50DD48A9900000000">
+    <title>Varant_Ruins
+ruinfields
+46F38271F101D9408E5999C50DD48A9900000000</title>
+  </circle>
+  <rect x="399.26146875" y="700.56059375" width="4" height="4" style="fill: #CC6600;" class="thedig" id="4F03416D07736D4BB6BF4ECD3C28546F00000000">
+    <title>Varant_Temple
+thedig
+4F03416D07736D4BB6BF4ECD3C28546F00000000</title>
+  </rect>
+  <circle cx="393.92428125" cy="696.9239375" r="2.5" style="fill: #800080;" class="slaves" id="E52D2A80A36E38459F603F2ACDE1887900000000">
+    <title>Varant Slave
+slaves
+E52D2A80A36E38459F603F2ACDE1887900000000</title>
+  </circle>
+  <circle cx="403.8076875" cy="707.6285625" r="2.5" style="fill: #800080;" class="slaves" id="0F55B27BF9F26947A3422B31751F77FB00000000">
+    <title>Varant Slave
+slaves
+0F55B27BF9F26947A3422B31751F77FB00000000</title>
+  </circle>
+  <circle cx="512.122046875" cy="663.51121875" r="2.5" style="fill: #800080;" class="slaves" id="4ED5BE3DEE07184BB040E8A64B975C5A00000000">
+    <title>Varant Slave
+slaves
+4ED5BE3DEE07184BB040E8A64B975C5A00000000</title>
+  </circle>
+  <circle cx="584.55621679687" cy="536.870359375" r="2.5" style="fill: #FFEB3B;" class="deathvalley" id="01F62E53372C72489D666E51CECC687400000000">
+    <title>Varant Spooky
+deathvalley
+01F62E53372C72489D666E51CECC687400000000</title>
+  </circle>
+  <rect x="396.379328125" y="703.04434375" width="4" height="4" style="fill: #CC6600;" class="thedig" id="8C1EC30CF543E6449A5C4C73771F099E00000000">
+    <title>Temple_Enter
+thedig
+8C1EC30CF543E6449A5C4C73771F099E00000000</title>
+  </rect>
+  <rect x="394.81984375" y="707.8405625" width="4" height="4" style="fill: #CC6600;" class="thedig" id="A56D3EEC2C11624D9FE9E1DC3F9C6EEB00000000">
+    <title>Temple
+thedig
+A56D3EEC2C11624D9FE9E1DC3F9C6EEB00000000</title>
+  </rect>
+  <rect x="398.1383125" y="704.82028125" width="4" height="4" style="fill: #CC6600;" class="thedig" id="BA4042313DF4B64A944343E5F203D8BF00000000">
+    <title>Temple
+thedig
+BA4042313DF4B64A944343E5F203D8BF00000000</title>
+  </rect>
+  <rect x="506.9117421875" y="669.03778125" width="4" height="4" style="fill: #CC6600;" class="thedig" id="F3A34AD5666EB4428858B3424B3AB36400000000">
+    <title>Temple_Enter
+thedig
+F3A34AD5666EB4428858B3424B3AB36400000000</title>
+  </rect>
+  <rect x="504.517390625" y="670.113" width="4" height="4" style="fill: #CC6600;" class="thedig" id="E792EB0AF4B3EA4F971C2D0D604846EE00000000">
+    <title>Temple
+thedig
+E792EB0AF4B3EA4F971C2D0D604846EE00000000</title>
+  </rect>
+  <rect x="506.5534609375" y="672.1318125" width="4" height="4" style="fill: #CC6600;" class="thedig" id="4541257181A03E47AE53FE5B9BC9D09C00000000">
+    <title>Temple
+thedig
+4541257181A03E47AE53FE5B9BC9D09C00000000</title>
+  </rect>
+  <rect x="504.5881640625" y="674.30675" width="4" height="4" style="fill: #CC6600;" class="thedig" id="8FFB2FC6F9D0534F83C05CA1489F744300000000">
+    <title>Temple
+thedig
+8FFB2FC6F9D0534F83C05CA1489F744300000000</title>
+  </rect>
+  <rect x="506.5290234375" y="676.52246875" width="4" height="4" style="fill: #CC6600;" class="thedig" id="AC86C5B310294F4DBAC8593E7F4B701600000000">
+    <title>Temple
+thedig
+AC86C5B310294F4DBAC8593E7F4B701600000000</title>
+  </rect>
+  <rect x="589.51088085937" y="538.879609375" width="4" height="4" style="fill: #CC6600;" class="thedig" id="8A47F9F83899E248B1BB620BAC3CC1FD00000000">
+    <title>Temple_Enter
+thedig
+8A47F9F83899E248B1BB620BAC3CC1FD00000000</title>
+  </rect>
+  <rect x="587.90040527344" y="543.041625" width="4" height="4" style="fill: #CC6600;" class="thedig" id="97CA3DFE22FF81459A12D5EE3EE11F7600000000">
+    <title>Temple
+thedig
+97CA3DFE22FF81459A12D5EE3EE11F7600000000</title>
+  </rect>
+  <rect x="589.78291113281" y="546.38028125" width="4" height="4" style="fill: #CC6600;" class="thedig" id="316C3B0BA18EDE42B87978727F4B98EA00000000">
+    <title>Temple
+thedig
+316C3B0BA18EDE42B87978727F4B98EA00000000</title>
+  </rect>
+  <rect x="592.08120898438" y="548.2416875" width="4" height="4" style="fill: #CC6600;" class="thedig" id="DB9307DE4ED3914CA7550239DDBD886300000000">
+    <title>Temple
+thedig
+DB9307DE4ED3914CA7550239DDBD886300000000</title>
+  </rect>
+  <rect x="244.043125" y="476.8469609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6DB5DA8854472349A77DA118D6F21A7E00000000">
+    <title>Cave_Enter
+dungeon
+6DB5DA8854472349A77DA118D6F21A7E00000000</title>
+  </rect>
+  <rect x="242.28175" y="473.6289609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E18ED6DBFA05E2468E883E2C41DCF44C00000000">
+    <title>Cave
+dungeon
+E18ED6DBFA05E2468E883E2C41DCF44C00000000</title>
+  </rect>
+  <rect x="244.55615625" y="472.312328125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9EFCA550ED2B5648A5A8A053E493F01600000000">
+    <title>Cave
+dungeon
+9EFCA550ED2B5648A5A8A053E493F01600000000</title>
+  </rect>
+  <rect x="561.6239609375" y="613.78853125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5880C253BF914D4089C05C18BBE0566200000000">
+    <title>Cave_Enter
+dungeon
+5880C253BF914D4089C05C18BBE0566200000000</title>
+  </rect>
+  <rect x="558.43397265625" y="613.75365625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BBD65329FA89F745BDCE5B361F2931D700000000">
+    <title>Cave
+dungeon
+BBD65329FA89F745BDCE5B361F2931D700000000</title>
+  </rect>
+  <rect x="558.73988671875" y="610.9931875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2F3EB1CD24B5D3418FEB8D2AE130980300000000">
+    <title>Cave
+dungeon
+2F3EB1CD24B5D3418FEB8D2AE130980300000000</title>
+  </rect>
+  <rect x="339.636546875" y="606.65009375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="85CDED62482D33458788074AB9C3D62D00000000">
+    <title>Cave_Enter
+dungeon
+85CDED62482D33458788074AB9C3D62D00000000</title>
+  </rect>
+  <rect x="335.9786875" y="605.644234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FCFC5A01FBDE7349897A78B0FA8C408F00000000">
+    <title>Cave
+dungeon
+FCFC5A01FBDE7349897A78B0FA8C408F00000000</title>
+  </rect>
+  <rect x="336.99596875" y="602.883734375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="4FBB7AFE1E901345B230208EC0E1422D00000000">
+    <title>Cave
+dungeon
+4FBB7AFE1E901345B230208EC0E1422D00000000</title>
+  </rect>
+  <rect x="224.6264375" y="686.32459375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="F4D24E26DD907D4F82F55054EB8542DD00000000">
+    <title>Cave_Enter
+dungeon
+F4D24E26DD907D4F82F55054EB8542DD00000000</title>
+  </rect>
+  <rect x="223.10028125" y="688.113875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="F53DFE4FFB0ABB43B72FFCD18B8E508600000000">
+    <title>Cave
+dungeon
+F53DFE4FFB0ABB43B72FFCD18B8E508600000000</title>
+  </rect>
+  <rect x="220.7861875" y="686.00475" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A3D0D74F4B9F6D4DBC4490847DF1945600000000">
+    <title>Cave
+dungeon
+A3D0D74F4B9F6D4DBC4490847DF1945600000000</title>
+  </rect>
+  <rect x="211.26790625" y="595.181046875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="3B335362A1BA09448E29D8AC6AF95E8600000000">
+    <title>Cave_Enter
+dungeon
+3B335362A1BA09448E29D8AC6AF95E8600000000</title>
+  </rect>
+  <rect x="208.044875" y="595.27971875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9911294D49316848A56AE2B583587AE900000000">
+    <title>Cave
+dungeon
+9911294D49316848A56AE2B583587AE900000000</title>
+  </rect>
+  <rect x="208.62190625" y="592.20928125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="3632900653B4DF46BEFDE1DD606CA71100000000">
+    <title>Cave
+dungeon
+3632900653B4DF46BEFDE1DD606CA71100000000</title>
+  </rect>
+  <rect x="147.80809375" y="537.4748125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0DA1C04E80CDC845BDB268574EBBA65500000000">
+    <title>Cave_Enter
+dungeon
+0DA1C04E80CDC845BDB268574EBBA65500000000</title>
+  </rect>
+  <rect x="146.73865625" y="540.271203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6B99FA21D10B5F4BA7C453779CE42A1F00000000">
+    <title>Cave
+dungeon
+6B99FA21D10B5F4BA7C453779CE42A1F00000000</title>
+  </rect>
+  <rect x="144.3135625" y="540.4749375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="412241071C92354A92DD108AD4D9B76B00000000">
+    <title>Cave
+dungeon
+412241071C92354A92DD108AD4D9B76B00000000</title>
+  </rect>
+  <rect x="728.1041484375" y="516.57021875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9CD41DC03B81F84BB4AF1DF2F8FB9C3100000000">
+    <title>Cave_Enter
+dungeon
+9CD41DC03B81F84BB4AF1DF2F8FB9C3100000000</title>
+  </rect>
+  <rect x="726.791203125" y="519.4235" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E9FEEB745BCAB04EB5737D77FD2CAE3D00000000">
+    <title>Cave
+dungeon
+E9FEEB745BCAB04EB5737D77FD2CAE3D00000000</title>
+  </rect>
+  <rect x="722.632109375" y="521.277828125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="891BFC0687FBBE4294A1002922D9376C00000000">
+    <title>Cave
+dungeon
+891BFC0687FBBE4294A1002922D9376C00000000</title>
+  </rect>
+  <rect x="725.899640625" y="524.37640625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6E102ECA2B79D146A302F3B1D7A3905600000000">
+    <title>Cave
+dungeon
+6E102ECA2B79D146A302F3B1D7A3905600000000</title>
+  </rect>
+  <rect x="336.46325" y="546.088765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FE93E5CED09FBB4D88CC1FE9074B90CF00000000">
+    <title>Cave_Enter
+dungeon
+FE93E5CED09FBB4D88CC1FE9074B90CF00000000</title>
+  </rect>
+  <rect x="337.26659375" y="542.87203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8018CFEEB38AB846B4AEF137225FD1E700000000">
+    <title>Cave
+dungeon
+8018CFEEB38AB846B4AEF137225FD1E700000000</title>
+  </rect>
+  <rect x="339.186734375" y="540.867015625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="D7C059F2C0420549A54AE2B005AF24C700000000">
+    <title>Cave
+dungeon
+D7C059F2C0420549A54AE2B005AF24C700000000</title>
+  </rect>
+  <rect x="335.2290625" y="540.638203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="55B2B1E62D74FE4697DC6EA1C4CCA7A600000000">
+    <title>Cave
+dungeon
+55B2B1E62D74FE4697DC6EA1C4CCA7A600000000</title>
+  </rect>
+  <rect x="285.85834375" y="642.22378125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="3A9BA9347AC4504BB28CAB69A468202200000000">
+    <title>Cave_Enter
+dungeon
+3A9BA9347AC4504BB28CAB69A468202200000000</title>
+  </rect>
+  <rect x="286.292" y="638.85315625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="40E01608976B1C43BCD7F2E5E19A701A00000000">
+    <title>Cave
+dungeon
+40E01608976B1C43BCD7F2E5E19A701A00000000</title>
+  </rect>
+  <rect x="287.378375" y="637.3371875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="228BF1C6DA6A89498F8D36A9D8E9A0C100000000">
+    <title>Cave
+dungeon
+228BF1C6DA6A89498F8D36A9D8E9A0C100000000</title>
+  </rect>
+  <rect x="283.468625" y="637.18928125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="BB5BBBEAACCDB34C9B9B2E061373091A00000000">
+    <title>Cave
+dungeon
+BB5BBBEAACCDB34C9B9B2E061373091A00000000</title>
+  </rect>
+  <rect x="145.67896875" y="623.82275" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FAA2AE9300076F43B2D0D64624BB103500000000">
+    <title>Cave_Enter
+dungeon
+FAA2AE9300076F43B2D0D64624BB103500000000</title>
+  </rect>
+  <rect x="145.47296875" y="620.60765625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2B496BED134E6E469419C76ED493B24D00000000">
+    <title>Cave
+dungeon
+2B496BED134E6E469419C76ED493B24D00000000</title>
+  </rect>
+  <rect x="146.53290625" y="618.865625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="906EF8811C58FE44B097A8EE081C0EF400000000">
+    <title>Cave
+dungeon
+906EF8811C58FE44B097A8EE081C0EF400000000</title>
+  </rect>
+  <rect x="143.00121875" y="619.27796875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DFBF53242DA3F4498EBEE50F3D81374C00000000">
+    <title>Cave
+dungeon
+DFBF53242DA3F4498EBEE50F3D81374C00000000</title>
+  </rect>
+  <rect x="141.05478125" y="499.46803125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6AD96A93FE73DC4C9A3A347C7CF5066700000000">
+    <title>Cave_Enter
+dungeon
+6AD96A93FE73DC4C9A3A347C7CF5066700000000</title>
+  </rect>
+  <rect x="138.30809375" y="498.060078125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="FB744010ABDFBD428D7F1FB77A3FB38000000000">
+    <title>Cave
+dungeon
+FB744010ABDFBD428D7F1FB77A3FB38000000000</title>
+  </rect>
+  <rect x="137.363625" y="501.45165625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="228EBC322B0FDA47B8A45167C519C57800000000">
+    <title>Cave
+dungeon
+228EBC322B0FDA47B8A45167C519C57800000000</title>
+  </rect>
+  <rect x="134.13425" y="501.67884375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="AA08CA03D227DE44AE9BDB9C58D7417D00000000">
+    <title>Cave
+dungeon
+AA08CA03D227DE44AE9BDB9C58D7417D00000000</title>
+  </rect>
+  <rect x="136.12959375" y="503.87546875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="08117D759B1E9D4E99CA0CEE1CC9C64E00000000">
+    <title>Cave
+dungeon
+08117D759B1E9D4E99CA0CEE1CC9C64E00000000</title>
+  </rect>
+  <rect x="175.49003125" y="576.724578125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="38E7F9C51AA31F4DB224FAE83ECAE0C400000000">
+    <title>Cave_Enter
+dungeon
+38E7F9C51AA31F4DB224FAE83ECAE0C400000000</title>
+  </rect>
+  <rect x="172.3565" y="578.369015625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C53522C4AF1D9D4D867E39DDC8F6FF3400000000">
+    <title>Cave
+dungeon
+C53522C4AF1D9D4D867E39DDC8F6FF3400000000</title>
+  </rect>
+  <rect x="173.56878125" y="580.703875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="86D85B37EA57AA4B8F13D0F0469F782000000000">
+    <title>Cave
+dungeon
+86D85B37EA57AA4B8F13D0F0469F782000000000</title>
+  </rect>
+  <rect x="171.72721875" y="582.858015625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A28B852B2DAF6347A5CBEB758DF3F1EA00000000">
+    <title>Cave
+dungeon
+A28B852B2DAF6347A5CBEB758DF3F1EA00000000</title>
+  </rect>
+  <rect x="175.8096875" y="582.991546875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8CFDC84A4DE63C4BB4BA94BF4DE270B200000000">
+    <title>Cave
+dungeon
+8CFDC84A4DE63C4BB4BA94BF4DE270B200000000</title>
+  </rect>
+  <rect x="134.57340625" y="598.372609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E4EE137210B20E4C8DC243694C0238B300000000">
+    <title>Cave_Enter
+dungeon
+E4EE137210B20E4C8DC243694C0238B300000000</title>
+  </rect>
+  <rect x="130.8539375" y="597.973703125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="9BB26D57592437418AD6DDE60E980EB500000000">
+    <title>Cave
+dungeon
+9BB26D57592437418AD6DDE60E980EB500000000</title>
+  </rect>
+  <rect x="128.1689375" y="601.8660625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DE5E0FBACFC49C46BD01C484966E9EE300000000">
+    <title>Cave
+dungeon
+DE5E0FBACFC49C46BD01C484966E9EE300000000</title>
+  </rect>
+  <rect x="131.4154375" y="603.676171875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C6A119DF7950994C91B560CDC2F0EE7A00000000">
+    <title>Cave
+dungeon
+C6A119DF7950994C91B560CDC2F0EE7A00000000</title>
+  </rect>
+  <rect x="130.41825" y="600.303671875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="571AE9CBE2299446AF7EC108AA16092A00000000">
+    <title>Cave
+dungeon
+571AE9CBE2299446AF7EC108AA16092A00000000</title>
+  </rect>
+  <rect x="640.539046875" y="497.713421875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DFD81C9EA8D14349973B55CD57F8C4C000000000">
+    <title>Cave_Enter
+dungeon
+DFD81C9EA8D14349973B55CD57F8C4C000000000</title>
+  </rect>
+  <rect x="643.02274609375" y="495.06225" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2F0537B0A3838A48BA1AADCA9677293C00000000">
+    <title>Cave
+dungeon
+2F0537B0A3838A48BA1AADCA9677293C00000000</title>
+  </rect>
+  <rect x="641.4670234375" y="494.19171875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="32B24CD12856BF42805E8A8D3C87983400000000">
+    <title>Cave
+dungeon
+32B24CD12856BF42805E8A8D3C87983400000000</title>
+  </rect>
+  <rect x="640.91165625" y="490.846296875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="315241A35D910646AA620A8001C079D300000000">
+    <title>Cave
+dungeon
+315241A35D910646AA620A8001C079D300000000</title>
+  </rect>
+  <rect x="638.57360546875" y="491.94234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6A0BF7357C9E8749982E47B6E2B370B300000000">
+    <title>Cave
+dungeon
+6A0BF7357C9E8749982E47B6E2B370B300000000</title>
+  </rect>
+  <rect x="355.376734375" y="521.91196875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2543B88346ACC744B7E5B3CD6CF32B1600000000">
+    <title>Cave_Enter
+dungeon
+2543B88346ACC744B7E5B3CD6CF32B1600000000</title>
+  </rect>
+  <rect x="352.797015625" y="519.361890625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="42CBE09C2691BA4BB8339C916E9DDDFB00000000">
+    <title>Cave
+dungeon
+42CBE09C2691BA4BB8339C916E9DDDFB00000000</title>
+  </rect>
+  <rect x="351.84215625" y="520.945625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="E0A1F87447424246B220A73B96FED60600000000">
+    <title>Cave
+dungeon
+E0A1F87447424246B220A73B96FED60600000000</title>
+  </rect>
+  <rect x="348.187359375" y="521.11728125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="62855F1654635C44BA0A876FA5C4A9FF00000000">
+    <title>Cave
+dungeon
+62855F1654635C44BA0A876FA5C4A9FF00000000</title>
+  </rect>
+  <rect x="349.715875" y="524.4174375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="94F7F28429B0714887BDE53E1D65035800000000">
+    <title>Cave
+dungeon
+94F7F28429B0714887BDE53E1D65035800000000</title>
+  </rect>
+  <rect x="577.9427421875" y="569.8789375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="69F4208CDF043540A1C4B41C9F73501100000000">
+    <title>Cave_Enter
+dungeon
+69F4208CDF043540A1C4B41C9F73501100000000</title>
+  </rect>
+  <rect x="577.62700390625" y="566.80815625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C74029ACA58EA543ADA084EBAD8812A900000000">
+    <title>Cave
+dungeon
+C74029ACA58EA543ADA084EBAD8812A900000000</title>
+  </rect>
+  <rect x="573.57470898438" y="568.640421875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="279E2FAFC08D674F8855061653FFDA7200000000">
+    <title>Cave
+dungeon
+279E2FAFC08D674F8855061653FFDA7200000000</title>
+  </rect>
+  <rect x="570.7251328125" y="569.874078125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="C4BEED70512C0C409E8D4A6DD954463A00000000">
+    <title>Cave
+dungeon
+C4BEED70512C0C409E8D4A6DD954463A00000000</title>
+  </rect>
+  <rect x="571.69759179688" y="571.73496875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="56DC265B40557046888F88319DBF1B2200000000">
+    <title>Cave
+dungeon
+56DC265B40557046888F88319DBF1B2200000000</title>
+  </rect>
+  <rect x="574.23319335938" y="569.441828125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="AADE6B0C0AF8CB498687FF235D37EFD300000000">
+    <title>Cave
+dungeon
+AADE6B0C0AF8CB498687FF235D37EFD300000000</title>
+  </rect>
+  <rect x="184.8711875" y="467.9900625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B16F63E12B0C3F4491566020AA54381F00000000">
+    <title>Cave_Enter
+dungeon
+B16F63E12B0C3F4491566020AA54381F00000000</title>
+  </rect>
+  <rect x="187.2290625" y="466.0108203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="A51DFD12F4972D478E645D719A57106200000000">
+    <title>Cave
+dungeon
+A51DFD12F4972D478E645D719A57106200000000</title>
+  </rect>
+  <rect x="184.7365" y="463.3521875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="D1434EE4B5694A4CB5C8774B52CA34EA00000000">
+    <title>Cave
+dungeon
+D1434EE4B5694A4CB5C8774B52CA34EA00000000</title>
+  </rect>
+  <rect x="125.60459375" y="684.02928125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="872DE47B5A36A5448008DF54131FD0BC00000000">
+    <title>Cave_Enter
+dungeon
+872DE47B5A36A5448008DF54131FD0BC00000000</title>
+  </rect>
+  <rect x="123.04884375" y="682.47034375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="48F6964B4E88A449A27F7824047C4D3400000000">
+    <title>Cave
+dungeon
+48F6964B4E88A449A27F7824047C4D3400000000</title>
+  </rect>
+  <rect x="121.2416875" y="685.608" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8A99EE029335D94AAF31C101D380B86800000000">
+    <title>Cave
+dungeon
+8A99EE029335D94AAF31C101D380B86800000000</title>
+  </rect>
+  <rect x="648.44936328125" y="496.136640625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0FA1443FA8612D4BBFE113034F4781A700000000">
+    <title>Cave_Enter
+dungeon
+0FA1443FA8612D4BBFE113034F4781A700000000</title>
+  </rect>
+  <rect x="645.570515625" y="497.235296875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="2F4A44851F16034B9FEB842ED557679C00000000">
+    <title>Cave
+dungeon
+2F4A44851F16034B9FEB842ED557679C00000000</title>
+  </rect>
+  <rect x="646.83631640625" y="500.91115625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="318057C027642B49B2AC991405F3B38600000000">
+    <title>Cave
+dungeon
+318057C027642B49B2AC991405F3B38600000000</title>
+  </rect>
+  <rect x="373.9946875" y="574.815109375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="311F72E9D7D8144291A57D92594F033900000000">
+    <title>Cave_Enter
+dungeon
+311F72E9D7D8144291A57D92594F033900000000</title>
+  </rect>
+  <rect x="371.063203125" y="574.74775" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="8DD3C73E95D27948A3D01613F0398D9200000000">
+    <title>Cave
+dungeon
+8DD3C73E95D27948A3D01613F0398D9200000000</title>
+  </rect>
+  <rect x="370.697359375" y="578.214203125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="740C45A81BC89740AE7297EF326FC4F900000000">
+    <title>Cave
+dungeon
+740C45A81BC89740AE7297EF326FC4F900000000</title>
+  </rect>
+  <rect x="180.29765625" y="661.88309375" width="4" height="4" style="fill: #808080;" class="beliartemple" id="A449CF32E10BD84A8CC0B74166EE47BB00000000">
+    <title>Ishtar_Enter
+beliartemple
+A449CF32E10BD84A8CC0B74166EE47BB00000000</title>
+  </rect>
+  <rect x="172.324875" y="661.97103125" width="4" height="4" style="fill: #808080;" class="beliartemple" id="418BE41F50AF244083BF0388712D82AF00000000">
+    <title>Ishtar
+beliartemple
+418BE41F50AF244083BF0388712D82AF00000000</title>
+  </rect>
+  <rect x="164.48221875" y="661.801625" width="4" height="4" style="fill: #808080;" class="beliartemple" id="221A51C3D739F948918F295EBDEE286900000000">
+    <title>Ishtar
+beliartemple
+221A51C3D739F948918F295EBDEE286900000000</title>
+  </rect>
+  <rect x="162.89890625" y="660.3336875" width="4" height="4" style="fill: #808080;" class="beliartemple" id="2F7C41FEAA7B4246A8C0A0B97EB392FB00000000">
+    <title>Ishtar
+beliartemple
+2F7C41FEAA7B4246A8C0A0B97EB392FB00000000</title>
+  </rect>
+  <rect x="160.8941875" y="660.41025" width="4" height="4" style="fill: #808080;" class="beliartemple" id="BC885BB22F0B0C46B0FE778AA344B98B00000000">
+    <title>Ishtar
+beliartemple
+BC885BB22F0B0C46B0FE778AA344B98B00000000</title>
+  </rect>
+  <rect x="160.79503125" y="663.48684375" width="4" height="4" style="fill: #808080;" class="beliartemple" id="0232F7BC4326854BB8D713ED7775DA1100000000">
+    <title>Ishtar
+beliartemple
+0232F7BC4326854BB8D713ED7775DA1100000000</title>
+  </rect>
+  <rect x="163.7546875" y="663.69646875" width="4" height="4" style="fill: #808080;" class="beliartemple" id="323C9EFA81DC1744B28AF8D96E674F5A00000000">
+    <title>Ishtar
+beliartemple
+323C9EFA81DC1744B28AF8D96E674F5A00000000</title>
+  </rect>
+  <rect x="160.09428125" y="658.24025" width="4" height="4" style="fill: #808080;" class="beliartemple" id="7E9D89DA1AFDED458D1890B76BBE8C5700000000">
+    <title>Ishtar
+beliartemple
+7E9D89DA1AFDED458D1890B76BBE8C5700000000</title>
+  </rect>
+  <rect x="719.6138359375" y="92.445875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="4B5349DCCF9A964C96D44FE08A18FDE600000000">
+    <title>Dungeon
+orcmine01
+4B5349DCCF9A964C96D44FE08A18FDE600000000</title>
+  </rect>
+  <rect x="715.54078125" y="81.90690625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="B62432AFE5EC5243AAF1D3888C85D1F700000000">
+    <title>Dungeon
+orcmine01
+B62432AFE5EC5243AAF1D3888C85D1F700000000</title>
+  </rect>
+  <rect x="725.7853828125" y="93.198671875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="2B07DFA52295504BB8A7FE5897D0887500000000">
+    <title>Dungeon
+orcmine01
+2B07DFA52295504BB8A7FE5897D0887500000000</title>
+  </rect>
+  <rect x="722.5911953125" y="86.7775" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="85BB3EBDEC89124588A6FE7CF379F7A300000000">
+    <title>Dungeon
+orcmine01
+85BB3EBDEC89124588A6FE7CF379F7A300000000</title>
+  </rect>
+  <rect x="715.4410703125" y="87.04684375" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="91793DF6FF17AB40BE431B2BDDE7FC3B00000000">
+    <title>Dungeon
+orcmine01
+91793DF6FF17AB40BE431B2BDDE7FC3B00000000</title>
+  </rect>
+  <rect x="709.2367578125" y="88.988671875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="6DC6F1021651C54C8F416A97EC3747B800000000">
+    <title>Dungeon
+orcmine01
+6DC6F1021651C54C8F416A97EC3747B800000000</title>
+  </rect>
+  <rect x="707.9608984375" y="91.753125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="7466F314B36DC94C85B56C08B115D7F100000000">
+    <title>Dungeon
+orcmine01
+7466F314B36DC94C85B56C08B115D7F100000000</title>
+  </rect>
+  <rect x="702.255734375" y="88.471078125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="325467E703416C4DBAE73D4BB0F80B6300000000">
+    <title>Dungeon
+orcmine01
+325467E703416C4DBAE73D4BB0F80B6300000000</title>
+  </rect>
+  <rect x="707.4454921875" y="85.39678125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="5149D3520836E54AA262BA55C7042E7E00000000">
+    <title>Dungeon
+orcmine01
+5149D3520836E54AA262BA55C7042E7E00000000</title>
+  </rect>
+  <rect x="712.78853125" y="88.295765625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="5C1B852D884BC345AF710FDF2895DFB800000000">
+    <title>Dungeon
+orcmine01
+5C1B852D884BC345AF710FDF2895DFB800000000</title>
+  </rect>
+  <rect x="713.8134609375" y="92.56753125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="71082D2B80B5274BBE9DF74540A58F3900000000">
+    <title>Dungeon
+orcmine01
+71082D2B80B5274BBE9DF74540A58F3900000000</title>
+  </rect>
+  <rect x="725.0446953125" y="149.495515625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="57657E990B217A4AB4B5070161C907F400000000">
+    <title>Dungeon_Cave_Enter
+crystalcave
+57657E990B217A4AB4B5070161C907F400000000</title>
+  </rect>
+  <rect x="721.1116484375" y="151.011640625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="95FA4FEA13AA5D4CBDEB7375C981BA6F00000000">
+    <title>Dungeon_Cave
+crystalcave
+95FA4FEA13AA5D4CBDEB7375C981BA6F00000000</title>
+  </rect>
+  <rect x="726.483015625" y="152.226" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="5B29598E5BEB264E850B2ADE83910ED800000000">
+    <title>Dungeon_Cave
+crystalcave
+5B29598E5BEB264E850B2ADE83910ED800000000</title>
+  </rect>
+  <rect x="715.7756875" y="150.46203125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="6F2A5A2118B90D4BB8015758142C56EB00000000">
+    <title>Dungeon_Cave
+crystalcave
+6F2A5A2118B90D4BB8015758142C56EB00000000</title>
+  </rect>
+  <rect x="711.5092734375" y="149.952625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="214E00A5FFEC2A48A163E2C2F58874F700000000">
+    <title>Dungeon_Cave
+crystalcave
+214E00A5FFEC2A48A163E2C2F58874F700000000</title>
+  </rect>
+  <rect x="752.964796875" y="164.106953125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="268F2A0E4F8DF747979B36A5C92AF98600000000">
+    <title>Dungeon_Cave_Enter
+crystalcave
+268F2A0E4F8DF747979B36A5C92AF98600000000</title>
+  </rect>
+  <rect x="752.457765625" y="158.816421875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="B183A2CFA3ECC74DAFE1866B58AB890000000000">
+    <title>Dungeon_Cave
+crystalcave
+B183A2CFA3ECC74DAFE1866B58AB890000000000</title>
+  </rect>
+  <rect x="751.803265625" y="149.900515625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="8E1FE8D89AEE3D4AAB0D338B00BB476A00000000">
+    <title>Dungeon_Cave
+crystalcave
+8E1FE8D89AEE3D4AAB0D338B00BB476A00000000</title>
+  </rect>
+  <rect x="673.9480234375" y="78.18253125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="379563849D506F44AEF47BD4DC1C76BC00000000">
+    <title>Dungeon_Cave_Enter
+crystalcave
+379563849D506F44AEF47BD4DC1C76BC00000000</title>
+  </rect>
+  <rect x="671.4588984375" y="82.875625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="8F8B255318EEAB419AF6A3ABA657C7A800000000">
+    <title>Dungeon_Cave
+crystalcave
+8F8B255318EEAB419AF6A3ABA657C7A800000000</title>
+  </rect>
+  <rect x="666.3823359375" y="90.037265625" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="61450F75BCB2984A95A08FEEA7D3ACCB00000000">
+    <title>Dungeon_Cave
+crystalcave
+61450F75BCB2984A95A08FEEA7D3ACCB00000000</title>
+  </rect>
+  <rect x="694.5480546875" y="29.50609375" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="E819D8FBBF09584E942A113B00F11B9900000000">
+    <title>Dungeon_Cave_Enter
+crystalcave
+E819D8FBBF09584E942A113B00F11B9900000000</title>
+  </rect>
+  <rect x="696.5711875" y="24.93446875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="EAECB21B4BD3EE42870BC50C2C25141900000000">
+    <title>Dungeon_Cave
+crystalcave
+EAECB21B4BD3EE42870BC50C2C25141900000000</title>
+  </rect>
+  <rect x="703.238609375" y="20.7289375" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="4F81C02630A6D54F87EF19F1CAEC0B4000000000">
+    <title>Dungeon_Cave
+crystalcave
+4F81C02630A6D54F87EF19F1CAEC0B4000000000</title>
+  </rect>
+  <rect x="779.211578125" y="17.10546875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="84DCC1FA09C03343956DAC8288C99A0100000000">
+    <title>Dungeon_Cave_Enter
+crystalcave
+84DCC1FA09C03343956DAC8288C99A0100000000</title>
+  </rect>
+  <rect x="777.54909375" y="12.562125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="A62E16974A0D4C40B846EE2A0BD5DE8E00000000">
+    <title>Dungeon_Cave
+crystalcave
+A62E16974A0D4C40B846EE2A0BD5DE8E00000000</title>
+  </rect>
+  <rect x="769.877875" y="13.43321875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="92A36151EF1DFD40B3BA7A7EC78770DE00000000">
+    <title>Dungeon_Cave
+crystalcave
+92A36151EF1DFD40B3BA7A7EC78770DE00000000</title>
+  </rect>
+  <rect x="770.552875" y="87.4363125" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="0C1BD4431F0A3E4B9C81F299EFE0BEC400000000">
+    <title>Dungeon_Cave_Enter
+crystalcave
+0C1BD4431F0A3E4B9C81F299EFE0BEC400000000</title>
+  </rect>
+  <rect x="772.60346875" y="82.8361875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="7C5E0942E9458D4790D85977EFBC76FC00000000">
+    <title>Dungeon_Cave
+crystalcave
+7C5E0942E9458D4790D85977EFBC76FC00000000</title>
+  </rect>
+  <rect x="764.7741875" y="77.54771875" width="4" height="4" style="fill: #E0E0E0;" class="crystalcave" id="EE469BDFD3CB9B459E0A06BD06251E6700000000">
+    <title>Dungeon_Cave
+crystalcave
+EE469BDFD3CB9B459E0A06BD06251E6700000000</title>
+  </rect>
+  <rect x="771.8515625" y="126.643234375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5C8108C84C695A4AA78DB6315FBFD89100000000">
+    <title>Dungeon_Cave_Enter
+dungeon
+5C8108C84C695A4AA78DB6315FBFD89100000000</title>
+  </rect>
+  <rect x="768.224859375" y="129.28453125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="365FFB565D2767498C4C0C7316F972E800000000">
+    <title>Dungeon_Cave
+dungeon
+365FFB565D2767498C4C0C7316F972E800000000</title>
+  </rect>
+  <rect x="849.682078125" y="118.5209375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="0F05899A0D1A4948B8BC03D4F665560100000000">
+    <title>Dungeon_Cave_Enter
+dungeon
+0F05899A0D1A4948B8BC03D4F665560100000000</title>
+  </rect>
+  <rect x="846.92803125" y="116.800609375" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="584C1E5474513740A3CA7E7B2CE61C5800000000">
+    <title>Dungeon_Cave
+dungeon
+584C1E5474513740A3CA7E7B2CE61C5800000000</title>
+  </rect>
+  <rect x="747.176953125" y="85.42125" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="7A7434C423574644A118BBB8B75E5A3500000000">
+    <title>Dungeon_Cave_Enter
+dungeon
+7A7434C423574644A118BBB8B75E5A3500000000</title>
+  </rect>
+  <rect x="748.710015625" y="82.34" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="B93AB3573DE06F4BB1043B3E1BC7718800000000">
+    <title>Dungeon_Cave
+dungeon
+B93AB3573DE06F4BB1043B3E1BC7718800000000</title>
+  </rect>
+  <rect x="666.152453125" y="76.329875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="22C7415286149D44BC85AD6123E0BE7D00000000">
+    <title>Dungeon_Cave_Enter
+dungeon
+22C7415286149D44BC85AD6123E0BE7D00000000</title>
+  </rect>
+  <rect x="665.940015625" y="79.7145" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="18E92A7B0BD3684BB2BDC01413906D0A00000000">
+    <title>Dungeon_Cave
+dungeon
+18E92A7B0BD3684BB2BDC01413906D0A00000000</title>
+  </rect>
+  <rect x="809.3719375" y="103.8145625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="75F64157E5A8384EB7171B1B0E961DDA00000000">
+    <title>Dungeon_Cave_Enter
+dungeon
+75F64157E5A8384EB7171B1B0E961DDA00000000</title>
+  </rect>
+  <rect x="806.397796875" y="106.1666875" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="5B87178A3A003B409014CDACBDA7DBDB00000000">
+    <title>Dungeon_Cave
+dungeon
+5B87178A3A003B409014CDACBDA7DBDB00000000</title>
+  </rect>
+  <rect x="705.7692890625" y="104.5486875" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="0C3185A04789714A8CABF88637CB458900000000">
+    <title>Dungeon
+orcmine01
+0C3185A04789714A8CABF88637CB458900000000</title>
+  </rect>
+  <rect x="700.1254140625" y="105.46353125" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="3DF1BC3C298EB9438EFA204CFE2E12DA00000000">
+    <title>Dungeon
+orcmine01
+3DF1BC3C298EB9438EFA204CFE2E12DA00000000</title>
+  </rect>
+  <rect x="696.3168828125" y="98.75275" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="D9D58956AFF45F44B34709B8FBD2902B00000000">
+    <title>Dungeon
+orcmine01
+D9D58956AFF45F44B34709B8FBD2902B00000000</title>
+  </rect>
+  <rect x="692.926796875" y="102.598625" width="4" height="4" style="fill: #808B96;" class="orcmine01" id="073C5811B33F6C47A8D7B09A7F9B03B000000000">
+    <title>Dungeon
+orcmine01
+073C5811B33F6C47A8D7B09A7F9B03B000000000</title>
+  </rect>
+  <rect x="626.92273242188" y="54.97646875" width="4" height="4" style="fill: #800000;" class="monastery" id="55B939BE02D9914A8AA1C1D0CFD2FE3500000000">
+    <title>Monastery_Enter
+monastery
+55B939BE02D9914A8AA1C1D0CFD2FE3500000000</title>
+  </rect>
+  <rect x="626.01973242188" y="57.08440625" width="4" height="4" style="fill: #800000;" class="monastery" id="8A4523100D7EBB49BCC6A7E7B7FD75BE00000000">
+    <title>Monastery
+monastery
+8A4523100D7EBB49BCC6A7E7B7FD75BE00000000</title>
+  </rect>
+  <rect x="628.54172070312" y="57.524375" width="4" height="4" style="fill: #800000;" class="monastery" id="2BF6E1770FC7A5419A776AE6661CE80700000000">
+    <title>Monastery
+monastery
+2BF6E1770FC7A5419A776AE6661CE80700000000</title>
+  </rect>
+  <rect x="626.99754492188" y="54.61665625" width="4" height="4" style="fill: #800000;" class="monastery" id="26C2550E255B194DA6064116D3EA7FA800000000">
+    <title>Monastery
+monastery
+26C2550E255B194DA6064116D3EA7FA800000000</title>
+  </rect>
+  <rect x="628.24693945312" y="55.0881875" width="4" height="4" style="fill: #800000;" class="monastery" id="F950E348F8590E4AB4BD1E13FA01798100000000">
+    <title>Monastery
+monastery
+F950E348F8590E4AB4BD1E13FA01798100000000</title>
+  </rect>
+  <rect x="628.22240625" y="56.3925" width="4" height="4" style="fill: #800000;" class="monastery" id="3647A28EE386294AAF3CA58C703CF08700000000">
+    <title>Monastery
+monastery
+3647A28EE386294AAF3CA58C703CF08700000000</title>
+  </rect>
+  <rect x="627.3029375" y="58.14378125" width="4" height="4" style="fill: #800000;" class="monastery" id="68C1830296D4FF46B75FBD969DC9012900000000">
+    <title>Monastery
+monastery
+68C1830296D4FF46B75FBD969DC9012900000000</title>
+  </rect>
+  <rect x="625.85216015625" y="59.038125" width="4" height="4" style="fill: #800000;" class="monastery" id="AB2110099FCEE34E982059ADB7FFA17A00000000">
+    <title>Monastery
+monastery
+AB2110099FCEE34E982059ADB7FFA17A00000000</title>
+  </rect>
+  <rect x="624.2248203125" y="56.71290625" width="4" height="4" style="fill: #800000;" class="monastery" id="5346A1211EC3C14384B6CDE7C3145C8400000000">
+    <title>Monastery
+monastery
+5346A1211EC3C14384B6CDE7C3145C8400000000</title>
+  </rect>
+  <rect x="624.0416171875" y="55.50159375" width="4" height="4" style="fill: #800000;" class="monastery" id="B7F5A3AAED0F3F47A8B489BF38AE9FDD00000000">
+    <title>Monastery
+monastery
+B7F5A3AAED0F3F47A8B489BF38AE9FDD00000000</title>
+  </rect>
+  <rect x="625.12317382812" y="54.90609375" width="4" height="4" style="fill: #800000;" class="monastery" id="8ED73D9A5E249A48B8C6CD1C2431F54800000000">
+    <title>Monastery
+monastery
+8ED73D9A5E249A48B8C6CD1C2431F54800000000</title>
+  </rect>
+  <rect x="624.26178710938" y="56.73978125" width="4" height="4" style="fill: #800000;" class="monastery" id="4A64A3B140FE954388A3539BFD45320900000000">
+    <title>Monastery
+monastery
+4A64A3B140FE954388A3539BFD45320900000000</title>
+  </rect>
+  <rect x="626.41466601562" y="58.21875" width="4" height="4" style="fill: #800000;" class="monastery" id="342B16C6E9D2C443914926C85D48BCDE00000000">
+    <title>Monastery
+monastery
+342B16C6E9D2C443914926C85D48BCDE00000000</title>
+  </rect>
+  <rect x="627.24457226562" y="59.81028125" width="4" height="4" style="fill: #800000;" class="monastery" id="9F1DA220CA74C241860CB594531350AD00000000">
+    <title>Monastery
+monastery
+9F1DA220CA74C241860CB594531350AD00000000</title>
+  </rect>
+  <rect x="628.40920117188" y="59.83525" width="4" height="4" style="fill: #800000;" class="monastery" id="5BEA773596D55A4DBB7CD03089A85EE900000000">
+    <title>Monastery
+monastery
+5BEA773596D55A4DBB7CD03089A85EE900000000</title>
+  </rect>
+  <rect x="629.72541992188" y="58.856375" width="4" height="4" style="fill: #800000;" class="monastery" id="A92EAC073073D7459F8C649955FC1C0B00000000">
+    <title>Monastery
+monastery
+A92EAC073073D7459F8C649955FC1C0B00000000</title>
+  </rect>
+  <rect x="629.60152734375" y="57.71371875" width="4" height="4" style="fill: #800000;" class="monastery" id="E53C91D3C049F94187211028D6F2E89C00000000">
+    <title>Monastery
+monastery
+E53C91D3C049F94187211028D6F2E89C00000000</title>
+  </rect>
+  <rect x="628.90751757812" y="56.7235" width="4" height="4" style="fill: #800000;" class="monastery" id="6C4F746901AEBF4EB2C8D95F30BE2E0A00000000">
+    <title>Monastery
+monastery
+6C4F746901AEBF4EB2C8D95F30BE2E0A00000000</title>
+  </rect>
+  <circle cx="546.79682421875" cy="286.76044921875" r="2.5" style="fill: #000000;" class="myrtana" id="859088158673184CBF1248FE7B1C6D6C00000000">
+    <title>Myrtana_WeatherZone_01
+myrtana
+859088158673184CBF1248FE7B1C6D6C00000000</title>
+  </circle>
+  <rect x="587.52142675781" y="221.8076484375" width="4" height="4" style="fill: #000000;" class="myrtana" id="E69205B5EB071B4FB14A1F33F361A27100000000">
+    <title>G3_WeatherZoneDungeon_Silden_01
+myrtana
+E69205B5EB071B4FB14A1F33F361A27100000000</title>
+  </rect>
+  <rect x="453.952328125" y="346.5179855957" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="DBDF28DBE06AA34BBC2793AB75E3B63000000000">
+    <title>G3_WeatherZoneDungeon_Silden_01
+dungeon
+DBDF28DBE06AA34BBC2793AB75E3B63000000000</title>
+  </rect>
+  <rect x="453.261984375" y="341.50754589844" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="4A11BD34A1351F41AEECF29D4224837300000000">
+    <title>G3_WeatherZoneDungeon_Silden_01
+dungeon
+4A11BD34A1351F41AEECF29D4224837300000000</title>
+  </rect>
+  <rect x="539.8014765625" y="203.011390625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="740F5F7EB1918640AEC1B039499A87D500000000">
+    <title>G3_WeatherZoneDungeon_Silden_01
+dungeon
+740F5F7EB1918640AEC1B039499A87D500000000</title>
+  </rect>
+  <rect x="529.849359375" y="204.263390625" width="4" height="4" style="fill: #C0C0C0;" class="dungeon" id="6C3FF778DB7A864CB951E13A9739D10900000000">
+    <title>G3_WeatherZoneDungeon_Silden_01
+dungeon
+6C3FF778DB7A864CB951E13A9739D10900000000</title>
+  </rect>
+  <circle cx="513.0252109375" cy="162.175828125" r="2.5" style="fill: #008000;" class="vistapoint" id="0D6F8CA0E919AB408005A69791A24B3900000000">
+    <title>Area01
+vistapoint
+0D6F8CA0E919AB408005A69791A24B3900000000</title>
+  </circle>
+  <circle cx="541.416078125" cy="205.33728125" r="2.5" style="fill: #008000;" class="silden" id="29E30589F3265648A8175514F050990A00000000">
+    <title>MusicZone_Silden
+silden
+29E30589F3265648A8175514F050990A00000000</title>
+  </circle>
+  <circle cx="561.6497890625" cy="183.47865625" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="562526405C503B4397AF6A210F8BB37100000000">
+    <title>Forest01
+ominouswoods
+562526405C503B4397AF6A210F8BB37100000000</title>
+  </circle>
+  <circle cx="603.09631005859" cy="177.534390625" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="E5BE1C5F9AD6854C84779AA66509945700000000">
+    <title>Forest01_B
+ominouswoods
+E5BE1C5F9AD6854C84779AA66509945700000000</title>
+  </circle>
+  <circle cx="601.45862329102" cy="219.2580078125" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="734E8AABEDC8724B81ED7138627C920700000000">
+    <title>Forest01_C
+ominouswoods
+734E8AABEDC8724B81ED7138627C920700000000</title>
+  </circle>
+  <circle cx="451.431140625" cy="137.388625" r="2.5" style="fill: #33FF00;" class="locationidyllic" id="0BE05EBAD71BCA4AAAE243D69CF8020900000000">
+    <title>GiantWaterfalls
+locationidyllic
+0BE05EBAD71BCA4AAAE243D69CF8020900000000</title>
+  </circle>
+  <circle cx="428.223296875" cy="182.761875" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="CFCD80D21003C3419842BB41A182317300000000">
+    <title>Forest02
+ominouswoods
+CFCD80D21003C3419842BB41A182317300000000</title>
+  </circle>
+  <circle cx="509.8441875" cy="327.39403710938" r="2.5" style="fill: #FF0000;" class="trelis" id="501E85594F6ECE4CA8E0522F0E189AD700000000">
+    <title>MusicZone_Trelis
+trelis
+501E85594F6ECE4CA8E0522F0E189AD700000000</title>
+  </circle>
+  <circle cx="541.66508984375" cy="358.11307666016" r="2.5" style="fill: #6600CC;" class="xardasoutdoor" id="CB8B6A76D0F5B9489C955E9D0DC460BE00000000">
+    <title>TrelisTemplePlace
+xardasoutdoor
+CB8B6A76D0F5B9489C955E9D0DC460BE00000000</title>
+  </circle>
+  <circle cx="547.15431640625" cy="352.99317651367" r="2.5" style="fill: #CC6600;" class="thedig" id="76E09C40C7429345A1262AF14ABB745C00000000">
+    <title>TrelisTemple
+thedig
+76E09C40C7429345A1262AF14ABB745C00000000</title>
+  </circle>
+  <circle cx="628.8748125" cy="310.37469140625" r="2.5" style="fill: #FF0000;" class="trelis" id="3C1E415DD8918F46A82EADDAAD58F32000000000">
+    <title>MusicZone_Montera
+trelis
+3C1E415DD8918F46A82EADDAAD58F32000000000</title>
+  </circle>
+  <circle cx="638.17145703125" cy="279.810109375" r="2.5" style="fill: #008000;" class="vistapoint" id="7F7217F8F2AADD489FD1E26E59F1BC3800000000">
+    <title>Area02
+vistapoint
+7F7217F8F2AADD489FD1E26E59F1BC3800000000</title>
+  </circle>
+  <circle cx="665.4735859375" cy="246.7663515625" r="2.5" style="fill: #6600CC;" class="xardasoutdoor" id="71FA350E2B0BE24AA4D656D97AAA137900000000">
+    <title>MusicZone_Gotha
+xardasoutdoor
+71FA350E2B0BE24AA4D656D97AAA137900000000</title>
+  </circle>
+  <rect x="671.195515625" y="247.2738125" width="4" height="4" style="fill: #66FFFF;" class="locationgothic1theme" id="8879EAF529076F429CD16932F426F9ED00000000">
+    <title>GothaTowerTop
+locationgothic1theme
+8879EAF529076F429CD16932F426F9ED00000000</title>
+  </rect>
+  <rect x="711.283921875" y="245.556015625" width="4" height="4" style="fill: #008000;" class="vistapoint" id="797A1F413563EF47B0CEEDC6B31BA44000000000">
+    <title>Area03
+vistapoint
+797A1F413563EF47B0CEEDC6B31BA44000000000</title>
+  </rect>
+  <circle cx="720.267953125" cy="238.59209375" r="2.5" style="fill: #FF0000;" class="faring" id="504E5993984EEA448A73B890926BDCF200000000">
+    <title>MusicZone_Faring
+faring
+504E5993984EEA448A73B890926BDCF200000000</title>
+  </circle>
+  <rect x="723.177359375" y="222.9369609375" width="4" height="4" style="fill: #800080;" class="slaves" id="475E2FD33E177143A487EEF80A84B14A00000000">
+    <title>FaringInnosTemple
+slaves
+475E2FD33E177143A487EEF80A84B14A00000000</title>
+  </rect>
+  <rect x="708.9508046875" y="225.922765625" width="4" height="4" style="fill: #00CCFF;" class="highlands" id="37F04701D2CD8C48842B95BC42D60B7300000000">
+    <title>FaringUpperBridge
+highlands
+37F04701D2CD8C48842B95BC42D60B7300000000</title>
+  </rect>
+  <circle cx="788.563421875" cy="282.79859375" r="2.5" style="fill: #FF0000;" class="vengard" id="992F8C1D90C83542AD6489BB39ED37DD00000000">
+    <title>VengardPalace
+vengard
+992F8C1D90C83542AD6489BB39ED37DD00000000</title>
+  </circle>
+  <circle cx="794.2459375" cy="281.7752109375" r="2.5" style="fill: #FF0000;" class="vengard" id="F7D6BE8A9CAD4543909BFCAC9418408200000000">
+    <title>VengardPalace_B
+vengard
+F7D6BE8A9CAD4543909BFCAC9418408200000000</title>
+  </circle>
+  <circle cx="779.15246875" cy="277.5257421875" r="2.5" style="fill: #800000;" class="sadstrings" id="CA595C178C61A746A9876B29B8219B4C00000000">
+    <title>VengardRuins
+sadstrings
+CA595C178C61A746A9876B29B8219B4C00000000</title>
+  </circle>
+  <circle cx="794.64659375" cy="404.74412890625" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="AA493E0CE37A734B98B3EC4C3BE3BCF600000000">
+    <title>ArdeaLighthouse
+vistapointharp
+AA493E0CE37A734B98B3EC4C3BE3BCF600000000</title>
+  </circle>
+  <circle cx="782.281109375" cy="372.81496875" r="2.5" style="fill: #000000;" class="myrtana" id="7E4589036752D24E9E5D875D42FAD17F00000000">
+    <title>MusicZone_Ardea
+myrtana
+7E4589036752D24E9E5D875D42FAD17F00000000</title>
+  </circle>
+  <circle cx="695.155703125" cy="415.44867578125" r="2.5" style="fill: #FF0000;" class="faring" id="D2139502E22280439EDA96F96F53691600000000">
+    <title>MusicZone_KapDun
+faring
+D2139502E22280439EDA96F96F53691600000000</title>
+  </circle>
+  <circle cx="692.101046875" cy="421.1303671875" r="2.5" style="fill: #66FFFF;" class="locationgothic1theme" id="73AE7F2C9DEBDA4187016C5947CBAD7800000000">
+    <title>KapDunLighthouse
+locationgothic1theme
+73AE7F2C9DEBDA4187016C5947CBAD7800000000</title>
+  </circle>
+  <circle cx="716.282734375" cy="338.28437402344" r="2.5" style="fill: #008000;" class="vistapoint" id="46BA784DE0DCBB45B1143E6EA8655A6B00000000">
+    <title>Area04
+vistapoint
+46BA784DE0DCBB45B1143E6EA8655A6B00000000</title>
+  </circle>
+  <circle cx="746.774671875" cy="333.48218945312" r="2.5" style="fill: #660066;" class="locationspooky" id="00F0CEB1579521489A850D44FA8AFF8700000000">
+    <title>StoneHenge
+locationspooky
+00F0CEB1579521489A850D44FA8AFF8700000000</title>
+  </circle>
+  <circle cx="582.29923828125" cy="319.83808203125" r="2.5" style="fill: #660066;" class="locationspooky" id="93FB493CCFDEA04BB2E61D6FD17E7FD000000000">
+    <title>SmallRuins
+locationspooky
+93FB493CCFDEA04BB2E61D6FD17E7FD000000000</title>
+  </circle>
+  <circle cx="545.02384375" cy="320.42102539062" r="2.5" style="fill: #99FF99;" class="happystrings" id="7E3CA24847357048A9C2F97B4BBCA3C700000000">
+    <title>SmallFarm
+happystrings
+7E3CA24847357048A9C2F97B4BBCA3C700000000</title>
+  </circle>
+  <circle cx="408.41271875" cy="404.360296875" r="2.5" style="fill: #000000;" class="myrtana" id="2B9A107A1A214947B3143072571972A400000000">
+    <title>PathToVarant
+myrtana
+2B9A107A1A214947B3143072571972A400000000</title>
+  </circle>
+  <circle cx="475.408296875" cy="307.93508984375" r="2.5" style="fill: #008000;" class="vistapoint" id="358557DC907E0847997E1C4361229E1000000000">
+    <title>Area05
+vistapoint
+358557DC907E0847997E1C4361229E1000000000</title>
+  </circle>
+  <circle cx="487.9638359375" cy="261.0367421875" r="2.5" style="fill: #FF0000;" class="trelis" id="EE5266929241B147AE9C93F157F4B27B00000000">
+    <title>MusicZone_Geldern
+trelis
+EE5266929241B147AE9C93F157F4B27B00000000</title>
+  </circle>
+  <circle cx="462.101375" cy="213.846234375" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="D2D6F96832C6B44E85CDE91A6AA2EFCD00000000">
+    <title>Forest01_C
+ominouswoods
+D2D6F96832C6B44E85CDE91A6AA2EFCD00000000</title>
+  </circle>
+  <circle cx="556.688921875" cy="143.47346875" r="2.5" style="fill: #008000;" class="vistapoint" id="3E253AF0B451AE4584FC8ADA6D1D6A6500000000">
+    <title>Area01_B
+vistapoint
+3E253AF0B451AE4584FC8ADA6D1D6A6500000000</title>
+  </circle>
+  <circle cx="586.60579589844" cy="110.0784375" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="369D863A6E2EA44CA4C4E311467CDE7200000000">
+    <title>RiverSource
+vistapointharp
+369D863A6E2EA44CA4C4E311467CDE7200000000</title>
+  </circle>
+  <rect x="545.074703125" y="281.7680625" width="4" height="4" style="fill: #00FF00;" class="vistapointharp" id="80ADD82236588B4D9CB34A677CA2BF9E00000000">
+    <title>River01
+vistapointharp
+80ADD82236588B4D9CB34A677CA2BF9E00000000</title>
+  </rect>
+  <circle cx="710.0067421875" cy="247.2586328125" r="2.5" style="fill: #008000;" class="vistapoint" id="606968832EE5564297A3994B5E00B9CD00000000">
+    <title>River02
+vistapoint
+606968832EE5564297A3994B5E00B9CD00000000</title>
+  </circle>
+  <rect x="742.265078125" y="260.6197890625" width="4" height="4" style="fill: #33CC00;" class="ominouswoods" id="CE4D6FBBD3C311478AF8FD1101ABCD3200000000">
+    <title>Forest01_B
+ominouswoods
+CE4D6FBBD3C311478AF8FD1101ABCD3200000000</title>
+  </rect>
+  <circle cx="636.63456640625" cy="301.26916796875" r="2.5" style="fill: #FF9966;" class="arena" id="8D6A9654E0B5D14EA5EFF0574A133D3F00000000">
+    <title>SmallArena01
+arena
+8D6A9654E0B5D14EA5EFF0574A133D3F00000000</title>
+  </circle>
+  <rect x="626.14897851562" y="318.49266601562" width="4" height="4" style="fill: #800080;" class="slaves" id="3A0FF543A1BDD64592894FED6885CA8D00000000">
+    <title>MonteraInnosTemple
+slaves
+3A0FF543A1BDD64592894FED6885CA8D00000000</title>
+  </rect>
+  <circle cx="520.1153046875" cy="203.918078125" r="2.5" style="fill: #008000;" class="silden" id="E4D2433FEF1071428A9B363683B4534D00000000">
+    <title>SildenWatermill
+silden
+E4D2433FEF1071428A9B363683B4534D00000000</title>
+  </circle>
+  <circle cx="534.5516875" cy="203.542859375" r="2.5" style="fill: #FF9966;" class="arena" id="2754F6E8D14B6840B0897AC2F1AA504300000000">
+    <title>SmallArena01_B
+arena
+2754F6E8D14B6840B0897AC2F1AA504300000000</title>
+  </circle>
+  <circle cx="743.318609375" cy="377.59197265625" r="2.5" style="fill: #33CC00;" class="ominouswoods" id="29A97EE9FAB6CF449A48510921EAFCBF00000000">
+    <title>Forest01_A
+ominouswoods
+29A97EE9FAB6CF449A48510921EAFCBF00000000</title>
+  </circle>
+  <circle cx="766.71009375" cy="388.99541796875" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="4480BF0859104B48989F2C13B6BA7B2600000000">
+    <title>KapDunFisher
+vistapointharp
+4480BF0859104B48989F2C13B6BA7B2600000000</title>
+  </circle>
+  <circle cx="767.74615625" cy="389.65334375" r="2.5" style="fill: #00FF00;" class="vistapointharp" id="45969B90B654BD40B4ADC4563F8E349F00000000">
+    <title>KapDunFisherHut
+vistapointharp
+45969B90B654BD40B4ADC4563F8E349F00000000</title>
+  </circle>
+  <circle cx="663.47003515625" cy="244.1291875" r="2.5" style="fill: #6600CC;" class="xardasoutdoor" id="86812454BCFE7F4BB64D1C6957E864D200000000">
+    <title>MusicZone_Gotha
+xardasoutdoor
+86812454BCFE7F4BB64D1C6957E864D200000000</title>
+  </circle>
 </svg>

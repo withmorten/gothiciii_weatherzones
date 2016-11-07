@@ -9,7 +9,7 @@ function toggle(event) {
         input.setAttribute("checked", "checked");                       // and even more
     }
     
-    // now finally for the svg manipulation, because of course fucking checkboxes are most complicated part
+    // now finally for the svg manipulation, because of course fucking checkboxes are the most complicated part
     
     var svg = document.getElementById("svg").contentDocument;
     var musiclocation = input.id;

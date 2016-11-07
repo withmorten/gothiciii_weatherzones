@@ -37,24 +37,36 @@ function svg_attributes($attributes_in) {
     return $attribute_out;
 }
 
-function svg_rect($svg, $x, $y, $w, $h, $style, $attributes) {
+function svg_title($title) {
+    if($title !== '') {
+        return '<title>'.$title.'</title>';
+    } else {
+        return '';
+    }
+}
+
+function svg_rect($svg, $x, $y, $w, $h, $style, $attributes, $title = '') {
     $style = svg_styles($style);
     $attributes = svg_attributes($attributes);
     
     $svg.= '<rect x="'.$x.'" y="'.$y.'" width="'.$w.'" height="'.$h.'" ';
     if($style !== "") $svg.= 'style="'.$style.'" ';
     $svg.= $attributes;
-    $svg.= '/>';
+    $svg.= '>';
+    $svg.= svg_title($title);
+    $svg.= '</rect>';
     return $svg;
 }
 
-function svg_circle($svg, $cx, $cy, $r, $style, $attributes) {
+function svg_circle($svg, $cx, $cy, $r, $style, $attributes, $title = '') {
     $style = svg_styles($style);
     $attributes = svg_attributes($attributes);
     
     $svg.= '<circle cx="'.$cx.'" cy="'.$cy.'" r="'.$r.'" ';
     if($style !== "") $svg.= 'style="'.$style.'" ';
     $svg.= $attributes;
-    $svg.= '/>';
+    $svg.= '>';
+    $svg.= svg_title($title);
+    $svg.='</circle>';
     return $svg;
 }

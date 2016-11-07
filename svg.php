@@ -40,9 +40,10 @@ foreach($json as $guid => $weatherzone) {
     $color = $colors["colors"][$musiclocation];
     $style = array('fill' => $color);
     $attributes = array('class' => $musiclocation, 'id' => $guid);
+    $title = $weatherzone["Name"]."\n".$musiclocation."\n".$guid;
     
-    if     (in_array($weatherzone["Shape"], $rect))   $svg = svg_rect($svg, $x, $z, 4, 4, $style, $attributes);
-    else if(in_array($weatherzone["Shape"], $circle)) $svg = svg_circle($svg, $x, $z, 2.5, $style, $attributes);
+    if     (in_array($weatherzone["Shape"], $rect))   $svg = svg_rect($svg, $x, $z, 4, 4, $style, $attributes, $title);
+    else if(in_array($weatherzone["Shape"], $circle)) $svg = svg_circle($svg, $x, $z, 2.5, $style, $attributes, $title);
 }
 
 $svg = svg_exit($svg);
@@ -54,7 +55,7 @@ file_put_contents("weatherzones".$modsuffix.".txt", wthrzonearray2string($json))
     <head>
         <title>G3 WeatherZones</title>
         <link href="svg.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="svg.js"></script>
+        <script src="svg.js" type="text/javascript"></script>
     </head>
     <body>
         <object id="svg" data="<?php echo $modprefix; ?>SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg" type="image/svg+xml"></object>
