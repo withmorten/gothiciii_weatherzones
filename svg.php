@@ -25,31 +25,30 @@ foreach($jsons as $json_file) {
     $json = array_merge($json, $json_new);
 }
 
-$svg = svg_init(900, 800);
+file_put_contents("weatherzones".$modsuffix.".txt", wthrzonearray2string($json));
 
-$xyz_scale = 500;
+aasort($json, "SVGRadius");
+$json = array_reverse($json);
 
-$rect = array("eEWeatherZoneShape_2D_Rect", "eEWeatherZoneShape_3D_Box");
-$circle = array("eEWeatherZoneShape_2D_Circle", "eEWeatherZoneShape_3D_Sphere");
+$svg = svg_init(1400, 800);
 
 foreach($json as $guid => $weatherzone) {
-    $x = ($weatherzone["X"] / $xyz_scale) + 600;
-    $z = (($weatherzone["Z"] * -1) / $xyz_scale) + 350;
-    
     $musiclocation = strtolower($weatherzone["MusicLocation"]);
-    $color = $colors["colors"][$musiclocation];
-    $style = array('fill' => $color);
-    $attributes = array('class' => $musiclocation, 'id' => $guid);
-    $title = $weatherzone["Name"]."\n".$musiclocation."\n".$guid;
     
-    if     (in_array($weatherzone["Shape"], $rect))   $svg = svg_rect($svg, $x, $z, 4, 4, $style, $attributes, $title);
-    else if(in_array($weatherzone["Shape"], $circle)) $svg = svg_circle($svg, $x, $z, 2.5, $style, $attributes, $title);
+    $attributes = xyrwh($weatherzone);
+    $attributes['fill'] = $colors["colors"][$musiclocation];
+    $attributes['class'] = $musiclocation;
+    $attributes['id'] = $guid;
+    $tag = ($weatherzone["SVGShape"] === CIRCLE ? CIRCLE : RECT);
+    $title = svg_node(TITLE, 0, $weatherzone["Name"]."\n".$musiclocation."\n".$guid);
+    
+    $svg.= svg_node($tag, $attributes, $title);
 }
 
-$svg = svg_exit($svg);
+$svg.= svg_exit();
+$svg = svg_format($svg);
 
 file_put_contents($modprefix.'SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg', $svg);
-file_put_contents("weatherzones".$modsuffix.".txt", wthrzonearray2string($json));
 ?>
 <html>
     <head>
@@ -58,6 +57,7 @@ file_put_contents("weatherzones".$modsuffix.".txt", wthrzonearray2string($json))
         <script src="svg.js" type="text/javascript"></script>
     </head>
     <body>
+        <!--<img id="g3_hud_maps_03" src="g3_hud_maps_03_waifu2x_art_noise1_scale_tta_1.png" />-->
         <object id="svg" data="<?php echo $modprefix; ?>SysDyn_{9A103CC2-4190-4DB3-9618-0419E5445AAD}.svg" type="image/svg+xml"></object>
         <?php echo colortable($colors); ?>
     </body>

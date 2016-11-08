@@ -4,6 +4,16 @@ require_once('svglib.php');
 error_reporting(E_ALL);
 const PRE = TRUE;
 
+const CIRCLE = "circle";
+const RECT = "rect";
+const TITLE = "title";
+
+const SCALE = 500;
+const X_OFF = 600;
+const Y_OFF = 350;
+const MINR = 2.5;
+const MINWH = MINR * 1.6;
+
 function bin2dec($bin) {
     return hexdec(bin2hex(strrev($bin)));
 }
@@ -64,6 +74,22 @@ function key2bin($string, $strtable) {
     return hex2bin(hexr(str_pad_left(dechex($key), 4)));
 }
 
+function xyrwh($weatherzone) {
+    $xyrwh = array();
+    $radius = $weatherzone["SVGRadius"] / SCALE;
+    if($weatherzone["SVGShape"] === CIRCLE) {
+        $xyrwh["cx"] = ($weatherzone["X"] / SCALE) + X_OFF;
+        $xyrwh["cy"] = (($weatherzone["Z"] * -1) / SCALE) + Y_OFF;
+        $xyrwh["r"] = ($radius > MINR ? $radius : MINR);
+    } else {
+        $xyrwh["x"] = ($weatherzone["X"] / SCALE) + X_OFF;
+        $xyrwh["y"] = (($weatherzone["Z"] * -1) / SCALE) + Y_OFF;
+        $xyrwh["width"] = ($radius > MINWH ? $radius : MINWH);
+        $xyrwh["height"] = $xyrwh["width"];
+    }
+    return $xyrwh;
+}
+
 function wthrzonearray2string($array) {
     $o = "";
     $allowed = array("Name", "MusicLocation");
@@ -105,7 +131,7 @@ function colortable($colors) {
         
         $html_out.= $tr_in.'<td style="background-color: '.$color.'; color:'.$fontcolor.'">';
         $html_out.= '<label onclick="toggle(event);">'.$music;
-        $html_out.= '<input type="checkbox" id="'.$music.'" checked disabled />';
+        $html_out.= '<input type="checkbox" id="'.$music.'" checked />';
         $html_out.= '</label></td>'.$tr_out."\n\t\t";
         
         $c++;
@@ -128,4 +154,18 @@ function hex2float($number) {
         $significand += (1 / pow(2,$i))*$mantissa[$i];
     }
     return $significand * pow(2,$exp) * ($sign*-2+1);
+}
+
+function aasort(&$array, $key) {
+    $sorter=array();
+    $ret=array();
+    reset($array);
+    foreach($array as $ii => $va) {
+        $sorter[$ii]=$va[$key];
+    }
+    asort($sorter);
+    foreach($sorter as $ii => $va) {
+        $ret[$ii]=$array[$ii];
+    }
+    $array=$ret;
 }

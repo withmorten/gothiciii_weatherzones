@@ -7,8 +7,17 @@ body {
     font-size: 12px;
 }
 
-object {
+#svg {
     position: absolute;
+}
+
+#g3_hud_maps_03 {
+    position: absolute;
+    opacity: 0.5;
+    height: 950;
+    width: 950;
+    margin-left: -15px;
+    margin-top: -82px;
 }
 
 table {
@@ -30,6 +39,7 @@ label {
     min-height: 100%; /* for the latest browsers which support min-height */
     height: auto !important; /* for newer IE versions */
     height: 100%; /* the only height-related attribute that IE6 does not ignore  */
+    padding-bottom: 3.2px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;

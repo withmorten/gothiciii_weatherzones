@@ -32,7 +32,8 @@ foreach($g3_world_01_files as $g3_world_01_file) {
     $wthrzone_lastpos = 0;
     $wthrzone_count = 0;
     $wthrzone_array = array();
-    $wthrzone_shapes = array("2D_Circle", "2D_Rect", "3D_Sphere", "3D_Box");
+    $wthrzone_shapes = array("eEWeatherZoneShape_2D_Circle", "eEWeatherZoneShape_2D_Rect", "eEWeatherZoneShape_3D_Sphere", "eEWeatherZoneShape_3D_Box");
+    $wthrzone_circle = array($wthrzone_shapes[0], $wthrzone_shapes[2]);
 
     $musiclocation_needle = key2bin("MusicLocation", $strtable).key2bin("bCString", $strtable).hex2binr("001E");  // still hacky and weird
     $wthrzone_shape_needle = key2bin("Shape", $strtable).key2bin("bTPropertyContainer<enum eEWeatherZoneShape>", $strtable);
@@ -59,22 +60,33 @@ foreach($g3_world_01_files as $g3_world_01_file) {
         
         $wthrzone_shape_start = strpos($wthrzone_substr, $wthrzone_shape_needle);
         $wthrzone_shape_key = bin2dec(substr($wthrzone_substr, $wthrzone_shape_start+12, 4));
+        $wthrzone_shape = $wthrzone_shapes[$wthrzone_shape_key];
         
         $wthrzone_innerrad_start = strpos($wthrzone_substr, $innerradius_needle);
         $wthrzone_outerrad_start = strpos($wthrzone_substr, $outerradius_needle);
         $wthrzone_innerrad = bin2float(substr($wthrzone_substr, $wthrzone_innerrad_start+10, 4));
         $wthrzone_outerrad = bin2float(substr($wthrzone_substr, $wthrzone_outerrad_start+10, 4));
         
+        if(in_array($wthrzone_shape, $wthrzone_circle)) {
+            $wthrzone_svg_shape = CIRCLE;
+            $wthrzone_svg_radius = $wthrzone_outerrad;
+        } else { 
+            $wthrzone_svg_shape = RECT;
+            $wthrzone_svg_radius = $wthrzone_innerrad;
+        }
+        
         if(trim($entity_name) === "") $entity_name = str_replace("G3_World_01\\", "", explode(".", $g3_world_01_file)[0]);
         
         $wthrzone_array[$entity_guid] = array("Name" => $entity_name,
                                               "MusicLocation" => strtolower($strtable[$wthrzone_music_strkey]),
-                                              "Shape" => 'eEWeatherZoneShape_'.$wthrzone_shapes[$wthrzone_shape_key],
+                                              "Shape" => $wthrzone_shape,
                                               "X" => $entity_x,
                                               "Y" => $entity_y,
                                               "Z" => $entity_z,
                                               "InnerRadius" => $wthrzone_innerrad,
-                                              "OuterRadius" => $wthrzone_outerrad);
+                                              "OuterRadius" => $wthrzone_outerrad,
+                                              "SVGShape" => $wthrzone_svg_shape,
+                                              "SVGRadius" => $wthrzone_svg_radius);
         
         $wthrzone_count++;
         $wthrzone_lastpos += strlen($wthrzone_needle);

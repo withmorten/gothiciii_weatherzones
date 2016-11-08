@@ -350,7 +350,7 @@
 350 => 00F0CEB1579521489A850D44FA8AFF8700000000 => StoneHenge                            => locationspooky
 351 => 93FB493CCFDEA04BB2E61D6FD17E7FD000000000 => SmallRuins                            => locationspooky
 352 => 7E3CA24847357048A9C2F97B4BBCA3C700000000 => SmallFarm                             => happystrings
-353 => 2B9A107A1A214947B3143072571972A400000000 => PathToVarant                          => myrtana
+353 => 2B9A107A1A214947B3143072571972A400000000 => PathToVarant                          => varant
 354 => 358557DC907E0847997E1C4361229E1000000000 => Area05                                => vistapoint
 355 => EE5266929241B147AE9C93F157F4B27B00000000 => MusicZone_Geldern                     => trelis
 356 => D2D6F96832C6B44E85CDE91A6AA2EFCD00000000 => Forest01_C                            => ominouswoods
