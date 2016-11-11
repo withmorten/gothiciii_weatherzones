@@ -127,7 +127,7 @@
 127 => 04887ABADBB2C04593D0254F6002F7E700000000 => Music_Ishtar                          => ishtar
 128 => F1E475243B40AA41AEB84A7D79BC0EC000000000 => Music_MoraSul                         => ishtar
 129 => 97EDA540C8318041851C9DEF775A901C00000000 => Music_Lago                            => braga
-130 => 255EB45DDDA08E419D1B3D2B51F23E9900000000 => BenSalaCave                           => dungeon
+130 => 255EB45DDDA08E419D1B3D2B51F23E9900000000 => BenSalaCave                           => locationspooky
 131 => 1A9A9FE6E40FAE42A49B512982CB9B6100000000 => BakareschArena                        => arena
 132 => 6C51916347EF7947AF0A3D344FA31AF400000000 => MoraSulArena                          => arena
 133 => AFFA7BBD7558D74DBA9D66A3CBFE7A7500000000 => Music_Bakaresch                       => ishtar
@@ -347,8 +347,8 @@
 347 => D2139502E22280439EDA96F96F53691600000000 => MusicZone_KapDun                      => faring
 348 => 73AE7F2C9DEBDA4187016C5947CBAD7800000000 => KapDunLighthouse                      => locationgothic1theme
 349 => 46BA784DE0DCBB45B1143E6EA8655A6B00000000 => Area04                                => vistapoint
-350 => 00F0CEB1579521489A850D44FA8AFF8700000000 => StoneHenge                            => locationspooky
-351 => 93FB493CCFDEA04BB2E61D6FD17E7FD000000000 => SmallRuins                            => locationspooky
+350 => 00F0CEB1579521489A850D44FA8AFF8700000000 => StoneHenge                            => locationold
+351 => 93FB493CCFDEA04BB2E61D6FD17E7FD000000000 => SmallRuins                            => locationold
 352 => 7E3CA24847357048A9C2F97B4BBCA3C700000000 => SmallFarm                             => happystrings
 353 => 2B9A107A1A214947B3143072571972A400000000 => PathToVarant                          => varant
 354 => 358557DC907E0847997E1C4361229E1000000000 => Area05                                => vistapoint

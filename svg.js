@@ -1,4 +1,4 @@
-function toggle(event) {
+function toggleCheckbox(event) {
     event.preventDefault();                                             // Fuck you JavaScript ... seriously, fuck you
     var label = event.target || event.srcElement;
     var input = label.firstElementChild;
@@ -17,13 +17,15 @@ function toggle(event) {
     var n = nodes.length;
     
     for(var i = 0; i < n; i++) {
-        var node = nodes[i];
-        
-        if(!node.hasAttribute("visibility") || node.getAttribute("visibility") === 'visible') {
-            node.setAttribute("visibility", "hidden");
-        } else {
-            node.setAttribute("visibility", "visible");
-        }
+        toggleNodeVisibilty(nodes[i]);
+    }
+}
+
+function toggleNodeVisibilty(node) {
+    if(!node.hasAttribute("visibility") || node.getAttribute("visibility") === 'visible') {
+        node.setAttribute("visibility", "hidden");
+    } else {
+        node.setAttribute("visibility", "visible");
     }
 }
 

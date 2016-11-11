@@ -78,14 +78,15 @@ function xyrwh($weatherzone) {
     $xyrwh = array();
     $radius = $weatherzone["SVGRadius"] / SCALE;
     if($weatherzone["SVGShape"] === CIRCLE) {
+        $xyrwh["r"] = ($radius > MINR ? $radius : MINR);
         $xyrwh["cx"] = ($weatherzone["X"] / SCALE) + X_OFF;
         $xyrwh["cy"] = (($weatherzone["Z"] * -1) / SCALE) + Y_OFF;
-        $xyrwh["r"] = ($radius > MINR ? $radius : MINR);
     } else {
-        $xyrwh["x"] = ($weatherzone["X"] / SCALE) + X_OFF;
-        $xyrwh["y"] = (($weatherzone["Z"] * -1) / SCALE) + Y_OFF;
         $xyrwh["width"] = ($radius > MINWH ? $radius : MINWH);
         $xyrwh["height"] = $xyrwh["width"];
+        $xyoff = $xyrwh["width"] / 2;
+        $xyrwh["x"] = (($weatherzone["X"] / SCALE) - $xyoff) + X_OFF;
+        $xyrwh["y"] = ((($weatherzone["Z"] * -1) / SCALE) - $xyoff) + Y_OFF;
     }
     return $xyrwh;
 }
@@ -130,7 +131,7 @@ function colortable($colors) {
         }
         
         $html_out.= $tr_in.'<td style="background-color: '.$color.'; color:'.$fontcolor.'">';
-        $html_out.= '<label onclick="toggle(event);">'.$music;
+        $html_out.= '<label onclick="toggleCheckbox(event);">'.$music;
         $html_out.= '<input type="checkbox" id="'.$music.'" checked />';
         $html_out.= '</label></td>'.$tr_out."\n\t\t";
         
@@ -169,3 +170,29 @@ function aasort(&$array, $key) {
     }
     $array=$ret;
 }
+
+// debug shit from mapparse.pph
+
+// if(!in_array($wthrzone_shape, $wthrzone_circle)) {
+    // if($wthrzone_innerrad !== $wthrzone_outerrad) {
+    // echo "<tr><td>$entity_name</td><td>".str_replace("eEWeatherZoneShape_", "", $wthrzone_shape)."</td><td>$wthrzone_innerrad</td><td>$wthrzone_outerrad</td><td>$entity_bcbox</td><td>$wthrzone_svg_radius</td>";
+// }}
+
+// <style type="text/css">
+    // * {
+        // font-family: Courier;
+        // font-size: 12px;
+    // }
+    
+    // table {
+        // border: 1px solid black;
+        // border-collapse: collapse;
+    // }
+    
+    // td {
+        // border: 1px solid black;
+        // padding: 2px 5px;
+        // border-collapse: collapse;
+    // }
+// </style>
+// <table>

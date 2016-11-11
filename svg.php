@@ -39,7 +39,8 @@ foreach($json as $guid => $weatherzone) {
     $attributes['fill'] = $colors["colors"][$musiclocation];
     $attributes['class'] = $musiclocation;
     $attributes['id'] = $guid;
-    $tag = ($weatherzone["SVGShape"] === CIRCLE ? CIRCLE : RECT);
+    $attributes['title'] = $weatherzone["Name"];
+    $tag = $weatherzone["SVGShape"] === CIRCLE ? CIRCLE : RECT;
     $title = svg_node(TITLE, 0, $weatherzone["Name"]."\n".$musiclocation."\n".$guid);
     
     $svg.= svg_node($tag, $attributes, $title);
