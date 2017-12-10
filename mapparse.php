@@ -22,9 +22,9 @@ foreach($g3_world_01_files as $g3_world_01_file) {
     for($c = 0; $c < $strtable_count; $c++) {
         $strlen = bin2dec(substr($g3_world_01, $strtable_pos, 2));                                      // length of current string in stringtable, 2 bytes
         $string = substr($g3_world_01, $strtable_pos+2, $strlen);
-        
+
         $strtable[$c] = $string;                                                                        // adds string and index to array
-        
+
         $strtable_pos = $strtable_pos+2 + $strlen;                                                      // keeps track of where we are in the stringtable
     }
 
@@ -46,30 +46,30 @@ foreach($g3_world_01_files as $g3_world_01_file) {
         $entity_guid = strtoupper(bin2hex(substr($g3_world_01, $entity_start+29, 20)));                 // GUID of parent entity, 20 bytes
         $entity_name = $strtable[bin2dec(substr($g3_world_01, $entity_start+66, 2))];             // our entity name, taken from stringtable via ID
         if(trim($entity_name) === "") $entity_name = str_replace("G3_World_01\\", "", explode(".", $g3_world_01_file)[0]);
-        
+
         $entity_x = bin2float(substr($g3_world_01, $entity_start+66+50+0, 4));
         $entity_y = bin2float(substr($g3_world_01, $entity_start+66+50+4, 4));
         $entity_z = bin2float(substr($g3_world_01, $entity_start+66+50+8, 4));
-        
+
         $entity_bcbox = bin2float(substr($g3_world_01, $entity_start+66+166, 4));                       // bCBox
-        
+
         $wthrzone_start = $wthrzone_lastpos-2;                                                          // actual weatherzone class start
         $wthrzone_size = bin2dec(substr($g3_world_01, $wthrzone_start+17, 4))+21;                       // weatherzone class size until deadcode
         $wthrzone_substr = substr($g3_world_01, $wthrzone_start, $wthrzone_size);
-        
+
         $wthrzone_music_start = strpos($wthrzone_substr, $musiclocation_needle);
         $wthrzone_music_size = bin2dec(substr($wthrzone_substr, $wthrzone_music_start+6, 4));
         $wthrzone_music_strkey = bin2dec(substr($wthrzone_substr, $wthrzone_music_start+10, $wthrzone_music_size));
-        
+
         $wthrzone_shape_start = strpos($wthrzone_substr, $wthrzone_shape_needle);
         $wthrzone_shape_key = bin2dec(substr($wthrzone_substr, $wthrzone_shape_start+12, 4));
         $wthrzone_shape = $wthrzone_shapes[$wthrzone_shape_key];
-        
+
         $wthrzone_innerrad_start = strpos($wthrzone_substr, $innerradius_needle);
         $wthrzone_outerrad_start = strpos($wthrzone_substr, $outerradius_needle);
         $wthrzone_innerrad = bin2float(substr($wthrzone_substr, $wthrzone_innerrad_start+10, 4));
         $wthrzone_outerrad = bin2float(substr($wthrzone_substr, $wthrzone_outerrad_start+10, 4));
-        
+
         if(in_array($wthrzone_shape, $wthrzone_circle)) {
             $wthrzone_svg_shape = CIRCLE;
             $wthrzone_svg_radius = $wthrzone_outerrad;
@@ -77,7 +77,7 @@ foreach($g3_world_01_files as $g3_world_01_file) {
             $wthrzone_svg_shape = RECT;
             $wthrzone_svg_radius = $wthrzone_innerrad === 400000.0 ? $entity_bcbox : $wthrzone_innerrad;
         }
-        
+
         $wthrzone_array[$entity_guid] = array("Name" => $entity_name,
                                               "MusicLocation" => strtolower($strtable[$wthrzone_music_strkey]),
                                               "Shape" => $wthrzone_shape,
@@ -89,7 +89,7 @@ foreach($g3_world_01_files as $g3_world_01_file) {
                                               "bCBox" => $entity_bcbox,
                                               "SVGShape" => $wthrzone_svg_shape,
                                               "SVGRadius" => $wthrzone_svg_radius);
-        
+
         $wthrzone_count++;
         $wthrzone_lastpos += strlen($wthrzone_needle);
     }

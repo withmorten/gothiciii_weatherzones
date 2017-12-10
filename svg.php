@@ -20,7 +20,7 @@ $colors = json_decode(file_get_contents('colors'.$modsuffix.'.json'), TRUE);
 foreach($jsons as $json_file) {
     if($mod === 0 && strpos($json_file, MOD)) continue;
     if($mod === 1 && strpos($json_file, "lrentdat") && !strpos($json_file, MOD)) continue;
-    
+
     $json_new = json_decode(file_get_contents($json_file), TRUE);
     $json = array_merge($json, $json_new);
 }
@@ -34,7 +34,7 @@ $svg = svg_init(1400, 800);
 
 foreach($json as $guid => $weatherzone) {
     $musiclocation = strtolower($weatherzone["MusicLocation"]);
-    
+
     $attributes = xyrwh($weatherzone);
     $attributes['fill'] = $colors["colors"][$musiclocation];
     $attributes['class'] = $musiclocation;
@@ -42,7 +42,7 @@ foreach($json as $guid => $weatherzone) {
     $attributes['title'] = $weatherzone["Name"];
     $tag = $weatherzone["SVGShape"] === CIRCLE ? CIRCLE : RECT;
     $title = svg_node(TITLE, 0, $weatherzone["Name"]."\n".$musiclocation."\n".$guid);
-    
+
     $svg.= svg_node($tag, $attributes, $title);
 }
 

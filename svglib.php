@@ -26,11 +26,3 @@ function svg_format($svg) {
     $svg = str_replace('/>', ' />', str_replace(' />', '  />', $svg)); // ugly AF, but svg is more readable
     return $svg;
 }
-
-// function svg_styles($styles_in) {
-    // $styles_out = "";
-    // foreach($styles_in as $property => $value) {
-        // $styles_out.= $property.': '.$value.'; ';
-    // }
-    // return trim($styles_out);
-// }

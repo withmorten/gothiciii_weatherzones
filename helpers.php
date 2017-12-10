@@ -95,7 +95,7 @@ function wthrzonearray2string($array) {
     $o = "";
     $allowed = array("Name", "MusicLocation");
     $c = 0;
-    
+
     foreach($array as $key => $value) {
         $o.= str_pad_left($c+1, 3)." => ".$key;
         foreach($value as $key2 => $value2) {
@@ -106,7 +106,7 @@ function wthrzonearray2string($array) {
         $o = trim($o)."\n";
         $c++;
     }
-    
+
     return $o;
 }
 
@@ -123,23 +123,23 @@ function colortable($colors) {
             $tr_in = '';
             $tr_out = '</tr>';
         }
-        
+
         if(in_array($music, $colors["fontcolors"])) {
             $fontcolor = "black";
         } else {
             $fontcolor = "white";
         }
-        
+
         $html_out.= $tr_in.'<td style="background-color: '.$color.'; color:'.$fontcolor.'">';
         $html_out.= '<label onclick="toggleCheckbox(event);">'.$music;
         $html_out.= '<input type="checkbox" id="'.$music.'" checked />';
         $html_out.= '</label></td>'.$tr_out."\n\t\t";
-        
+
         $c++;
     }
-    
+
     $html_out.= "</table>\n";
-    
+
     return $html_out;
 }
 
@@ -171,7 +171,7 @@ function aasort(&$array, $key) {
     $array=$ret;
 }
 
-// debug shit from mapparse.pph
+// debug shit from mapparse.php
 
 // if(!in_array($wthrzone_shape, $wthrzone_circle)) {
     // if($wthrzone_innerrad !== $wthrzone_outerrad) {
@@ -183,12 +183,12 @@ function aasort(&$array, $key) {
         // font-family: Courier;
         // font-size: 12px;
     // }
-    
+
     // table {
         // border: 1px solid black;
         // border-collapse: collapse;
     // }
-    
+
     // td {
         // border: 1px solid black;
         // padding: 2px 5px;
